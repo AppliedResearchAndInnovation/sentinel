@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e569bcca-6225-4693-ada5-038c9b232623" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/tweets/FanShare-ID-test.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/tweets/FanShare-ID-train.txt" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/output/error_analysis.txt" afterPath="$PROJECT_DIR$/output/error_analysis.txt" />
+      <change beforePath="$PROJECT_DIR$/output/result.txt" afterPath="$PROJECT_DIR$/output/result.txt" />
+      <change beforePath="$PROJECT_DIR$/resources/arff/Trained-Features.arff" afterPath="$PROJECT_DIR$/resources/arff/Trained-Features.arff" />
+      <change beforePath="$PROJECT_DIR$/run.py" afterPath="$PROJECT_DIR$/run.py" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -111,6 +112,12 @@
               <item name="SentinelSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="sentinel" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SentinelSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="arff" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SentinelSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -401,6 +408,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/tweets/FanShare-ID-test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -409,11 +424,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/tweets/FanShare-ID-test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+    <entry file="file://$PROJECT_DIR$/resources/arff/Trained-Features.arff">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-411682">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
