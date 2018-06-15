@@ -52,11 +52,11 @@ revelation  ->  positive
 The audio booth is ready to blow the roof off the Comcast Center tomorrow! Are you? #MDMadness http://t.co/B19fECgY
 ready  ->  positive
 
+The audio booth is ready to blow the roof off the Comcast Center tomorrow! Are you? #MDMadness http://t.co/B19fECgY
+blow the roof off  ->  positive
+
 Just seen @JonasBrothers at Radio City and now get to see then again on the 28th!! SO EXCITED!!!
 SO EXCITED!!!  ->  positive
-
-I may or may not be jumping around the lounge to some random boy band on MTV Hits
-I may or may not be jumping  ->  neutral
 
 whos trying to go to Buenos Aires with me February 23rd? Armin van Buuren &amp; Carl Cox! ...how does it get better?!
 better?!  ->  positive
@@ -109,6 +109,9 @@ win  ->  positive
 NJEA Teacher's Convention_ Nov 8th &amp; 9th in Atlantic City has been cancelled for the 1st time in its 158-year history.
 cancelled  ->  negative
 
+If you're around on Saturday, go see @rosstheboss93 and @kstew067 at Stubb's Battle of the Bands. Proceeds go to Invisible Children.
+go see  ->  positive
+
 Definitely wish I could catch this tomorrow night. Dare Night: LockDown @SummerWorks at the Gladstone Hotel. http://t.co/MOk3K28h
 Definitely wish  ->  positive
 
@@ -136,14 +139,14 @@ love  ->  positive
 I love Robert Griffin the 3rd !! :)
 :)  ->  positive
 
-March 8th is International Women's Day.April 1st should be International men's Day where they would brag 24/7 like any other day of the year
-brag  ->  negative
-
 @ClintStoerner As heartbreaking as Ole Miss was, I can live with it. @King_Johnson33 put it DOWN, and I can't wait to see him Saturday! #WPS
 heartbreaking  ->  negative
 
 @ClintStoerner As heartbreaking as Ole Miss was, I can live with it. @King_Johnson33 put it DOWN, and I can't wait to see him Saturday! #WPS
 can't wait  ->  positive
+
+Feeling sick happy I don't have to take the SATs tomorrow
+sick happy  ->  negative
 
 Feeling sick happy I don't have to take the SATs tomorrow
 don't  ->  negative
@@ -195,6 +198,9 @@ haha  ->  positive
 
 @kateydulles haha I shall. (: what are you two doing tomorrow night? Ill try to come up to tempe with a friend or two (:
 (:  ->  positive
+
+@kateydulles haha I shall. (: what are you two doing tomorrow night? Ill try to come up to tempe with a friend or two (:
+try  ->  positive
 
 @kateydulles haha I shall. (: what are you two doing tomorrow night? Ill try to come up to tempe with a friend or two (:
 come up  ->  positive
@@ -256,6 +262,9 @@ Excited for the Colts game with my love, @itsthegwebb41 Sunday :)
 [Picture, Translation] Sina Interview with Hyung Jun ^^video thanks to hyungjunthebest@youtube http://t.co/x5TLedQl
 thanks  ->  positive
 
+I just drank a 5th of vodka dare me to drive? - Marshall
+dare  ->  negative
+
 Renewed fighting rocks Syria: An early morning explosion rocked the flashpoint city of Deir Ezzor on Saturday in... http://t.co/zf7AKZMr
 fighting  ->  negative
 
@@ -275,6 +284,9 @@ Given the fact that today is the 8th of March and all over the world we celebrat
 celebrate  ->  positive
 
 DTN Cricket: Pattinson may be saved for A tour ahead of Ashes: James Pattinson may not make it to the ODI tour o... http://t.co/9nt69Ifk
+may be saved  ->  positive
+
+DTN Cricket: Pattinson may be saved for A tour ahead of Ashes: James Pattinson may not make it to the ODI tour o... http://t.co/9nt69Ifk
 may not make  ->  negative
 
 This Friday night! Come on out and join us at Tres Amigos Bar and Grill for good food, good music, and just good... http://t.co/yUd2nrx3
@@ -291,9 +303,6 @@ Thanks  ->  positive
 
 @itspetem Thanks for following #Econokit - you may like to use #bizikent hashtag and RT/follow other local businesses as per #bizitalk
 may like  ->  positive
-
-Should probably shut it down for the night...NC State student followers, you get brownie points if you can guess who I am tomorrow :)
-Should probably  ->  neutral
 
 Should probably shut it down for the night...NC State student followers, you get brownie points if you can guess who I am tomorrow :)
 :)  ->  positive
@@ -490,6 +499,9 @@ hand embarrassment  ->  negative
 @WendyBeSoPimpin I miss you too omg we should go to the fair next friday
 you too omg  ->  positive
 
+@WendyBeSoPimpin I miss you too omg we should go to the fair next friday
+should go  ->  positive
+
 @MikaruBLACKLINE Yo! See u in Helsinki (again :P) December 14th yeeey~ last time u were here with Dio ^^'
 yeeey~  ->  positive
 
@@ -519,9 +531,6 @@ http://t.co/idYGpj0D  ->  positive
 
 My bro @DerrickWalton10 gonna take the reigns from trey burke without a dropoff and be on that stage in a few yrs. gta gt tht education 1st!
 without  ->  negative
-
-The Cab is playing on XM and I may or may not have just started flailing.
-may or may not  ->  neutral
 
 When your lying in bed and your phone is on your desk and Siri pops up #siriwantstokillme  if I'm dead tomorrow it was Siri..
 #siriwantstokillme  ->  negative
@@ -564,6 +573,12 @@ flop:  ->  negative
 
 Leverkusen end Bayern streak - Bayern Munich had their record winning streak ended on Sunday as the Bundesliga leade... http://t.co/ZWdoyuRB
 winning  ->  positive
+
+If there's a car on cinder blocks in your yard, you may be a redneck. If there's a dog on top of it, you may have #Romnesia. Jeff Foxworthy
+may  ->  positive
+
+If there's a car on cinder blocks in your yard, you may be a redneck. If there's a dog on top of it, you may have #Romnesia. Jeff Foxworthy
+may  ->  positive
 
 Just hitting the News Stands! "Cowan urges conservatives to look to Jack Kemp before Ronald Reagan for inspiration." http://t.co/FObY27y9
 urges  ->  positive
@@ -669,9 +684,6 @@ joking  ->  positive
 
 #ipad 4th generation by apple just after 6 months from ipad3? #fail
 #fail  ->  negative
-
-Tomorrow is Raksha Bandhan so i think  today i post it for u .......  Holi is colorful,Diwali is lig http://t.co/d84eMH3M
-lig  ->  positive
 
 I can't believe Queen Latifah came to Durham last Friday , had a dinner and dancing event at the Hilton hotel wtf? I woulda went!
 wtf?  ->  negative
@@ -806,6 +818,9 @@ true  ->  positive
 strict  ->  negative
 
 Need cough medicine and/or Lemsips. May be critical if you want the Gazette on Wednesday! Anyone do deliveries??? #dying
+Need  ->  negative
+
+Need cough medicine and/or Lemsips. May be critical if you want the Gazette on Wednesday! Anyone do deliveries??? #dying
 critical  ->  negative
 
 Need cough medicine and/or Lemsips. May be critical if you want the Gazette on Wednesday! Anyone do deliveries??? #dying
@@ -843,6 +858,9 @@ best  ->  positive
 
 here an exclusive video of the night that Armin van Buuren got the no.1 spot on the DJ MAG 100 for the 5th time... http://t.co/48yW2mUV
 exclusive  ->  positive
+
+@DanielCharles96 ah. You may survive it. York may have a word with you about it. He's a dick. A fucking 5's too short for his liking
+may survive  ->  positive
 
 @DanielCharles96 ah. You may survive it. York may have a word with you about it. He's a dick. A fucking 5's too short for his liking
 dick.  ->  negative
@@ -902,6 +920,9 @@ Renewed fighting rocks Syria - An early morning explosion rocked the flashpoint 
 explosion  ->  negative
 
 "@nfl: @Denver_Broncos Peyton Manning was an absolute stud on Sunday. He earned your vote for player of the week. http://t.co/J4qqgga5"Yeaa!
+stud  ->  positive
+
+"@nfl: @Denver_Broncos Peyton Manning was an absolute stud on Sunday. He earned your vote for player of the week. http://t.co/J4qqgga5"Yeaa!
 earned  ->  positive
 
 Bayern Munich coach Jupp Heynckes insists his side won't be fazed by the shock loss to Leverkusen on Sunday - http://t.co/E0ctlsyA
@@ -921,9 +942,6 @@ captured  ->  positive
 
 @SullyCNBC didn't iPOOP just came out with 3rd gen IJUNK not to long ago? why the 4TH??? CUZ they CAN NOT compete with SAMSUNG, ASUS,NEXES.,
 CAN NOT compete  ->  negative
-
-Samajwadi Party may patch up with Trinamool Congress: SP sources affirm that party chief Mulayam Singh Yadav is likely to patch up wi...
-may  ->  neutral
 
 Cuse is canceling class after 1ish today and all day tomorrow #BreakingNews
 canceling  ->  negative
@@ -1000,9 +1018,6 @@ Great progression  ->  positive
 Great progression in teacher trainees at Bridging the Gap this weekend - well done! See u tomorrow at One More Breath at Nat Christie!
 well done!  ->  positive
 
-The Vintage Club at Indian Wells.  Ranked 21st in the state by Golf Digest, this place was so exclusive when it... http://t.co/0Kbsh9NI
-when  ->  positive
-
 @appletweets apple is about to lose my business. I recently bought this iPad may 31st... You come out with new iPad and discontinue ipad3!!!
 about to lose  ->  negative
 
@@ -1011,6 +1026,9 @@ discontinue  ->  negative
 
 @Jessica_JensenX @MWW_Productions @DuskFilms As long as you don't make any references to B/G you may be ok
 don't  ->  negative
+
+@Jessica_JensenX @MWW_Productions @DuskFilms As long as you don't make any references to B/G you may be ok
+may be ok  ->  positive
 
 Passionate about CNIS' work, be a rep at Ten Thousand Villages in your hometown on Mar 8 - Steinbach 355 Main Street
 Passionate  ->  positive
@@ -1099,6 +1117,9 @@ haters.  ->  negative
 Attention Romo haters. Guess who is the 4th highest career qb rating all time? That's right..higher than Manning, Brees, Warner, Montana etc
 highest  ->  positive
 
+@wendytalksback @audioboo  A.B.O.D Parade past Ardoyne shops on Sat. If we cum down on Boris Bikes will the Shinners be o.k ? Lol
+?  ->  positive
+
 The a sun is shining over the Eternal City!! It is a perfect day for a lovely stroll through the stunning Imperial... http://t.co/dXUeQM2m
 perfect day  ->  positive
 
@@ -1165,6 +1186,9 @@ Bring on  ->  positive
 Picnic tomorrow for International Women's Friendship Month with my date @paigeshuffler :D #KD
 :D  ->  positive
 
+@Kelly_Buxton I wanted to come to York with you guys on Sunday but I'm working!
+wanted to  ->  positive
+
 (...) Five of us conquering the world together by using our songs to bring happiness to people" - Kim Hyung Jun #2700dayswithSS501
 happiness  ->  positive
 
@@ -1197,6 +1221,9 @@ Great  ->  positive
 
 Carine Roitfeld's Paris Fashion Week ball with @MACcosmetics? Completely divine... http://t.co/25JptOe4
 Completely divine...  ->  positive
+
+Actually, I'm just ready for Taco Bell tomorrow for lunch. #fattweet
+just ready  ->  positive
 
 Come along to 'Business in Crisis' at the Conservative Party Conference tomorrow, 6:30pm, Jurys Inn, Birmingham http://t.co/Z6eZNvK8
 Come along  ->  positive
@@ -1233,6 +1260,9 @@ lovely  ->  positive
 
 @michellekrusiec hey Michelle, hope u r well, I just watched Saving Face 4 1st time, what a lovely film, well done u! Xxx
 done  ->  positive
+
+Wanna have your say on the Atlantic Strategy? Come to Bilbao on the 12th http://t.co/exks7UTx #atlanticforum
+have  ->  positive
 
 @DanKretchman 4th is just great bc it's like St Pattys just MERICA #canttouchthis
 great  ->  positive
@@ -1393,6 +1423,9 @@ amazing,  ->  positive
 London yesterday was amazing, sun beer, hyde park, mexicans. Brazilians, boris bikes just incredible day
 incredible  ->  positive
 
+Child Support Division of Hosts Employers Symposium "Bridging the Gap" This FRIDAY #Guam. http://t.co/ELEThJSL
+"Bridging  ->  positive
+
 Aye @HitmanHolla yo 3rd round was really ah definition of ah muthafuckin body like usaid.... Kmsl that the best ending ever
 best  ->  positive
 
@@ -1410,9 +1443,6 @@ ranked  ->  positive
 
 @Nike_Wearer the ACC had a team ranked 3rd guy. Florida State. Until they lost to NC State. ACC so underrated.
 lost  ->  negative
-
-@Nike_Wearer the ACC had a team ranked 3rd guy. Florida State. Until they lost to NC State. ACC so underrated.
-underrated.  ->  negative
 
 Mark Cuban: Apple TV Is a Pipe Dream And why the HDNet founder thinks that may be a good thing... http://t.co/MbASAnnw http://t.co/ES6H34Zx
 Dream  ->  positive
@@ -1435,6 +1465,9 @@ leaked  ->  negative
 @dewittn @jeffpulver @cc_chapman I'd love to see y'all. Will you all be in town for SXSW in March?
 I'd love to see y'all.  ->  positive
 
+Just got home &amp; now watching the Cuse game from earlier. I AM WATCHING SYRACUSE BASKETBALL! Been waiting for this since March 24th.
+Been waiting for this  ->  positive
+
 What shall I watch today? My dear Anna Kendrick in 50/50? Raquel in One Millions Years BC? Or Sly in Over the Top? All would be 1st times.
 dear  ->  positive
 
@@ -1446,9 +1479,6 @@ weren't memorible.  ->  negative
 
 @Espngreeny big ben gets forgotten because his SB wins weren't memorible. 1st was the bus show. 2nd feel on deaf ears cause it was vs cards#
 deaf ears  ->  negative
-
-Ok unless i hear some outrageous rumor... Im cop heemfording the iPad HD by friday
-Ok  ->  neutral
 
 Ok unless i hear some outrageous rumor... Im cop heemfording the iPad HD by friday
 outrageous  ->  negative
@@ -1576,9 +1606,6 @@ beautiful  ->  positive
 Buongiorno a tutti! Sun is shining another beautiful day in Vanuatu : )
 : )  ->  positive
 
-@BMeyrose729 Will do brothaaa. I might be going to the Ohio State vs. NKU game on December 1st @THoefTheCreator
-might  ->  neutral
-
 We "Get Together...so we can "Get it Together!" Join us for a Women's Day Celebration on Dec.1st!! http://t.co/7MtXb4WT
 Join us  ->  positive
 
@@ -1587,6 +1614,9 @@ do we really have to  ->  negative
 
 @Mapher1 Internet came back Tuesday night. Still some Power out in the area but schools are back up and running
 Power out  ->  negative
+
+@Mapher1 Internet came back Tuesday night. Still some Power out in the area but schools are back up and running
+back up and running  ->  positive
 
 Messi receives Golden Boot award: Recognizes Argentine star Lionel Messi on Monday the Golden Boot Award as the ... http://t.co/drgpkvhi
 Recognizes  ->  positive
@@ -1605,6 +1635,9 @@ lots of extras  ->  positive
 
 A note to any activists and journalists who may have the infamous Dr Mohamad from Baba Amr on their Skype, his... http://t.co/yyqmv8gO
 infamous  ->  negative
+
+@OneYoungWorld Kofi Annan will be addressing 1,300 delegates on Sunday 21, 2:15pm EDT on the subject of interventions. http://t.co/iybskOoG
+addressing  ->  positive
 
 I'm so glad my boss scheduled me till 11 on the Friday night before SATs #thankyoubitch
 so glad  ->  positive
@@ -1661,6 +1694,9 @@ IJUNK  ->  negative
 CAN NOT  ->  negative
 
 I was yelling at Siri cause she wouldn't understand what I was asking her so she played "There's a Great Big Beautiful Tomorrow" from WDW XD
+yelling  ->  negative
+
+I was yelling at Siri cause she wouldn't understand what I was asking her so she played "There's a Great Big Beautiful Tomorrow" from WDW XD
 wouldn't  ->  negative
 
 I was yelling at Siri cause she wouldn't understand what I was asking her so she played "There's a Great Big Beautiful Tomorrow" from WDW XD
@@ -1684,6 +1720,9 @@ free  ->  positive
 PUMPS &amp; POLOS!! Strongside party nov 10 @ club Paradise!! Ladies free till 11:30 so get there early!!! I got my polo ready how about y'all??
 ready  ->  positive
 
+Odd sports weekend.  No UCLA football, no 49ers, no NLCS until Sunday.  Yawn. We saw "Pitch Perfect" today.  I'm in love with Anna Kendrick.
+Kendrick.  ->  positive
+
 I have two exams tomorrow and shitloads of homework and all I've done tonight is tweet and listen to The Cab on repeat, lol.
 shitloads  ->  negative
 
@@ -1703,9 +1742,6 @@ Fuck 'em, fuck 'em  ->  negative
 FUCK 'EM!!!  ->  negative
 
 @joefooty #C2K Carles Puyol! Omg! What a landing! May god help him with his hand!! Ouch!!
-Omg!  ->  positive
-
-@joefooty #C2K Carles Puyol! Omg! What a landing! May god help him with his hand!! Ouch!!
 help  ->  positive
 
 @joefooty #C2K Carles Puyol! Omg! What a landing! May god help him with his hand!! Ouch!!
@@ -1717,17 +1753,11 @@ Ouch!!  ->  negative
 Jersey &amp; Sammy think nekkid is where it's at ;) Happy Monday http://t.co/yvh5cieD
 ;) Happy  ->  positive
 
-Gosh just think if Robert Griffin the 3rd (RGIII) and lamichael james were on the same team omg   #Beasts
-omg  ->  positive
-
 @BeOurGuestMike Thanks Mike!  Although you can't really beat Great Big Beautiful Tomorrow:)
 Thanks  ->  positive
 
 @BeOurGuestMike Thanks Mike!  Although you can't really beat Great Big Beautiful Tomorrow:)
 Big  ->  positive
-
-just sat and explained to my dad about who joseph kony is #smartdaughter #sillydad
-#smartdaughter #sillydad  ->  positive
 
 Great day interviewing the National Health Insurance bureau in Taipei - off to Hualien for the field study tomorrow @SIRGTW @ReallyRemster
 Great day  ->  positive
@@ -1804,17 +1834,14 @@ worried  ->  negative
 I want to go to the SMB tomorrow but worried i will oversleep :/ been sleeping through my alarm
 :/  ->  negative
 
-i'm so tight because i'm taking the HSPA tomorrow and am gonna miss some of my classes.
-gonna miss some of my classes.  ->  negative
-
 @ICONiacforever1 Lol , don't worry c; every true ICONiac deserves to meet the boyz (: i might need them in August again.
 Lol  ->  positive
 
 @ICONiacforever1 Lol , don't worry c; every true ICONiac deserves to meet the boyz (: i might need them in August again.
-(:  ->  positive
+don't worry  ->  positive
 
-@ItsAlissaxx omg really? My mom is going to Fresno tomorrow and staying over there. I should go :D!
-omg  ->  positive
+@ICONiacforever1 Lol , don't worry c; every true ICONiac deserves to meet the boyz (: i might need them in August again.
+(:  ->  positive
 
 @ItsAlissaxx omg really? My mom is going to Fresno tomorrow and staying over there. I should go :D!
 should go :D!  ->  positive
@@ -1949,10 +1976,16 @@ may not  ->  negative
 don't watch B/G  ->  negative
 
 @KatVonTease420  Hmm I usually don't watch B/G shows but I may have to make an exception for something like that ;)
+have to  ->  positive
+
+@KatVonTease420  Hmm I usually don't watch B/G shows but I may have to make an exception for something like that ;)
 an  ->  positive
 
 @KatVonTease420  Hmm I usually don't watch B/G shows but I may have to make an exception for something like that ;)
 for  ->  positive
+
+Quota bill unconstitutional: SP: Samajwadi Party on Wednesday (September 5) dubbed as "unconstitutional" the bil... http://t.co/KmPclZwf
+"unconstitutional"  ->  negative
 
 Barbie's belated Fashion chat from Paris Fashion Week will go up on the blog tomorrow. It's as hilarious as Karl's new hula hoop IT bag. ;-)
 hilarious  ->  positive
@@ -2053,9 +2086,6 @@ abducted  ->  negative
 @tooFANCY4words i only sat on a plastic chair when they were giving lap dances. i never broke it tho. im telling you i was straight.
 never  ->  negative
 
-@tooFANCY4words i only sat on a plastic chair when they were giving lap dances. i never broke it tho. im telling you i was straight.
-straight.  ->  neutral
-
 @TrainItRight Good to see you at York today! I'll be praying for you on the 19th, &amp; give you a shout out on your other special date!
 Good to see  ->  positive
 
@@ -2100,9 +2130,6 @@ hope  ->  positive
 
 @OllyverTweet ...i hope they've left school by now !!...I'll bring the photos tomorrow night from bilbao..Der Der Der Der.i love you baby !
 love you  ->  positive
-
-I still maintain that Boris Bikes may be the best way to see London...
-still  ->  neutral
 
 I still maintain that Boris Bikes may be the best way to see London...
 best  ->  positive
@@ -2184,9 +2211,6 @@ It's Thursday March 8. That can only mean one thing. Happy IWD half the planet :
 
 Can't wait to go to the UGA vs. Ole Miss game on Saturday! #toomuchexcitement
 Can't wait to  ->  positive
-
-Can't wait to go to the UGA vs. Ole Miss game on Saturday! #toomuchexcitement
-#toomuchexcitement  ->  positive
 
 Then on Saturday, we'll host a scrimmage open to the public at 1:30 p.m. in Comcast Center. http://t.co/eV0ApCF9
 open  ->  positive
@@ -2276,9 +2300,6 @@ If it seems to smb that I say about one band more pleasant things than about ano
 wrong.  ->  negative
 
 chelski want this so bad that it makes me even happier thinking we may beat them twice in 4 days at SB
-want this so bad  ->  positive
-
-chelski want this so bad that it makes me even happier thinking we may beat them twice in 4 days at SB
 happier  ->  positive
 
 chelski want this so bad that it makes me even happier thinking we may beat them twice in 4 days at SB
@@ -2355,6 +2376,9 @@ good time  ->  positive
 
 News: Sydney, July 19 (ANI): Australia's young fast bowling spearhead James Pattinson has said that he is quite happy to concentrate ...
 quite happy  ->  positive
+
+So issues with Amazon have been resolved! FINALLY! My eBook "Bridging The Gap: Understanding Young People Today" will be released TOMORROW!
+have been resolved!  ->  positive
 
 @naktash we are from Sydney :p oh thank you!! Since you're local you should come see us play at The Lair Dec 1st!! Gonna be a HUGE show :)
 :p  ->  positive
@@ -2482,6 +2506,9 @@ celebrating...  ->  positive
 @boy_rick5 haha ok i'll put you on the list. But my sweet got moved to either the 23rd or 24th &amp; its gonna be at the LCC instead
 haha ok  ->  positive
 
+Tia Sharp: cause of death may never be known- well they would have known it, had they found the body when they first searched her house.
+be known-  ->  negative
+
 derrick rose, you eat pussy and break ya neck modasucka loll "black friday" @michaelblackson http://t.co/90vpw3vW
 break ya neck  ->  negative
 
@@ -2505,9 +2532,6 @@ Hope  ->  positive
 
 THSK was the 2nd foreign singer that can have ranked 1st on Oricon Weekly Chart twice with 2 songs: purple line n beautiful you..
 beautiful  ->  positive
-
-Sooooo I may or may not be freaking out. I was watching their show at Radio City and umm it just like...hit http://t.co/mHCIC7fi
-may or may not  ->  neutral
 
 Loved hanging out with the people at Invisible Children on monday! So awesome and inspiring! :) @invisible http://t.co/AoaEsDAU
 Loved  ->  positive
@@ -2560,14 +2584,8 @@ the  ->  positive
 Worst away day sat in a home end V Bolton 0-0 87 mins gone Berba scores I Jump up #awkward   #awaydays
 Worst  ->  negative
 
-Worst away day sat in a home end V Bolton 0-0 87 mins gone Berba scores I Jump up #awkward   #awaydays
-#awkward  ->  negative
-
 @_L33GOV_ I have the big Ipad3 I love it but for reading its too big my mini comes on friday
 love it  ->  positive
-
-2013 NBA Draft: Chicago Bulls 2nd Round Pick could look to add international talent much like they did with Omer Asik and Nikola Mirotic
-could  ->  neutral
 
 2013 NBA Draft: Chicago Bulls 2nd Round Pick could look to add international talent much like they did with Omer Asik and Nikola Mirotic
 much like  ->  positive
@@ -2644,6 +2662,9 @@ failed  ->  negative
 By the way Tia Sharp was buried today You may have failed to notice in all the fuss over a dumb posh tart getting her tits out.
 fuss  ->  negative
 
+James Meredith on this 30 for 30... The 1st black student at Ole Miss... Well... Thats the definition of a real nigga w/ balls.
+real nigga w/ balls.  ->  positive
+
 Congratulations Aishah on passing your driving test 1st time at the Mitcham test centre, with our driving... http://t.co/FH8mnYQ3
 Congratulations  ->  positive
 
@@ -2677,14 +2698,14 @@ Only  ->  negative
 @TitoNation28 idk who's in charge of the B/G float...but were floating this Friday. You ain't down...
 ain't  ->  negative
 
+@AdamSchein Robert Griffin the third f****  tomorrow you'll still be crowing   on how good he is  nobody wants a black quarterback
+quarterback  ->  negative
+
 LATEST: Is Bigger Better? A Look at Samsung's Galaxy Note II: BY Steve Kovach | FROM Business Insider| October 28, 2012| ... If you r...
 Better?  ->  positive
 
 @JasFly I may be late, but Drake's live show has grown from the first time I saw him during the TML run to his Club Paradise tour.
 may be late,  ->  negative
-
-@JasFly I may be late, but Drake's live show has grown from the first time I saw him during the TML run to his Club Paradise tour.
-grown  ->  positive
 
 Saturday August 18 will be Texas Two Step with our scrimmage beginning around 1:15 p.m. at Gregory Gym. Doors will open at noon.
 will open  ->  positive
@@ -2763,6 +2784,9 @@ grumbling, "I *KNEW*  ->  negative
 
 @kurteichenwald Nov 7 Conservatives will be grumbling, "I *KNEW* we shoulda gone with Gingrich" Their support for MR always half-hearted #p2
 half-hearted  ->  negative
+
+"@agentlinton:  1st question: After running with a groin injury at the combine, what was Guys official 40 time at his Pro Day?" 4.53?
+at  ->  negative
 
 Great article from Tim Dowling on foreign etiquette during the Olympics. His take on 'Boris Bikes' is fantastic. http://t.co/c8wTQyZP
 Great article  ->  positive
@@ -2869,8 +2893,8 @@ win  ->  positive
 "@applenws: Siri vs. Google Voice Search- may the best robot helper win http://t.co/sI38TtTn #apple" - shock, horror, #applesucks
 shock, horror, #applesucks  ->  negative
 
-Radio City will always be one of the most speical shows the Jonas Fans will remember..it was the 1st show we had our boys back together
-speical  ->  positive
+Ya i was wondering wha that was lolRT @DavidWildWest: So I may have just seen a UFO. anyone else in Mboro see those crazy lights in the sky?
+wondering  ->  positive
 
 Ya i was wondering wha that was lolRT @DavidWildWest: So I may have just seen a UFO. anyone else in Mboro see those crazy lights in the sky?
 crazy  ->  negative
@@ -2895,6 +2919,9 @@ advantage  ->  positive
 
 Jose Iglesias is in the #PawSox lineup tonight for the first time since sliding into the catcher on Sunday. He missed three games.
 missed  ->  negative
+
+Finally, after almost 30 hours, Mass Effect 2 is in the books. Time for 4 hours of sleep, 12 hours of work, and starting ME3 tomorrow.
+Finally,  ->  positive
 
 I love @best_coast. And if they're at SXSW in March I'm in the crowd screaming and being ignorant.
 love  ->  positive
@@ -2945,13 +2972,10 @@ Saudi security forces opened fire on Shia protesters in the tense Qatif district
 tense  ->  negative
 
 Galaxy S II can be wiped by just clicking a link, other TouchWiz devices may also be vulnerable http://t.co/jUK6IzPY #ops
-can be wiped  ->  negative
+be vulnerable  ->  negative
 
 @ClaireC1907 @shortchick77 lol I will take Nat's word &amp; give it a try. I may go back 2 Supernatural later, watching Arrow, Last Resort now 2
 lol  ->  positive
-
-@ClaireC1907 @shortchick77 lol I will take Nat's word &amp; give it a try. I may go back 2 Supernatural later, watching Arrow, Last Resort now 2
-may  ->  neutral
 
 Congrats to the hard working @ItsARob88 on killing his Pro Day and shooting up to the 4th Round of the #NFLDraft!
 Congrats  ->  positive
@@ -2975,7 +2999,7 @@ big thing,  ->  positive
 Poor  ->  negative
 
 @shazzer42000 Poor match ended their winning streak. They also lost to Leverkusen at home for the 1st time in 24 years.
-streak.  ->  positive
+ended  ->  negative
 
 @shazzer42000 Poor match ended their winning streak. They also lost to Leverkusen at home for the 1st time in 24 years.
 lost  ->  negative
@@ -3024,6 +3048,9 @@ season!.#hopeless  ->  negative
 
 @ali_liz1 I thought that was just Alan Rickman? David Thewlis (or Remus Lupin, if you may) is mine! We already agreed on that!
 agreed  ->  positive
+
+@maddow Ole Miss band is fired up for rousing verion of Dixie next Tuesday night-wanna sing it Rachel?
+fired up  ->  positive
 
 @msanimalbrown Robert Griffin the III (3rd). The quarter back for Washington. (he's a youngster, but he's SUPER good).
 SUPER good).  ->  positive
@@ -3133,6 +3160,9 @@ may be over  ->  negative
 "@evansilva: ESPN's Chris Mortensen reported that the #Browns fear SLB Scott Fujita's career may be over due to a neck injury Noo! :(((((
 Noo! :(((((  ->  negative
 
+I have to take the TAKS test tomorrow..... #what
+have to  ->  negative
+
 Going to sleep early, so I'm ready for tomorrow with The Cab, Evermore and MAROON 5 :)
 :)  ->  positive
 
@@ -3141,6 +3171,12 @@ aaah!!  ->  positive
 
 While all you St Pattys day goers are getting drunk ill be serving all of you after last call #notlookingforwardtodennys!
 getting drunk  ->  negative
+
+While all you St Pattys day goers are getting drunk ill be serving all of you after last call #notlookingforwardtodennys!
+#notlookingforwardtodennys!  ->  negative
+
+This old white dude on WorldStarHipHop had a plate shited on it sat down without wiping his ass &amp; ate his own shit OMFG so fucking NASTY!!
+shited  ->  negative
 
 This old white dude on WorldStarHipHop had a plate shited on it sat down without wiping his ass &amp; ate his own shit OMFG so fucking NASTY!!
 sat down without wiping his ass  ->  negative
@@ -3217,9 +3253,6 @@ wont be fixed  ->  negative
 So guys my Internet wont be fixed till tomorrow morning so no Ustream tonight so sorry but will have Instagram later, tweet name then! Woo
 sorry  ->  negative
 
-Park chillen with both Bookers, J Wall and OT. Lawd help me jeeyyzus. Part 2 at Cafe Asia tomorrow w @eVIPlist and Josh Howard #leggggoo
-me jeeyyzus.  ->  negative
-
 So, I've pretty much decided to go to Shoeless Joe's tomorrow for #Argoslive. Always more fun with other fans, right? Anyone else coming?
 pretty  ->  positive
 
@@ -3245,9 +3278,6 @@ And you say Derrick Rose isn't good because of the ACL but Dwight Howard is the 
 best  ->  positive
 
 Starkville Saturday! I might just wear my Ole Miss stuff haha #not
-might just  ->  neutral
-
-Starkville Saturday! I might just wear my Ole Miss stuff haha #not
 haha  ->  positive
 
 Join me this Sunday at the New Thought Community Center in Fresno. I have the honor of doing the service this... http://t.co/ELm87X4U
@@ -3255,9 +3285,6 @@ honor  ->  positive
 
 THEATER OF THE NEW Thur eve BLUE COVENANT: Maude Barlow: World #Water Crisis http://t.co/hgUZbIbD W/ water, we see the oneness of the world
 oneness  ->  positive
-
-The shits going to hit the fan tomorrow, so... Im probably going to throw Marshall under the bus.
-shits going to hit the fan  ->  negative
 
 @razzbabiee_x :D sure are! We are playing The Lair on Dec 1st with Heroes For Hire, Masketta Fall, Forever Ends Here and WSTP :) come!!
 :D sure are!  ->  positive
@@ -3362,9 +3389,6 @@ Back in Charleston tomorrow!! Let us know if you need any sharpenings!!  Happy T
 fun as  ->  positive
 
 Come down to @furnightclubdc to enter the Raffle to win CHRISTIAN LOUBOUTIN "RED BOTTOMS" DOORS  OPEN 1pm-7pm COMEDY SHOW 3pm TODAY OCT 20th
-Come down  ->  positive
-
-Come down to @furnightclubdc to enter the Raffle to win CHRISTIAN LOUBOUTIN "RED BOTTOMS" DOORS  OPEN 1pm-7pm COMEDY SHOW 3pm TODAY OCT 20th
 win  ->  positive
 
 Marshall golfer Nathan Kerns has finished the fall with the 12th best stroke average in the country. http://t.co/oipchPYk
@@ -3396,9 +3420,6 @@ best  ->  positive
 
 Lionel Messi is the 2nd best player of all time. There's only one better than him...VLC.  :-D
 better  ->  positive
-
-Other than the Super Bowl appearance, this may be the final time Manning and Brees face each other in a regular season game.
-may  ->  neutral
 
 Feeding the dogs an hour later since DST ends soon and I don't want them waking me up at 6am on Sunday. They hate this. I hate DST.
 don't want  ->  negative
@@ -3583,9 +3604,6 @@ OMG  ->  positive
 Apple Special Event: OMG the iMac is paper thin and so gorgeous! Stunning! Thin! http://t.co/JSyBSpOz
 so gorgeous! Stunning!  ->  positive
 
-#ihope that @leeegabrielle will be able to come to cuba with me for march break
-able to come  ->  positive
-
 [Interview] Kim Hyung Jun - Interview with SINA (New drama is coming soon and new album in February) http://t.co/KURMu99m
 coming soon  ->  positive
 
@@ -3606,6 +3624,9 @@ so fucking excited!!!  ->  positive
 
 @steveaoki here in Bilbao were so fucking excited!!! you'll be welcome tomorrow dude!!!
 welcome  ->  positive
+
+iPad HD hits stores tomorrow. Will you be waiting in line for one?
+hits  ->  positive
 
 As my mom said, I shouldn't be bitter because THSK will always hold the honor and prestige of being the 1st Korean group to perform in TDome
 honor  ->  positive
@@ -3681,6 +3702,9 @@ injury  ->  negative
 
 Fast bowler James Pattinson has a buttock injury and won't play in tomorrow's third and deciding one day final against Sri Lanka.  #cricket
 won't play  ->  negative
+
+Carles Puyol could be out for up to 6 weeks after straining knee ligaments. Further tests on the Barca man tomorrow - http://t.co/RfNj8osA
+could  ->  negative
 
 Carles Puyol could be out for up to 6 weeks after straining knee ligaments. Further tests on the Barca man tomorrow - http://t.co/RfNj8osA
 straining  ->  negative
@@ -3853,17 +3877,26 @@ leaving  ->  negative
 Hopefully going to a Kony 2012 seminar on Thursday. AKA how to roast people who think IC is a legitimate charity.
 Hopefully  ->  positive
 
+Hopefully going to a Kony 2012 seminar on Thursday. AKA how to roast people who think IC is a legitimate charity.
+legitimate  ->  positive
+
 Remember folks. Grabbed 3 more earnings plays today. CELG,CME and HSY all calls for tomorrow!!! 5/5 for the week   $CME http://t.co/ZcmjGsha
 more  ->  positive
 
 @MrsSole LOL...Oh if you are free on Sunday, I would like to invite you to Women's Day at my church.
 LOL...Oh  ->  positive
 
+@MrsSole LOL...Oh if you are free on Sunday, I would like to invite you to Women's Day at my church.
+I would like to  ->  positive
+
 @Jkittayy i promise when i get back from Charleston Sunday i promise you we will do something Monday @J2thaaD @DCatoe
 promise  ->  positive
 
 @Jkittayy i promise when i get back from Charleston Sunday i promise you we will do something Monday @J2thaaD @DCatoe
 promise  ->  positive
+
+MT @dandundas Council of Can chair Maude Barlow hits road to speak on protecting the Great Lakes; 8-city tour will see her in #hamont May 16
+protecting  ->  positive
 
 @BenJBaur done and done! I haven't seen the last few episodes. I don't have Internet until Monday so I can't download them yet.
 haven't  ->  negative
@@ -3916,6 +3949,9 @@ Hopefully  ->  positive
 Penn State tight end Kyle Carter 'day-to-day' with ankle injury: On Tuesday in the Big Ten coach... http://t.co/7Z2tScT1 #Philly #sports
 injury:  ->  negative
 
+Overexposed Tour, Maroon 5 With The Cab: Through The Eyes Of A Drummer - As you may have heard, The Cab just... http://t.co/H3c7kQsw
+Overexposed  ->  negative
+
 IRENE+JIMMY who married in Bhutan, had a 2nd wedding in Taipei. Couldnt make it but our associates MC &amp; Jean-Michel did:http://t.co/3fMmEu2S
 Couldnt make it  ->  negative
 
@@ -3960,6 +3996,12 @@ Happy IWD!!  ->  positive
 
 46 years ago today New Orleans was awarded the NFL's 16th franchise and the New Orleans Saints were born!
 awarded  ->  positive
+
+SP says quota bill unconstitutional - Samajwadi Party on Wednesday dubbed as "unconstitutional" the bill to provide ... http://t.co/ZI1NY8gt
+unconstitutional  ->  negative
+
+SP says quota bill unconstitutional - Samajwadi Party on Wednesday dubbed as "unconstitutional" the bill to provide ... http://t.co/ZI1NY8gt
+"unconstitutional"  ->  negative
 
 @Eagles fire Andy and bench Vick is how we win Monday....put foles in already.  He could be the next peyton manning
 win Monday....put foles in  ->  positive
@@ -4029,6 +4071,9 @@ lookin up  ->  positive
 
 It's lookin up for the NFL! According to ESPN's Chris Mortensen, locked out officials may soon be back on the field.
 back  ->  positive
+
+Watching John Carter for 2nd time today. You could say I'm mildly obsessed with how good this plot is. And Taylor Kitsch's good looks.
+mildly obsessed  ->  positive
 
 Watching John Carter for 2nd time today. You could say I'm mildly obsessed with how good this plot is. And Taylor Kitsch's good looks.
 good  ->  positive
@@ -4190,9 +4235,6 @@ honorable  ->  positive
 =))))))  ->  positive
 
 @fare5997 ahh i want to see Prepix again tomorrow but i need to go to church haha
-need  ->  neutral
-
-@fare5997 ahh i want to see Prepix again tomorrow but i need to go to church haha
 haha  ->  positive
 
 man it better be some blens out George Mason Friday night...one of the Prettiest Big Boys in the Eastern Province will be present
@@ -4214,10 +4256,13 @@ National Women's Day in #SouthAfrica this Thursday, 9 August. Promote  gender eq
 Promote  ->  positive
 
 National Women's Day in #SouthAfrica this Thursday, 9 August. Promote  gender equality and an end to abuse of women in Africa + the world
-of  ->  negative
+and  ->  positive
 
 #Telecom #News China Telecom Repairs a Broken Telephone Pole with - M.I.C. Gadget: By Herman Lai, posted Jun 18,... http://t.co/oiwxxat4
 Broken  ->  negative
+
+"@evansilva: ESPN's Chris Mortensen reported that the #Browns fear SLB Scott Fujita's career may be over due to a neck injury: Bounty Victim
+may be over  ->  negative
 
 @Tina__Tubs Does anyone else find it odd #McCann jumped on April Jones bandwagon,but didnt say  word about Tia Sharp where FAMILY involved ?
 find it odd  ->  negative
@@ -4245,6 +4290,9 @@ lot  ->  positive
 
 @rickbozich That's asking a lot. That would mean a lot of Big East dominance and late NCAA MARCH runs. Bring it on!
 Bring it on!  ->  positive
+
+Wondering what kind of recognition @dcunited will do of post-#Sandy NYC at Saturday's RFK game against the Red Bulls. #mls
+recognition  ->  positive
 
 Thank god bob gainey isnt the gm of monteal anymore. He probably would have tried to pick mario lemieux with the 3rd pick #TSN #NHLDRAFT
 Thank god  ->  positive
@@ -4336,6 +4384,9 @@ Not sure  ->  negative
 Only two days until the set Friday costume contest hosted by famu ABJ. Winners get Rick Ross superfest tickets!!!
 Winners  ->  positive
 
+Watching The Hunger Games. I'd totally have sex with Jennifer Lawrence. Josh may join.
+have sex  ->  positive
+
 Have to go stand at the apple store like a right dork tomorrow to upgrade my recently purchased ipad3 for the ipad4. Sigh. #1stworldproblems
 Sigh.  ->  negative
 
@@ -4398,6 +4449,9 @@ blame  ->  negative
 
 #11 John Isner has beaten #1 Novak Djokovic  7-6, 3-6, 7-6 in the BNP Paribas Open. Welcome to the world's top 10 #JohnIsner.
 to  ->  positive
+
+"Who did you meet in Edinburgh castle this evening?" "Oh, just Bill Joy, VC and founder of Sun Microsystems" #WTF... http://t.co/If0DaWdO
+"Oh, just  ->  positive
 
 Positive thinking ... after the win today Newcastle Utd are only 3 points off 5th position and 5 points off 3rd spot, bring on a surge #Toon
 Positive thinking  ->  positive
@@ -4534,17 +4588,20 @@ alive...smh  ->  negative
 Go Native jet-powered at Galway. Available at 50/1 for the Champion Hurdle, may go over fences http://t.co/MH0FuPFB
 Available  ->  positive
 
-Daylight Savings Time ends this Sunday. Except Arizona, where we gain the hour because we don't have to change any the clocks. #smallvictory
-gain  ->  positive
+Go Native jet-powered at Galway. Available at 50/1 for the Champion Hurdle, may go over fences http://t.co/MH0FuPFB
+may go  ->  positive
 
 Daylight Savings Time ends this Sunday. Except Arizona, where we gain the hour because we don't have to change any the clocks. #smallvictory
-#smallvictory  ->  positive
+gain  ->  positive
 
 If you missed @ShawnMichaels MRA on Tues it's back on 50 mins Pay attention cause there's a chance to hang out with HBK http://t.co/2vbH4PZN
 missed  ->  negative
 
 If you missed @ShawnMichaels MRA on Tues it's back on 50 mins Pay attention cause there's a chance to hang out with HBK http://t.co/2vbH4PZN
 chance  ->  positive
+
+If you missed @ShawnMichaels MRA on Tues it's back on 50 mins Pay attention cause there's a chance to hang out with HBK http://t.co/2vbH4PZN
+hang out  ->  positive
 
 Next Upper Room meeting this Wednesday in the Treacy Hall at 7.30pm. All welcome.
 welcome.  ->  positive
@@ -4609,8 +4666,8 @@ want to hear  ->  positive
 #MP3 2ne1 - i am the best (dj marcelo rocha 1st kpop mix) MP3 Download. Music Database, Songs, Video, File http://t.co/4zeN9Bby #music #song
 best  ->  positive
 
-But when yall see that Nissan Titan .... riding thur cary, with them 28's on it.. yall can see that a nigga grind has begun to pay off!
-can  ->  neutral
+Report: Michael Dyer stopped in March with gun, marijuana by unusually understanding state trooper: Sunday, Arka... http://t.co/YRAidQtj
+unusually understanding  ->  positive
 
 Down to 2 at the final table. Merson and Sylvia. No shame for the kid Balsiger. 3rd place and $3.8 million is great for the 21 yr old.
 great  ->  positive
@@ -4627,8 +4684,8 @@ support! Haha  ->  positive
 Get on down to AB field in Albion tomorrow for the QLD v NSW shield match starting at 10am. Promises to be a cracker! @qldcricket #bulls
 Promises  ->  positive
 
-Dave just entered the Cape Argus Pick n Pay Cycle Tour happening on Sunday, 10 March 2013!
-just entered  ->  neutral
+Get on down to AB field in Albion tomorrow for the QLD v NSW shield match starting at 10am. Promises to be a cracker! @qldcricket #bulls
+cracker!  ->  positive
 
 Lol Mr Brower Sun look like the dude barbosa who play for the Celtics
 Lol  ->  positive
@@ -4683,6 +4740,9 @@ big game  ->  positive
 
 I always thought Michael Dyer &amp; Isiah Crowell would play a big game in Nov for a conference title. Just didn't know it would be the SWAC.
 didn't know  ->  negative
+
+Half Way to St Patrick's Day is on tomorrow PJ Gallagher's Irish Pub Drummoyne! Don't miss out on seeing the Irish... http://t.co/lceQelSh
+out  ->  positive
 
 The VP of the Senegalese Football Federation has resigned after crowd trouble forced the abandonment of Saturday's home tie with Ivory Coast
 resigned  ->  negative
@@ -4745,10 +4805,7 @@ Good luck to all the people taking the OGT's tomorrow! #StayFocus #EatUp
 Good luck  ->  positive
 
 Reggie Wayne may be old but he still got it!
-may be  ->  neutral
-
-Bryce Harper triples home Solano with the tying run in the 10th off Tim Byrdak.  4-4 #Mats and #Nats.
-triples  ->  positive
+got  ->  positive
 
 'Fashion Star' crew still picketing: TV News:              Negotiations with producers began Monday    http://t.co/zymYXMGL
 picketing:  ->  negative
@@ -4861,6 +4918,9 @@ If  ->  negative
 MSA is having a Poo-Poo kind of day!  :(  If you are experiencing trouble with the site, I apologize.  We may be... http://t.co/tW44ORdb
 with the  ->  negative
 
+MSA is having a Poo-Poo kind of day!  :(  If you are experiencing trouble with the site, I apologize.  We may be... http://t.co/tW44ORdb
+may  ->  negative
+
 ladies come throw that ass and niggas come throw that cash hypelounge tomorrow my birthday bash btw nitemoves foam party we still having it
 still having it  ->  positive
 
@@ -4882,9 +4942,6 @@ make sure  ->  positive
 tickets still available here : http://t.co/Zq5x7jAL for friday night's party with Teengirl Fantasy, patten and Syracuse.
 available  ->  positive
 
-might be going to the spurs match on saturday
-might be  ->  neutral
-
 SAVE THE DATE!  WHAT WOMEN WANT Saturday, May 12th / 7-10pm at Nikki Beach Miami with a Fantasy French Cabaret... http://t.co/YqouZUtd
 SAVE THE DATE!  ->  positive
 
@@ -4893,6 +4950,9 @@ a fab idea  ->  positive
 
 First song i luvd by the boys: Moments, 2nd: Up All Night, UAN Album comes out: I Wish, Save You Tonight, Stole My Heart, Now: CANT CHOOSE!
 luvd  ->  positive
+
+There are still tickets available for the Mar 9 panel at Paleyfest. Let's make #Castle a sold out event! Get tix here: http://t.co/SIzAVlX9
+still  ->  positive
 
 There are still tickets available for the Mar 9 panel at Paleyfest. Let's make #Castle a sold out event! Get tix here: http://t.co/SIzAVlX9
 available  ->  positive
@@ -4975,9 +5035,6 @@ promotes  ->  positive
 Argus: Are you undecided about who you will vote for in the 17th Congressional District...: Are you undecided ab... http://t.co/akgbciE9
 undecided  ->  negative
 
-Busy week 4 us: @12thplanet at @vertigoclubkl on the 12th, @mysteryjets at @stageclubkl on the 15th n NOAH at KL Live on the 16th, u comin?
-Busy week  ->  neutral
-
 it's tuesday :D #np moanin - yoko kanno (ost. sakamichi no apollon)
 :D  ->  positive
 
@@ -5059,6 +5116,15 @@ Anxious  ->  negative
 This! It's great that Kyocera and Pantech are filling the gap, but... " @HTC may want to consider physical QWERTY: http://t.co/4yC7grse "
 great  ->  positive
 
+This! It's great that Kyocera and Pantech are filling the gap, but... " @HTC may want to consider physical QWERTY: http://t.co/4yC7grse "
+may want  ->  positive
+
+Um Ben Tickle from Dance Academy just replied to me. I may or may not be grinning right now.
+may  ->  positive
+
+Um Ben Tickle from Dance Academy just replied to me. I may or may not be grinning right now.
+may not  ->  negative
+
 Yo if u don't vote Nov 6th for Frank Bolanos for Mayor of Doral....drop kicks and elbows to the face maa niggaa.
 don't vote  ->  negative
 
@@ -5118,9 +5184,6 @@ S/O  ->  positive
 
 S/O to @CMUSOFTBALL for making it to the MAC Championship game tomorrow! Good luck ladies!
 Good luck  ->  positive
-
-@creamteam Yo. This reminds me. Are you going to Teengirl Fantasy and @Supcuts on Monday?
-reminds  ->  neutral
 
 Deadly Israeli strike, fire from Gaza mar truce: A deadly Israeli airstrike into the Gaza Strip and rocket and... http://t.co/E0h27Mcg
 Deadly  ->  negative
@@ -5207,9 +5270,6 @@ Carnival Tomorrow in the Horseshoe/Amphitheatre! Everyone go it'll be fun! Stude
 it'll be fun!  ->  positive
 
 The Spurs may be my favorite team out of the western conference
-may be  ->  neutral
-
-The Spurs may be my favorite team out of the western conference
 favorite  ->  positive
 
 here is a classic...reminds me of the show I am going to on Monday Stranded presents Krautrock legend, Moebius... http://t.co/AKYtvpTD
@@ -5282,9 +5342,6 @@ Big Time Movie is on at 3(EST) tomorrow! make sure you watch the greatest movie 
 greatest movie  ->  positive
 
 @Gemma_Lordan Don't worry I'm sure you passed it! Any more exams this week? I'm good, got a job in HMV today so starting Monday week :-)
-Don't worry  ->  negative
-
-@Gemma_Lordan Don't worry I'm sure you passed it! Any more exams this week? I'm good, got a job in HMV today so starting Monday week :-)
 good,  ->  positive
 
 @kristielupus try your third year in a place equilavilent to Leeds festival toilets on the Sunday.
@@ -5295,9 +5352,6 @@ no coincidence  ->  negative
 
 PHOTO: Pagara's back with a vengeance; knocks out Montoya in 6th round, takes WBO title. http://t.co/9gYHFMSh
 vengeance; knocks out  ->  negative
-
-PHOTO: Pagara's back with a vengeance; knocks out Montoya in 6th round, takes WBO title. http://t.co/9gYHFMSh
-takes  ->  positive
 
 Monday Madness is still going strong throughout Miami! Come by Pinecrest, Coral Gables, Doral or Miami Beach... http://t.co/DLyJPkvU
 still going strong  ->  positive
@@ -5434,11 +5488,17 @@ better.  ->  positive
 Hey guys, remember, Daylight Savings Time ends this weekend! Make sure to set your clocks back 1 hour when you go to bed on Saturday night!
 sure  ->  positive
 
+If Spurs keep their shape and discipline and dont do anything daft, they are going to tear United a new one on the the break in the 2nd half
+keep their shape  ->  positive
+
 1st preview of the NEW HU w/ @JoKoy @AldisHodge @DanicaMcKellar &amp; Wayne Knight! Premieres tonight 12:30am PT on Reelz! http://t.co/ztOxvDfY
 Premieres  ->  positive
 
 Cena and dolph will make 0 sense bc Ziggler will end up losing, like usual. Then he may cash in Who cares about tht if he loses 2 cena?
 end up losing,  ->  negative
+
+Cena and dolph will make 0 sense bc Ziggler will end up losing, like usual. Then he may cash in Who cares about tht if he loses 2 cena?
+may cash  ->  positive
 
 Cena and dolph will make 0 sense bc Ziggler will end up losing, like usual. Then he may cash in Who cares about tht if he loses 2 cena?
 cares  ->  positive
@@ -5773,8 +5833,11 @@ can't wait  ->  positive
 I can't wait for @NBCFashionStar I am going to the bank Tuesday to start a Fashion Star savings account so I can be ready!!!
 ready!!!  ->  positive
 
-Omega Male are the funked-out super-duo taken from Fujiya &amp; Miyagi and Project Jenny, Project Jan. It's tense.... http://t.co/2UzEpOQP
-funked-out  ->  positive
+Star-saturated Ivory Coast is the team other 2013 Africa Cup of Nations qualifiers will want to avoid in the 1st round draw LIVE SS4 at 9pm
+will want to avoid  ->  negative
+
+BNP opposes Companies Act change: The BNP on Tuesday asked the government to drop the move to change Companies A... http://t.co/AVRh5J4g
+opposes  ->  negative
 
 BNP opposes Companies Act change: The BNP on Tuesday asked the government to drop the move to change Companies A... http://t.co/AVRh5J4g
 drop  ->  negative
@@ -5818,6 +5881,9 @@ availability  ->  positive
 half off apps doesn't quite measure up to B12 and Calle mon, but it'll do. @annakatedb @marthaveldkamp @alicia_davids @devonanne13
 doesn't quite measure up  ->  negative
 
+@PeeeeekaBooo serious it 2nd while naruto still first of course !
+still  ->  positive
+
 Was totally looking forward to movies tomorrow :( oh well I'll just have a Naruto marathon at home by myself or something haha.
 totally looking forward  ->  positive
 
@@ -5826,6 +5892,9 @@ Was totally looking forward to movies tomorrow :( oh well I'll just have a Narut
 
 Was totally looking forward to movies tomorrow :( oh well I'll just have a Naruto marathon at home by myself or something haha.
 haha.  ->  positive
+
+Can't get enough of @mikebellafiore after the first #phillipifest conference? Catch him &amp; Jim Rogers LIVE 1 Sep LIVE http://t.co/oPeKEfPM
+Can't get enough  ->  positive
 
 Bring it on Willard Mitt Romney! Let me hear those ZINGERS!!  HAPPY 20th Wedding Anniversary to President Barack... http://t.co/K5irA0Hb
 20th  ->  positive
@@ -5838,12 +5907,6 @@ sacked  ->  negative
 
 Don't miss Shreya Ghoshal live in concert in Guyana- Sunday October 14th at the National Stadium #Shreya Ghoshal
 Don't miss  ->  positive
-
-We're counting down the days!.... The #Orlando Home and Garden Show and Boat Show begins this Friday! http://t.co/Mw6EJbP7
-counting down  ->  positive
-
-'The Announcement' may be the most emotional documentary I have ever seen. Magic Johnson is a hero and an icon.
-may  ->  neutral
 
 Took a break to reread Moebius and Stan Lee's Silver Surfer book. It may be minor Moebius but I love it since it introduced me to his work.
 love  ->  positive
@@ -5875,9 +5938,6 @@ The Specialist, w/Sly Stallone &amp; Sharon Stone is on G4. Lasting memory: 1st 
 Filming starts on Wednesday! And the second project is already in the works (hopefully). Exciting times for Karm!
 (hopefully). Exciting  ->  positive
 
-Reagan will be here early Friday morning. Which she will share the same birthday as my brother. #toddeugenefreeman #excited #miracle
-#excited #miracle  ->  positive
-
 Day off tomorrow for Labour Day, which is good. Not so good is the weather forecast and finding something to do with my boys.
 good. Not so good  ->  positive
 
@@ -5892,9 +5952,6 @@ only  ->  negative
 
 Happy Halloween!  It is 654 am here in Seoul on the 31st. I love and miss you all in the states.
 Happy  ->  positive
-
-Happy Halloween!  It is 654 am here in Seoul on the 31st. I love and miss you all in the states.
-and miss you all  ->  positive
 
 @RealSkipBayless Eddie Curry is showing more lift then Dwight Howard who looks like the 2nd coming of Tracy McGrady right now
 showing more  ->  positive
@@ -5931,9 +5988,6 @@ aren't  ->  negative
 
 BHM cuts aren't just a London issue. If BNP are more popular in the North, we need more cultural diversity awareness.  http://t.co/FvDTcGNt
 more popular  ->  positive
-
-BHM cuts aren't just a London issue. If BNP are more popular in the North, we need more cultural diversity awareness.  http://t.co/FvDTcGNt
-need more cultural  ->  neutral
 
 Strong revenue growth at Tudou, but the company keeps on bleeding heavily - http://t.co/olAzHbcs
 Strong  ->  positive
@@ -6040,6 +6094,9 @@ Check out  ->  positive
 News On Japan: Japan's post-disaster growth strategy: The Great East Japan Earthquake on 11 March 2011 was the b... http://t.co/ZN0bqovJ
 Great  ->  positive
 
+@chelsea_sarabia OMG. Dude tomorrow, you and 1D will be breathing the same air. Get a jar and get as much of the air as possible.
+as possible.  ->  positive
+
 I can't wait till December and see the Swifties, Smilers and Lovatics referencing those December songs ;D lol
 can't wait  ->  positive
 
@@ -6048,6 +6105,9 @@ omg  ->  negative
 
 @Dont__KAY_me omg same I was reading it in school after PSSAS and I just sat there crying
 crying  ->  negative
+
+I get it now he told @clbrooks_48  tomorrow so she wouldn't come. Dang nobody likes Calle.
+likes Calle.  ->  negative
 
 Good luck to Cody Reichard &amp; Scott Darling..1st day of training camp for the Montreal Canadiens' AHL affiliate-Hamilton Bulldogs. God Speed!
 Good luck  ->  positive
@@ -6160,9 +6220,6 @@ i  ->  positive
 @tara_smiles Not bad. I think Cena will wear the green merch for 2 weeks after tomorrow. We will get new swag at Survivor Series.
 Not bad.  ->  positive
 
-@iM_tgun @frayFenner @NvDox Anyone else noticed the uncanny resemblance between tgun and Petraeus? tgun's Dad may have a confession to make.
-may have  ->  neutral
-
 @pjforest0712 What a shame about Punchestown. Unlikely to race at all tomorrow. I had 2 out as well in Quevega and Lietenant (2 miler!!!)
 shame  ->  negative
 
@@ -6255,6 +6312,9 @@ easy  ->  positive
 
 @tennesseetitans sunday you will need to shut down Reggie Wayne and Andrew  Luck if you want to win
 will need to shut down  ->  negative
+
+@tennesseetitans sunday you will need to shut down Reggie Wayne and Andrew  Luck if you want to win
+if  ->  positive
 
 In tears after watching that Dance Academy episode for the 2nd time
 In tears  ->  negative
@@ -6466,6 +6526,9 @@ can't wait  ->  positive
 When I read about possible severe thunderstorms, I see Imelda Staunton as Umbridge saying, "These thunderstorms may be *giggle* severe."
 thunderstorms,  ->  negative
 
+Duke Energy CEO Jim Rogers addressed the Democratic National Convention Thursday afternoon http://t.co/D9cFtvsC
+addressed  ->  positive
+
 Intimate showcase with Chris Rene - November 7 in Auckland. Can't buy tickets to this. Click the link to enter... http://t.co/jfhKiRzM
 Can't buy  ->  negative
 
@@ -6599,6 +6662,9 @@ special  ->  positive
 lol.  ->  positive
 
 Roll on Thursday when I can get back to the gym;6 weeks of doing nothing but drink and eat crap since Leeds Festival is taking its toll #fat
+can  ->  positive
+
+Roll on Thursday when I can get back to the gym;6 weeks of doing nothing but drink and eat crap since Leeds Festival is taking its toll #fat
 doing nothing  ->  negative
 
 Roll on Thursday when I can get back to the gym;6 weeks of doing nothing but drink and eat crap since Leeds Festival is taking its toll #fat
@@ -6700,9 +6766,6 @@ Lol  ->  positive
 Happy Monday Slackers! Don't forget tonight is Steamers Night here at Slackers. 1 Doz.$4.99  2 Doz.$8.99 with... http://t.co/xIodkLpG
 Happy  ->  positive
 
-@theramon how's Teengirl Fantasy? I may get in the car and drive to @giginow to stuff my face with duck buns..
-may  ->  neutral
-
 Tomorrow is the ladt day of the Sydney Dalton diet and let me tell you it has been hell and I bet it doesnt even work
 hell  ->  negative
 
@@ -6717,9 +6780,6 @@ win  ->  positive
 
 Quevega is even money to win the World Hurdle with @paddypower. Well Happy Thursday to me #sheisthefemalebigbuck's
 Happy  ->  positive
-
-@CarlJWood I teach my class to count in pennies at first. I may be part of the problem.
-may  ->  neutral
 
 @CarlJWood I teach my class to count in pennies at first. I may be part of the problem.
 problem.  ->  negative
@@ -6767,9 +6827,6 @@ Hola Muchachas, Are you ready for a night full of Fashion, Fun and Beauty. This 
 Beauty.  ->  positive
 
 Did LVMS get showgirls from Primm or Mesquite. C'mon Bruton you can do better #NASCAR
-C'mon  ->  negative
-
-Did LVMS get showgirls from Primm or Mesquite. C'mon Bruton you can do better #NASCAR
 can do better  ->  positive
 
 @bigeastonao I dont remember the name but it's a big award and SNSD was performed Gee or Gennie,u may search google for that incident
@@ -6777,6 +6834,9 @@ dont  ->  negative
 
 @bigeastonao I dont remember the name but it's a big award and SNSD was performed Gee or Gennie,u may search google for that incident
 big award  ->  positive
+
+...woah, Deezer. Babel only came out on Monday, can you leave it up for longer than a day to give slow people like me a chance?
+chance?  ->  positive
 
 Shinji Kagawa held a coaching clinic for students on Tuesday, to support children in areas hit by the Japan Earthquake. [jakart...  #MUFC
 support  ->  positive
@@ -6809,6 +6869,9 @@ can't even come  ->  negative
 :(  ->  negative
 
 Zac Brown already has all y'all sweeped in NoShaveNovember and it's only the 1st
+sweeped  ->  positive
+
+Zac Brown already has all y'all sweeped in NoShaveNovember and it's only the 1st
 only  ->  negative
 
 I love the Triangle RT@thedevilwolf: This is really going to hurt Virginia Tech on Selection Sunday
@@ -6817,14 +6880,11 @@ love  ->  positive
 I love the Triangle RT@thedevilwolf: This is really going to hurt Virginia Tech on Selection Sunday
 going to hurt  ->  negative
 
-Think I might go see the Zac Brown band in December at Joe Louis! Anyone interested in goin?
-might  ->  neutral
-
 Brush picks Shaker off, but then Shaker returns the favor, picking off Brush. Still 13-7 Brush in 3rd Quarter.
 picks Shaker off,  ->  negative
 
-@GaryWoods94 @sjwright11 @chartersss bring the tenna in tomorrow Gazza!! #ThankYou
-#ThankYou  ->  positive
+The 1st Annual Doral Design District International Taste of the Arts is almost here! Enjoy yummy food from well... http://t.co/sTUap0Ij
+almost  ->  positive
 
 The 1st Annual Doral Design District International Taste of the Arts is almost here! Enjoy yummy food from well... http://t.co/sTUap0Ij
 Enjoy  ->  positive
@@ -6874,6 +6934,9 @@ most affected  ->  negative
 Aww Kina Grannis sang 'Mr. Sun' for all the Filipinos who suffered from floods! @kinagrannis &lt;3
 &lt;3  ->  positive
 
+I may or may not have freightened a large number of L.A. residents, merely  by making EYE contact with them in the past 48 hours.
+may not  ->  negative
+
 Was going on cams 4 a later show today but instead, helped our daughter get a new Nissan Titan. She's so excited! Be on tomorrow, for sure!
 helped  ->  positive
 
@@ -6882,9 +6945,6 @@ so excited!  ->  positive
 
 According the BNP's website they are bussing people down from Sheffield for the "BBC Paedo" protest at Broadcast House tomorrow.
 protest  ->  negative
-
-@Hbklover123 I may disagree with you there but I can appreciate your love of HBK. @ShawnMichaels  is the ultimate legend.
-disagree  ->  negative
 
 @Hbklover123 I may disagree with you there but I can appreciate your love of HBK. @ShawnMichaels  is the ultimate legend.
 appreciate  ->  positive
@@ -6965,10 +7025,10 @@ Happy 102 years to L.A. artist Tyrus Wong! May the road rise to meet you, may th
 always  ->  positive
 
 Oomf today thought he can talk to me on some other shit wait til tomorrow lol
-can talk  ->  neutral
-
-Oomf today thought he can talk to me on some other shit wait til tomorrow lol
 shit  ->  negative
+
+Soundboard came today!  Tomorrow is set it up and see if it all works day lol.  If all goes as planned I'll be streaming 24-7 soon!
+If  ->  positive
 
 @ideeNYC and I feel the exact same way about Allderdice haha, its my 2nd favorite project he's released (behind K&OJ). hes making good music
 haha,  ->  positive
@@ -7002,9 +7062,6 @@ cancel  ->  negative
 
 @Chetan_Raulji @Mueez_qureshi "But Professor, if I may just remind you that you only achieved a BSD and Bachelor's by the age of 24..."
 achieved  ->  positive
-
-Had a few emails about my storck adrenalin The chap clearly new feck all about carbon and bikes in general.I may have to brake it for spares
-may  ->  neutral
 
 Beer, xbox, Undertaker: The Streak DVD. Fuck you Saturday night.
 Fuck you  ->  negative
@@ -7085,6 +7142,9 @@ Weekend Playlist - Vol1 - Every Friday im going to post a weekend playlist of my
 favorite  ->  positive
 
 Willard Mitt Romney may get to 1144 delegates tonight, but I know 55,703 votes he won't be getting in November (and growing). #mittismean
+may  ->  positive
+
+Willard Mitt Romney may get to 1144 delegates tonight, but I know 55,703 votes he won't be getting in November (and growing). #mittismean
 won't be getting  ->  negative
 
 Willard Mitt Romney may get to 1144 delegates tonight, but I know 55,703 votes he won't be getting in November (and growing). #mittismean
@@ -7092,9 +7152,6 @@ growing).  ->  positive
 
 Thunderbolt:A strong electric blast is loosed at the foe. It may also leave the foe paralyzed.
 paralyzed.  ->  negative
-
-Carnival Tomorrow !!! Need to put my flags in the laundry
-Need  ->  neutral
 
 Vincent Jackson limited in Monday practice estimates, fantasy value just fine for Thursday: Tampa Bay Buccaneers... http://t.co/etg2iV9p
 fine  ->  positive
@@ -7113,6 +7170,9 @@ affected  ->  negative
 
 #tedxsendai is October 10th http://t.co/m3ZZRdAi Watch it and learn more about the people affected by the Tohoku disaster.
 disaster.  ->  negative
+
+@Jared_TFJ I think I'm gonna go with Brown I hate going with players on Thursday even though I'm going with Vincent Jackson
+go  ->  positive
 
 @Jared_TFJ I think I'm gonna go with Brown I hate going with players on Thursday even though I'm going with Vincent Jackson
 hate  ->  negative
@@ -7189,6 +7249,9 @@ a great effort  ->  positive
 Today and Tomorrow "The Runaways" On #MBCMAX , Don't miss it :) http://t.co/sZnlOcGu
 Don't miss  ->  positive
 
+@shefaliiipatel Call me maybe is on the radio... David Owen has to hear it tomorrow on our last day!
+hear  ->  positive
+
 My fav all time R&amp;B singer, Maxwell, w/b @ the MGM Grand, Foxwoods Casino on Nov 24th!!  I'm in love!!  Lol!!!
 love!! Lol!!!  ->  positive
 
@@ -7205,10 +7268,10 @@ sooo i might go to laidback luke on friday with nessaaaa ^.^ we going hard &gt;:
 might  ->  positive
 
 Really should get some sleep since I have the CASHEE makeup testing tomorrow. But I'm not, the usual.
-not,  ->  negative
+should  ->  positive
 
 Really should get some sleep since I have the CASHEE makeup testing tomorrow. But I'm not, the usual.
-usual.  ->  negative
+not,  ->  negative
 
 Oomf is in for it tomorrow I just can't wait I know exactly what I am going to do to them ((:
 can't wait  ->  positive
@@ -7224,6 +7287,9 @@ won  ->  positive
 
 @Fridayology Sounds good. So would Queen's Birthday holiday and Labour Day holidays then be on the following Tuesday? It's only fair
 Sounds good.  ->  positive
+
+@Fridayology Sounds good. So would Queen's Birthday holiday and Labour Day holidays then be on the following Tuesday? It's only fair
+only fair  ->  positive
 
 UCLA coach Ben Howland says Josiah Turner is a great player but he expects Arizona to come together and play well Thurs.
 great player  ->  positive
@@ -7246,6 +7312,9 @@ never forget  ->  positive
 R.I.P Kraig, I will never forget growing up &amp; Racing at #LittleTSpeedway together &lt;3 May the Racing Angels lead you to Victory Lane
 &lt;3  ->  positive
 
+ONE FC 6: Rise of Kings is scheduled to blow the roof off of the Singapore Indoor Stadium on Saturday, October 6.
+blow the roof off  ->  positive
+
 #sports Alaskan musher, 25, youngest to win Iditarod: Dallas Seavey won the Iditarod Trail Sled Dog Race on Tues... http://t.co/Pf5jJg5S
 win  ->  positive
 
@@ -7258,8 +7327,8 @@ don't want to slip up  ->  negative
 If you don't want to slip up tomorrow, speak the truth today.-bruce lee
 the truth  ->  positive
 
-yahoo fantasty basketball league. just sign in through facebook for an account. send me emails i need like 20 ppl leggo! draft sundy 4th!
-need  ->  neutral
+I can recall 3 situations where #WWE changed plans because of tweets! 1st is JR to replace king, 2nd Brock interfering in the Cena vs rock!
+can recall  ->  positive
 
 @thechristiemud I start next Monday. Yay. Argus is good. have you been up in london the whole time? Thank you!
 good.  ->  positive
@@ -7284,6 +7353,9 @@ fluff yes  ->  positive
 
 @kris1179 If Spurs hadn't got that result mate you guys would have been 1st up. Have you heard SAF moaning.  4mins injury time an insult.
 hadn't got  ->  negative
+
+@kris1179 If Spurs hadn't got that result mate you guys would have been 1st up. Have you heard SAF moaning.  4mins injury time an insult.
+would have been  ->  negative
 
 Damn michael easton is sexy! When he said ill miss you the 2nd time I when all googly eyed &amp; said ill miss u too! Lol #gh
 sexy!  ->  positive
@@ -7384,17 +7456,11 @@ fuck  ->  negative
 Kajal will act 2nd time with ramcharan,mahesh,ntr,raviteja,karthi
 will act  ->  positive
 
-Baseball game with Brentley tomorrow #goddoesgoodthing  @mscutiepie143 we r. Back @AllieBrown7 @Redheadswaggin
-#goddoesgoodthing  ->  positive
-
 #InMiddeSchool I got my 1st cell phone. I was too happy I got that phone. it was a Kyocera flip phone lol ahh those were the days lol.
 too happy  ->  positive
 
 I haven't been able to enjoy tea since Tuesday. I just want to drink a cup without feeling as though I'll hurl.
 haven't been able to enjoy  ->  negative
-
-I haven't been able to enjoy tea since Tuesday. I just want to drink a cup without feeling as though I'll hurl.
-want  ->  negative
 
 I haven't been able to enjoy tea since Tuesday. I just want to drink a cup without feeling as though I'll hurl.
 hurl.  ->  negative
@@ -7425,6 +7491,9 @@ support  ->  positive
 
 Tomorrow, Sylvia and Damien have my full attention. #StoryTime with @Rouge_Mort
 my full attention.  ->  positive
+
+So I may or may not be able to afford SNSD's new Japanese album. &gt;_&lt; Not that Deluxe version anyway. Maybe I'll get the normal one.
+may not  ->  negative
 
 #Lincoln Imagine running from the Capitol to the White House 4 an answer from Lincoln during the vote on the 13th Amendment
 Imagine  ->  positive
@@ -7501,6 +7570,9 @@ Thanks  ->  positive
 Happy how the Capitol one cup results are coming through, we beat Chelsea tomorrow and you might aswell give us the cup? #MUFC
 Happy  ->  positive
 
+Happy how the Capitol one cup results are coming through, we beat Chelsea tomorrow and you might aswell give us the cup? #MUFC
+might  ->  positive
+
 oh, Vincent Jackson, why must you play on Thursday? making my WR decision very difficult indeed.  #fantasyfootballproblems
 very difficult  ->  negative
 
@@ -7523,10 +7595,10 @@ Who is the best? 2NE1, with their first full concert on Dec 1 at the Singapore I
 best?  ->  positive
 
 Sunday's matches certainly more than made up for all the 'excitement' that Saturday sputtered through beginning with the Merseyside Derby.
-'excitement'  ->  positive
+more  ->  positive
 
-If you autopost from anything to Facebook, you may need to re-set up that auto post. Just had to for Posterous.
-may need  ->  neutral
+Sunday's matches certainly more than made up for all the 'excitement' that Saturday sputtered through beginning with the Merseyside Derby.
+'excitement'  ->  positive
 
 good morning to my clique @mizz_kaytee @solphenduka @flavabreakfast @djsabby loving the friday Addition of Flava in da morning
 good  ->  positive
@@ -7582,9 +7654,6 @@ Thanks  ->  positive
 Guess I ticked off some BYU fans on Saturday during the game. Thanks for blocking me and selectively removing a lot of negativity in my TL!
 blocking me  ->  negative
 
-Guess I ticked off some BYU fans on Saturday during the game. Thanks for blocking me and selectively removing a lot of negativity in my TL!
-negativity  ->  negative
-
 Just watched Friday's #GH. About time Sam and McBain kissed! Always thought @kellymonaco1 had more chemistry with Michael Easton than Burton
 chemistry  ->  positive
 
@@ -7617,6 +7686,9 @@ Carnival Tomorrow. I'll make sure to take pictures:) #Excited
 
 @FootiebettingFC Quevega is just too good, thought it may struggle a little with those conditions! Bring on Big Bucks V Quevega ;) haha
 too good,  ->  positive
+
+1-0 NewCastle Utd . Cabaye places it in bottom left corner, his 1st goal of the season. What a start.
+What a start.  ->  positive
 
 If Petraeus is ruined then so is McChrystal -he probably handed out the guns in Libya - bc he owes Obama/Biden for his 4th STAR
 ruined  ->  negative
@@ -7741,12 +7813,6 @@ don't  ->  negative
 Was going back up to Dayton in January but ion really think I can handle being up there to live that place ain't no good for me
 ain't no good  ->  negative
 
-Don't forget about Daylight Savings time. It is this Sunday morning at 3am. You get to move your clock back to... http://t.co/HHpk90P5
-Don't forget  ->  negative
-
-@tifosiguy Father's Day is just commercial of course but the British version of Mothering Sunday goes back centuries and it marks the...
-goes back  ->  negative
-
 3rd season Dance Academy means to me : going crazy! I love it and can't wait :)))
 going crazy!  ->  positive
 
@@ -7817,7 +7883,7 @@ Check out tomorrow's CA. I picked the brains of 4 of the city's top arms--Brady 
 Check out  ->  positive
 
 Hard day looking forward to my tea now may have to call in to an irlam takeaway #memories
-Hard day looking forward  ->  negative
+may have to  ->  positive
 
 So its sake at Gui Sensai's tonight hmmmm interesting, although I may just spend time with Naruto, we rarely have any time together
 hmmmm interesting,  ->  positive
@@ -7933,6 +7999,9 @@ Pretty exciting!  ->  positive
 No matter who you are, most of the smartest people work for someone else. ~ Bill Joy, co-founder of Sun Microsystems. #quotes
 smartest  ->  positive
 
+get ready Lovatics, the voting starts on October 23rd http://t.co/Z6sOz051
+get ready  ->  positive
+
 Seaside Dance Academy will be closed for Tuesday, Oct 30th. Hoping that everyone in the area is safe and wishing... http://t.co/5qPIK2lX
 closed  ->  negative
 
@@ -7960,6 +8029,9 @@ come out  ->  positive
 JV game tomorrow at the high school at 430 come out and support and watch us beat on shaker
 support  ->  positive
 
+Decided to enter the Cape Argus Pick n Pay Cycle Tour happening on Sun, 10 Mar 2013!
+enter  ->  positive
+
 I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times. -Bruce Lee
 fear not  ->  negative
 
@@ -7973,10 +8045,10 @@ Blessing May Free MP3 Download http://t.co/kPH4iFub [Like it? http://t.co/ojJYs4
 Blessing  ->  positive
 
 I remember seeing @llcoolj for the first time at his 10th album release party at Hammerstein Ballroom in NYC.. I was in heaven #classic
-heaven  ->  positive
+remember  ->  positive
 
-Shaker is going to have school tomorrow. There's no doubt about that... The really question is, am I gonna go??
-going to have  ->  positive
+I remember seeing @llcoolj for the first time at his 10th album release party at Hammerstein Ballroom in NYC.. I was in heaven #classic
+heaven  ->  positive
 
 @OoTEREoO Hey what's the status of Kina Grannis and her concert? If the rain is still this bad we might not have a show tomorrow...
 bad  ->  negative
@@ -8059,9 +8131,6 @@ Tomorrow is the Mother's Day ..... I Love You,Mom ^___^
 @ZachSaltern7 oh. Well last time I saw colleges don't look at PSSAs. So if we want to compare how are your SAT scores and GPA?
 don't look  ->  negative
 
-AirAsia aborts deal to buy Indonesia's Batavia Air - Southeast Asia's top budget carrier AirAsia said Monday it has ... http://t.co/WLNFwyHS
-aborts  ->  negative
-
 David Owen: UN and Nato must heed the lessons of Kosovo and Bosnia: diplomacy &amp; force are effective only in alliance http://t.co/bkQXzsB8
 effective only  ->  positive
 
@@ -8106,6 +8175,9 @@ interesting. Thank you.  ->  positive
 
 Who are the danger men Newcastle Utd have to look out for on Sunday against West Brom ?
 danger  ->  negative
+
+@LaFanMike7 I'd ask my roommate how he felt about the Spurs, but the answer would take til tomorrow morning. That sob got me sick too!
+got  ->  negative
 
 @LaFanMike7 I'd ask my roommate how he felt about the Spurs, but the answer would take til tomorrow morning. That sob got me sick too!
 sick  ->  negative
@@ -8188,9 +8260,6 @@ prizes, ceremony  ->  positive
 Twitter-owned blog service Posterous loses multiple databases, down 6 hours+: As you may notice from the n... http://t.co/xgoQYFSf #TNXW
 loses  ->  negative
 
-Twitter-owned blog service Posterous loses multiple databases, down 6 hours+: As you may notice from the n... http://t.co/xgoQYFSf #TNXW
-may  ->  neutral
-
 "@RafaelNadalFC: Rafa will play his third round match at the BNP Paribas Open at Indian Wells on Tuesday against Marcel Granollers."
 will play  ->  positive
 
@@ -8218,6 +8287,9 @@ Thanks @leemazin for coming pass The Saga tonight! Can't wait for Love Lee to dr
 I'm sure UMBC is going to be cancelled tomorrow, but can they make it official already?
 cancelled  ->  negative
 
+I need to go to sleep! I have to take the CAHSEE tomorrow /:
+have to  ->  negative
+
 Tianna- Happy Sunday! (Sips coffee...) Ah, let's kick it off with Rihanna, Shawn Hook, Hedley, and Christina Aguilera. Who's with me?!
 Happy Sunday!  ->  positive
 
@@ -8235,6 +8307,9 @@ Getting sick  ->  negative
 
 Plea to probe 'foreign funding' of Team Anna: The bench had directed the Centre on May 30 to treat Sharma's plea to the court for pro...
 probe  ->  negative
+
+@afifplc The very same! Planning to tweet from the next Dons game on Saturday.
+same!  ->  positive
 
 @Darrellissa Sir, there are enemies in the White House.Something needs to be done TODAY not November 6th.Clinton,Obama,Panetta,Petraeus,Lamb
 enemies  ->  negative
@@ -8281,14 +8356,14 @@ great tv shows  ->  positive
 Our second favorite day of the year is tomorrow, come celebrate halfway to St Patrick's Day with $1 Green Beer... http://t.co/k3poUps0
 favorite  ->  positive
 
-@JoshJensen7 always wanted to finish with the sun on my back as a couple of my sporting Herod did @GaryLineker, Gazza &amp; C.Waddle
-always wanted  ->  positive
-
 Playing Castlepalloza tomorrow, main stage at 1.30 with @catdowlingmusic then Deezer stage at 7.45 with @thevrkills, can't wait...
 can't wait...  ->  positive
 
 @Muccas Sylvia, I can't make Thursday evening I have an event to go to. Can do it Saturday if that's ok? #norestforthewicked
 can't  ->  negative
+
+@Muccas Sylvia, I can't make Thursday evening I have an event to go to. Can do it Saturday if that's ok? #norestforthewicked
+ok?  ->  positive
 
 Jim Rogers: Bernanke Hasn't Done Anything Right as Fed Chief ...: From the blog Breakout: On September 12 of thi... http://t.co/6VLfCK6u
 Hasn't Done  ->  negative
@@ -8332,9 +8407,6 @@ successfully  ->  positive
 Sophos is the Lamest Virus Ever...: Starting September 19, Sophos successfully became the lamest... http://t.co/14HqjMMq |InfoSecIsland
 lamest...  ->  negative
 
-We (DWill) was the first to get cooked by Jeremy Lin then Deron came and put dude to bed... I'm sure thats why he may have said it
-I'm sure  ->  neutral
-
 Miss last Friday's Soundboard on @wtju911FM? We talked McIntire Park, Stonefield, &amp; more with @cvillenews_desk: http://t.co/jM2QIcOX
 Miss  ->  negative
 
@@ -8355,6 +8427,9 @@ shes good!  ->  positive
 
 Kina Grannis' "In Your Arms" was just playing on @Magic899! Always playing the best music. Happy Sunday everyone :)
 best music. Happy  ->  positive
+
+Avril Lavigne says after debuting spring line for Abbey Dawn she may make own wedding dress http://t.co/oi58VaTr
+may make  ->  positive
 
 @REAMER_72 I think Sean Parker is a fuck. He may have a point about it being boring. But the guy is a drug addict idiot that cant hold a job
 fuck.  ->  negative
@@ -8392,6 +8467,9 @@ fired  ->  negative
 RT@waterforpeople R ability to repair H2O damages  quickly in the US 2nd to none. Its painstakingly slow in Peru at the governmental level..
 slow in  ->  negative
 
+News Alarm: Tim Byrdak (P - NYM) Tim Byrdak is going in for surgery with Dr. David Altchek in New York tomorrow. (http://t.co/GMrPWv9W)
+going in  ->  positive
+
 @vi079 Backed the other Ruby. Error. Each way lucky 31 depends on Scotsirish, surely Quevega won't let me down? May have a punt on the last.
 lucky  ->  positive
 
@@ -8424,9 +8502,6 @@ Thanks  ->  positive
 
 Just Like Me was 4th Most Requested on AKA today! Thanks for the support!!!!!!! It's also on FLAVA now!
 support!!!!!!!  ->  positive
-
-Newcastle Utd upping the ante in the 2nd half.
-upping  ->  positive
 
 @neilpressimone the congrats one? Thanks btw. We race at LVMS in Sept and Nov. Not sure if I'll do the September one though
 congrats  ->  positive
@@ -8472,9 +8547,6 @@ great  ->  positive
 
 Oh well. President-elect Willard Mitt Romney it will be on November 6th, then.
 Oh well.  ->  positive
-
-My only wish on this Saturday is for the Demon Deacons to keep it up and stick to the Tarheels
-only wish  ->  positive
 
 Saturday night in with toast, hot choc &amp; @ollyofficial on E News #happydays
 #happydays  ->  positive
@@ -8541,9 +8613,6 @@ disapointed  ->  negative
 
 @HooN91y Boo I wanted to watch Inkigayo, but I'll travel tomorrow,so I have to sleep, But I'm with you, in my heart,my soul....
 my heart,my soul....  ->  positive
-
-@NCYW @dont miss Cherie Blair @CherieBlairFndn @Womens_Forum #WF12 in the Gatsby Room @15:00 Thursday @ExxonMobil_EU #WF12XOM
-@dont miss  ->  positive
 
 @aya13tay_1D aww!! Thank U too!! &lt;13  Have a Nice Swift Day you too!! :) and good luck for tomorrow!! I hope you have a wonderfull Day! :)
 Thank U too!!  ->  positive
@@ -8644,6 +8713,9 @@ too early  ->  negative
 I want some Crawfish, Friday. Kind of, I'm not a Crawfish obsessed project hoe, like y'all.
 want  ->  positive
 
+With SNSD's new single out just in time for my gig at 7th Heaven do you think anyone would notice if I dropped it in? http://t.co/ZQnFiNcg
+just  ->  positive
+
 We are delighted to have bene asked to play with the Slackers in Whelans on August 7th...a great way to round off the Rebellion weekend!!!!!
 delighted  ->  positive
 
@@ -8701,6 +8773,9 @@ right thing  ->  positive
 @Sh48e but I do agree wit 2nd in east as long as DRose sits out most of the year
 do agree  ->  positive
 
+You may want to plant Bachelor's Buttons.  http://t.co/40IvkjmX
+may want  ->  positive
+
 Hopefully going to genera with physics, down side is its only 6th years who are going and I don't talk to many #worthitbut
 Hopefully  ->  positive
 
@@ -8743,9 +8818,6 @@ so HOT! Hotter  ->  positive
 @Keenan_Knox oh nothin what are you doin tomorrow night i may be up in Orono and I'm lookin to get shitty haha
 nothin  ->  negative
 
-@Keenan_Knox oh nothin what are you doin tomorrow night i may be up in Orono and I'm lookin to get shitty haha
-shitty haha  ->  negative
-
 Cherie Blair is sat on our coach going to the games! #Olympics2012
 going  ->  positive
 
@@ -8757,9 +8829,6 @@ Haha  ->  positive
 
 @buzzkut9 @sheep1903 U may as well Slam Tent it all day till Roses. Whole day in there looks pretty good. Start with Teengirl Fantasy.....
 pretty good.  ->  positive
-
-Please be ON TIME tonight VIPS :) There may be a few treats involved!
-may  ->  neutral
 
 Wade be playing like Tracy Mcgrady in the 1st half Lol just losing the ball an shit
 Lol  ->  positive
@@ -8802,6 +8871,9 @@ good day  ->  positive
 
 @iansomerhalder Good afternoon Ian wishing you a good day and a fun filled weekend at Paleyfest tomorrow
 fun filled  ->  positive
+
+@HStringfellow Yes, but Mothers' Day comings from Mothering Sunday, doesn't it? Whereas Fathers' Day is just a sop to stop them complaining.
+just  ->  negative
 
 @HStringfellow Yes, but Mothers' Day comings from Mothering Sunday, doesn't it? Whereas Fathers' Day is just a sop to stop them complaining.
 complaining.  ->  negative

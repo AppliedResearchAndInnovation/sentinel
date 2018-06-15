@@ -64,7 +64,7 @@ public class SentimentAnalysis {
 	 */
 	public void testSystem(String trainname) throws Exception {
 		SentimentSystemSentinel sentinelSystem = new SentimentSystemSentinel(tweetList);
-		this.evalModel(sentinelSystem.test(trainname));
+		this.evalModel(sentinelSystem.test(trainname,1.0d, 100.0));
 	}
 
 	/**
