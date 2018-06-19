@@ -66,7 +66,7 @@ public class SentimentAnalysis {
 	public void testSystem(String trainname) throws Exception {
 		costPrintStream = new PrintStream(new File("output/cost_sensitive_learning.csv"));
 
-		for(Double i = 100.0; i < 500.0; i += 100) {
+		for(Double i = 1.0; i < 100.0; i += 20) {
 			SentimentSystemSentinel sentinelSystem = new SentimentSystemSentinel(tweetList);
 			this.evalModel(sentinelSystem.test(trainname,i,100.0));
 		}
