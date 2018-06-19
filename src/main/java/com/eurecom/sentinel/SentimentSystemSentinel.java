@@ -24,6 +24,7 @@ import cmu.arktweetnlp.Tagger;
 import cmu.arktweetnlp.Tagger.TaggedToken;
 import weka.filters.Filter;
 import weka.filters.supervised.instance.SpreadSubsample;
+import weka.filters.supervised.instance.SMOTE;
 
 /**
  * Trains and tests the NRC system
@@ -695,7 +696,7 @@ public class SentimentSystemSentinel extends SentimentSystem {
 	 * @return returns all results in a map
 	 * @throws Exception
 	 */
-	public Map<String,ClassificationResult> test(String nameOfTrain, Double FPweight, Double distribution, Double percentage) throws Exception{
+	public Map<String,ClassificationResult> test(String nameOfTrain, Double FPweight, Double distribution, Double percentage, int neighbour) throws Exception{
 		System.out.println("Starting Test");
 		//System.out.println("Tweets: " +  this.tweetList.size());
 		String trainname = "";
@@ -715,13 +716,21 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		reader.close();
 
 		// setup undersampling of majority class
-		SpreadSubsample us = new SpreadSubsample();
-		us.setDistributionSpread(distribution);
-		System.out.println(us.getDistributionSpread());
-		us.setInputFormat(train);
-		Instances newInstances = Filter.useFilter(train, us);
-		System.out.println("new train data---" + newInstances.numInstances() + "---");
+//		SpreadSubsample us = new SpreadSubsample();
+//		us.setDistributionSpread(distribution);
+//		System.out.println(us.getDistributionSpread());
+//		us.setInputFormat(train);
+//		Instances newInstances = Filter.useFilter(train, us);
+//		System.out.println("new train data---" + newInstances.numInstances() + "---");
 
+		// setup SMOTE filter
+		SMOTE smote = new SMOTE();
+		smote.setPercentage(10.0);
+		smote.setNearestNeighbors(5);
+		System.out.println(smote.getPercentage());
+		smote.setInputFormat(train);
+		Instances newInstances = Filter.useFilter(train, smote);
+		System.out.println("new train data---" + newInstances.numInstances() + "---");
 
 		//load and setup classifier
 		// Look at this github to find the params for svm https://github.com/bwaldvogel/liblinear-java

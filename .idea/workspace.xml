@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e569bcca-6225-4693-ada5-038c9b232623" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_ac_waikato_cms_weka_SMOTE_1_0_3.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/SentinelSystem.iml" afterPath="$PROJECT_DIR$/SentinelSystem.iml" />
       <change beforePath="$PROJECT_DIR$/output/error_analysis.txt" afterPath="$PROJECT_DIR$/output/error_analysis.txt" />
       <change beforePath="$PROJECT_DIR$/output/result.txt" afterPath="$PROJECT_DIR$/output/result.txt" />
       <change beforePath="$PROJECT_DIR$/output/undersampling.csv" afterPath="$PROJECT_DIR$/output/undersampling.csv" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/resources/arff/Trained-Features.arff" afterPath="$PROJECT_DIR$/resources/arff/Trained-Features.arff" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentAnalysis.java" afterPath="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentAnalysis.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java" afterPath="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java" />
@@ -40,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SentimentAnalysis.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SentimentAnalysis.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentAnalysis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="273" column="24" lean-forward="false" selection-start-line="273" selection-start-column="24" selection-end-line="273" selection-end-column="24" />
+            <state relative-caret-position="164">
+              <caret line="99" column="67" lean-forward="false" selection-start-line="99" selection-start-column="46" selection-end-line="99" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#763#770#0" expanded="true" />
@@ -53,17 +56,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SentimentSystemSentinel.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SentimentSystemSentinel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="715" column="0" lean-forward="false" selection-start-line="715" selection-start-column="0" selection-end-line="715" selection-end-column="0" />
+            <state relative-caret-position="190">
+              <caret line="725" column="29" lean-forward="false" selection-start-line="725" selection-start-column="29" selection-end-line="725" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="117" column="21" lean-forward="false" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tweet already in list</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,6 +95,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentAnalysis.java" />
       </list>
@@ -439,22 +458,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="715" column="0" lean-forward="false" selection-start-line="715" selection-start-column="0" selection-end-line="715" selection-end-column="0" />
+        <state relative-caret-position="312">
+          <caret line="117" column="21" lean-forward="false" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentAnalysis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="273" column="24" lean-forward="false" selection-start-line="273" selection-start-column="24" selection-end-line="273" selection-end-column="24" />
+        <state relative-caret-position="164">
+          <caret line="99" column="67" lean-forward="false" selection-start-line="99" selection-start-column="46" selection-end-line="99" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#763#770#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="725" column="29" lean-forward="false" selection-start-line="725" selection-start-column="29" selection-end-line="725" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

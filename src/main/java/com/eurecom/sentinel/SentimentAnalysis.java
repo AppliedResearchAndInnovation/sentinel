@@ -64,12 +64,12 @@ public class SentimentAnalysis {
 	 *            optional filename of the arff file
 	 */
 	public void testSystem(String trainname) throws Exception {
-		costPrintStream = new PrintStream(new File("output/undersampling.csv"));
+		costPrintStream = new PrintStream(new File("output/smote.csv"));
 
-		for(Double i = 1.0; i < 10.0; i += 2) {
+//		for(Double i = 1.0; i < 30.0; i += 2) {
 			SentimentSystemSentinel sentinelSystem = new SentimentSystemSentinel(tweetList);
-			this.evalModel(sentinelSystem.test(trainname,1.0, i,100.0));
-		}
+			this.evalModel(sentinelSystem.test(trainname,1.0, 1.0,100.0, 1));
+//		}
 
 		costPrintStream.close();
 	}
@@ -97,7 +97,7 @@ public class SentimentAnalysis {
 				if (line[0].equals("NA")) {
 					if (!storeTweetUni(line[5], line[4], line[1], line[2],
 							line[3])) {
-						System.out.println("Tweet already in list: " + line[1]);
+						//System.out.println("Tweet already in list: " + line[1]);
 						multiple++;
 					} else {
 						count++;
@@ -105,7 +105,7 @@ public class SentimentAnalysis {
 				} else {
 					if (!storeTweetUni(line[5], line[4], line[0], line[2],
 							line[3])) {
-						System.out.println("Tweet already in list: " + line[0]);
+						//System.out.println("Tweet already in list: " + line[0]);
 						multiple++;
 					} else {
 						count++;
