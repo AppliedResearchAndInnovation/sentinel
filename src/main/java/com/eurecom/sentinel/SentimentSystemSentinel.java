@@ -695,7 +695,7 @@ public class SentimentSystemSentinel extends SentimentSystem {
 	 * @return returns all results in a map
 	 * @throws Exception
 	 */
-	public Map<String,ClassificationResult> test(String nameOfTrain, Double FPweight, Double percentage) throws Exception{
+	public Map<String,ClassificationResult> test(String nameOfTrain, Double FPweight, Double distribution, Double percentage) throws Exception{
 		System.out.println("Starting Test");
 		//System.out.println("Tweets: " +  this.tweetList.size());
 		String trainname = "";
@@ -716,7 +716,7 @@ public class SentimentSystemSentinel extends SentimentSystem {
 
 		// setup undersampling of majority class
 		SpreadSubsample us = new SpreadSubsample();
-		us.setDistributionSpread(1.0);
+		us.setDistributionSpread(distribution);
 		System.out.println(us.getDistributionSpread());
 		us.setInputFormat(train);
 		Instances newInstances = Filter.useFilter(train, us);
