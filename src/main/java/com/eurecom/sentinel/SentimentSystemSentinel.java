@@ -22,6 +22,8 @@ import weka.core.SparseInstance;
 import weka.core.converters.ArffSaver;
 import cmu.arktweetnlp.Tagger;
 import cmu.arktweetnlp.Tagger.TaggedToken;
+import weka.filters.Filter;
+import weka.filters.supervised.instance.SpreadSubsample;
 
 /**
  * Trains and tests the NRC system
@@ -709,7 +711,17 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		BufferedReader reader = new BufferedReader(new FileReader("resources/arff/" + trainname + ".arff"));
 		Instances train = new Instances(reader);
 		train.setClassIndex(train.numAttributes() - 1);
+		System.out.println("old train data---" + train.numInstances() + "---");
 		reader.close();
+
+		// setup undersampling of majority class
+		SpreadSubsample us = new SpreadSubsample();
+		us.setDistributionSpread(1.0);
+		System.out.println(us.getDistributionSpread());
+		us.setInputFormat(train);
+		Instances newInstances = Filter.useFilter(train, us);
+		System.out.println("new train data---" + newInstances.numInstances() + "---");
+
 
 		//load and setup classifier
 		// Look at this github to find the params for svm https://github.com/bwaldvogel/liblinear-java
@@ -722,27 +734,27 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		//System.out.println("LibLINEAR svm tages " + LibLINEAR.TAGS_SVMTYPE[0]);
 
 		// setup cost sensitive classifier
-		CostSensitiveClassifier costSensitiveClassifier = new CostSensitiveClassifier();
-		CostMatrix costMatrix = new CostMatrix(3);
-		costMatrix.setCell(0, 0, 0.0d);// pos = 0
-		costMatrix.setCell(0, 1, 1000.0d);
-		costMatrix.setCell(0, 2, 1.0d);//
-		costMatrix.setCell(1, 0, 1000.0d);
-		costMatrix.setCell(1, 1, 0.0d);// neu = 0
-		costMatrix.setCell(1, 2, 1000.0d);
-		costMatrix.setCell(2, 0, FPweight);// False Positive
-		costMatrix.setCell(2, 1, 1000.0d);
-		costMatrix.setCell(2, 2, 0.0d);// neg = 0
-
-		costSensitiveClassifier.setClassifier(classifier);
-		costSensitiveClassifier.setCostMatrix(costMatrix);
-		costSensitiveClassifier.setMinimizeExpectedCost(true);// true: cost sensitive classification; false: learning
-		System.out.println("---------");
-		System.out.println(costSensitiveClassifier.toString());
-		System.out.println("---------");
+//		CostSensitiveClassifier costSensitiveClassifier = new CostSensitiveClassifier();
+//		CostMatrix costMatrix = new CostMatrix(3);
+//		costMatrix.setCell(0, 0, 0.0d);// pos = 0
+//		costMatrix.setCell(0, 1, 1000.0d);
+//		costMatrix.setCell(0, 2, 1.0d);//
+//		costMatrix.setCell(1, 0, 1000.0d);
+//		costMatrix.setCell(1, 1, 0.0d);// neu = 0
+//		costMatrix.setCell(1, 2, 1000.0d);
+//		costMatrix.setCell(2, 0, FPweight);// False Positive
+//		costMatrix.setCell(2, 1, 1000.0d);
+//		costMatrix.setCell(2, 2, 0.0d);// neg = 0
+//
+//		costSensitiveClassifier.setClassifier(classifier);
+//		costSensitiveClassifier.setCostMatrix(costMatrix);
+//		costSensitiveClassifier.setMinimizeExpectedCost(true);// true: cost sensitive classification; false: learning
+//		System.out.println("---------");
+//		System.out.println(costSensitiveClassifier.toString());
+//		System.out.println("---------");
 
 		//train classifier with instances
-		costSensitiveClassifier.buildClassifier(train);
+		classifier.buildClassifier(newInstances);
 
 		//delete train instances, to use same features with test instances
 		train.delete();
@@ -952,8 +964,8 @@ public class SentimentSystemSentinel extends SentimentSystem {
 			train.add(instance);
 
 			//classify Tweet
-			double result = costSensitiveClassifier.classifyInstance(train.lastInstance());
-			double[] resultDistribution = costSensitiveClassifier.distributionForInstance(train.lastInstance());
+			double result = classifier.classifyInstance(train.lastInstance());
+			double[] resultDistribution = classifier.distributionForInstance(train.lastInstance());
 			resultMap.put(tweet.getTweetID() + " " + tweet.getTargetBegin() + " " + tweet.getTargetEnd(), new ClassificationResult(tweet, resultDistribution, result));
 		}
 

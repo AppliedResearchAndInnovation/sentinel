@@ -64,12 +64,12 @@ public class SentimentAnalysis {
 	 *            optional filename of the arff file
 	 */
 	public void testSystem(String trainname) throws Exception {
-		costPrintStream = new PrintStream(new File("output/cost_sensitive_learning.csv"));
+		costPrintStream = new PrintStream(new File("output/undersampling.csv"));
 
-		for(Double i = 1.0; i < 100.0; i += 20) {
+//		for(Double i = 1.0; i < 100.0; i += 20) {
 			SentimentSystemSentinel sentinelSystem = new SentimentSystemSentinel(tweetList);
-			this.evalModel(sentinelSystem.test(trainname,i,100.0));
-		}
+			this.evalModel(sentinelSystem.test(trainname,1.0,100.0));
+//		}
 
 		costPrintStream.close();
 	}
