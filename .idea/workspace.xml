@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/output/result.txt" afterPath="$PROJECT_DIR$/output/result.txt" />
       <change beforePath="$PROJECT_DIR$/resources/arff/Trained-Features.arff" afterPath="$PROJECT_DIR$/resources/arff/Trained-Features.arff" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentAnalysis.java" afterPath="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentAnalysis.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java" afterPath="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,21 +29,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SentimentAnalysis.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SentimentAnalysis.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentAnalysis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="66" column="82" lean-forward="false" selection-start-line="66" selection-start-column="82" selection-end-line="66" selection-end-column="82" />
+            <state relative-caret-position="151">
+              <caret line="66" column="88" lean-forward="false" selection-start-line="66" selection-start-column="88" selection-end-line="66" selection-end-column="88" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SentimentSystemSentinel.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SentimentSystemSentinel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3845">
-              <caret line="955" column="65" lean-forward="false" selection-start-line="955" selection-start-column="65" selection-end-line="955" selection-end-column="65" />
+            <state relative-caret-position="84">
+              <caret line="726" column="49" lean-forward="false" selection-start-line="726" selection-start-column="49" selection-end-line="726" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -62,8 +63,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentAnalysis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java" />
       </list>
     </option>
   </component>
@@ -292,6 +293,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="179" y="23" width="1683" height="988" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -302,7 +304,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -353,18 +355,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentAnalysis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3845">
-          <caret line="955" column="65" lean-forward="false" selection-start-line="955" selection-start-column="65" selection-end-line="955" selection-end-column="65" />
+        <state relative-caret-position="151">
+          <caret line="66" column="88" lean-forward="false" selection-start-line="66" selection-start-column="88" selection-end-line="66" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentAnalysis.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="66" column="82" lean-forward="false" selection-start-line="66" selection-start-column="82" selection-end-line="66" selection-end-column="82" />
+        <state relative-caret-position="84">
+          <caret line="726" column="49" lean-forward="false" selection-start-line="726" selection-start-column="49" selection-end-line="726" selection-end-column="49" />
           <folding />
         </state>
       </provider>

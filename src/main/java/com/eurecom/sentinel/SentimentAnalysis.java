@@ -64,7 +64,7 @@ public class SentimentAnalysis {
 	 *            optional filename of the arff file
 	 */
 	public void testSystem(String trainname) throws Exception {
-		costPrintStream = new PrintStream(new File("output/cost-sensitive-learning.csv"));
+		costPrintStream = new PrintStream(new File("output/cost-sensitive-classification.csv"));
 
 		for(Double i = 1.0; i < 100.0; i += 20) {
 			SentimentSystemSentinel sentinelSystem = new SentimentSystemSentinel(tweetList);
