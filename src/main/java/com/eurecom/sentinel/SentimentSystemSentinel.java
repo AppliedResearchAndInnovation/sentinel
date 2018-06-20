@@ -20,6 +20,8 @@ import weka.core.SparseInstance;
 import weka.core.converters.ArffSaver;
 import cmu.arktweetnlp.Tagger;
 import cmu.arktweetnlp.Tagger.TaggedToken;
+import weka.filters.Filter;
+import weka.filters.supervised.instance.SMOTE;
 
 /**
  * Trains and tests the NRC system
@@ -691,7 +693,7 @@ public class SentimentSystemSentinel extends SentimentSystem {
 	 * @return returns all results in a map
 	 * @throws Exception
 	 */
-	public Map<String,ClassificationResult> test(String nameOfTrain) throws Exception{
+	public Map<String,ClassificationResult> test(String nameOfTrain, Double percentage, int neighbour) throws Exception{
 		System.out.println("Starting Test");
 		//System.out.println("Tweets: " +  this.tweetList.size());
 		String trainname = "";
@@ -707,9 +709,20 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		BufferedReader reader = new BufferedReader(new FileReader("resources/arff/" + trainname + ".arff"));
 		Instances train = new Instances(reader);
 		train.setClassIndex(train.numAttributes() - 1);
+        System.out.println("old train data---" + train.numInstances() + "---");
 		reader.close();
 
-		//load and setup classifier
+        // set up SMOTE filter
+		SMOTE smote = new SMOTE();
+		smote.setPercentage(percentage);
+		System.out.println(smote.getPercentage());
+		smote.setNearestNeighbors(neighbour);
+		System.out.println(smote.getNearestNeighbors());
+		smote.setInputFormat(train);
+		Instances newInstances = Filter.useFilter(train, smote);
+		System.out.println("new train data---" + newInstances.numInstances() + "---");
+
+        //load and setup classifier
 		// Look at this github to find the params for svm https://github.com/bwaldvogel/liblinear-java
 		LibLINEAR classifier = new LibLINEAR();
 		classifier.setProbabilityEstimates(true);
@@ -718,10 +731,9 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		classifier.setCost(0.5);
 		
 		//System.out.println("LibLINEAR svm tages " + LibLINEAR.TAGS_SVMTYPE[0]);
-		
-		
+
 		//train classifier with instances
-		classifier.buildClassifier(train);
+		classifier.buildClassifier(newInstances);
 
 		//delete train instances, to use same features with test instances
 		train.delete();

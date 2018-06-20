@@ -222,6 +222,7 @@
     <orderEntry type="library" name="Maven: nz.ac.waikato.cms.weka:weka-dev:3.7.10" level="project" />
     <orderEntry type="library" name="Maven: net.sf.squirrel-sql.thirdparty-non-maven:java-cup:0.11a" level="project" />
     <orderEntry type="library" name="Maven: org.pentaho.pentaho-commons:pentaho-package-manager:1.0.8" level="project" />
+    <orderEntry type="library" name="Maven: nz.ac.waikato.cms.weka:SMOTE:1.0.3" level="project" />
     <orderEntry type="library" name="Maven: edu.cmu.cs:ark-tweet-nlp:0.3.2" level="project" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-math:2.1" level="project" />
