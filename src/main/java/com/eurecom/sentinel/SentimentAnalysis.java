@@ -90,7 +90,7 @@ public class SentimentAnalysis {
 				if (line[0].equals("NA")) {
 					if (!storeTweetUni(line[5], line[4], line[1], line[2],
 							line[3])) {
-						System.out.println("Tweet already in list: " + line[1]);
+//						System.out.println("Tweet already in list: " + line[1]);
 						multiple++;
 					} else {
 						count++;
@@ -98,7 +98,7 @@ public class SentimentAnalysis {
 				} else {
 					if (!storeTweetUni(line[5], line[4], line[0], line[2],
 							line[3])) {
-						System.out.println("Tweet already in list: " + line[0]);
+//						System.out.println("Tweet already in list: " + line[0]);
 						multiple++;
 					} else {
 						count++;
