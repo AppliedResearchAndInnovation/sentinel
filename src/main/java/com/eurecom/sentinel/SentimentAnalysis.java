@@ -27,6 +27,7 @@ public class SentimentAnalysis {
 	private Set<Tweet> tweetList = new HashSet<Tweet>();
 	private String PATH = "";
 	private boolean debug = false;
+	PrintStream costPrintStream = null;
 
 	// public static final String ANSI_RED = "\u001B[31m";
 	// public static final String ANSI_RESET = "\u001B[0m";
@@ -63,8 +64,14 @@ public class SentimentAnalysis {
 	 *            optional filename of the arff file
 	 */
 	public void testSystem(String trainname) throws Exception {
-		SentimentSystemSentinel sentinelSystem = new SentimentSystemSentinel(tweetList);
-		this.evalModel(sentinelSystem.test(trainname));
+		costPrintStream = new PrintStream(new File("output/undersampling.csv"));
+
+		for(int i = 1; i < 30; i += 2) {
+			SentimentSystemSentinel sentinelSystem = new SentimentSystemSentinel(tweetList);
+			this.evalModel(sentinelSystem.test(trainname, i));
+		}
+
+		costPrintStream.close();
 	}
 
 	/**
@@ -267,7 +274,19 @@ public class SentimentAnalysis {
 		System.out.println("recallNeg: " + recallC + "\n");
 		System.out.println("f1: " + f1);
 		System.out.println("f1 without neutral: " + (f1A + f1C) / 2);
-		
+
+		costPrintStream.println(precision + "," +
+				recall + "," +
+				accuracy + "," +
+				precisionA + "," +
+				recallA + "," +
+				precisionB + "," +
+				recallB + "," +
+				precisionC + "," +
+				recallC + "," +
+				f1 + "," +
+				(f1A + f1C) / 2
+		);
 	}
 
 	/**

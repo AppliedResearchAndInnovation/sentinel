@@ -20,6 +20,8 @@ import weka.core.SparseInstance;
 import weka.core.converters.ArffSaver;
 import cmu.arktweetnlp.Tagger;
 import cmu.arktweetnlp.Tagger.TaggedToken;
+import weka.filters.Filter;
+import weka.filters.supervised.instance.SpreadSubsample;
 
 /**
  * Trains and tests the NRC system
@@ -691,7 +693,7 @@ public class SentimentSystemSentinel extends SentimentSystem {
 	 * @return returns all results in a map
 	 * @throws Exception
 	 */
-	public Map<String,ClassificationResult> test(String nameOfTrain) throws Exception{
+	public Map<String,ClassificationResult> test(String nameOfTrain, int distributionSpread) throws Exception{
 		System.out.println("Starting Test");
 		//System.out.println("Tweets: " +  this.tweetList.size());
 		String trainname = "";
@@ -707,7 +709,16 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		BufferedReader reader = new BufferedReader(new FileReader("resources/arff/" + trainname + ".arff"));
 		Instances train = new Instances(reader);
 		train.setClassIndex(train.numAttributes() - 1);
+		System.out.println("old train data---" + train.numInstances() + "---");
 		reader.close();
+
+		// set up undersampling of majority class
+		SpreadSubsample us = new SpreadSubsample();
+		us.setDistributionSpread(distributionSpread);
+		System.out.println(us.getDistributionSpread());
+		us.setInputFormat(train);
+		Instances newInstances = Filter.useFilter(train, us);
+		System.out.println("new train data---" + newInstances.numInstances() + "---");
 
 		//load and setup classifier
 		// Look at this github to find the params for svm https://github.com/bwaldvogel/liblinear-java
@@ -721,7 +732,7 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		
 		
 		//train classifier with instances
-		classifier.buildClassifier(train);
+		classifier.buildClassifier(newInstances);
 
 		//delete train instances, to use same features with test instances
 		train.delete();
