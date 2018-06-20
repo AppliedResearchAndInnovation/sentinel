@@ -206,11 +206,13 @@ public class SentimentAnalysis {
 			}
 		}
 		if (matrix.length != 0) {
-			System.out.println(matrix[0][0] + " | " + matrix[0][1] + " | "
+			System.out.println("          Classifier Result");
+			System.out.println("          Pos | Neu | Neg");
+			System.out.println("      Pos " + matrix[0][0] + " | " + matrix[0][1] + " | "
 					+ matrix[0][2]);
-			System.out.println(matrix[1][0] + " | " + matrix[1][1] + " | "
+			System.out.println("Truth Neu " + matrix[1][0] + " | " + matrix[1][1] + " | "
 					+ matrix[1][2]);
-			System.out.println(matrix[2][0] + " | " + matrix[2][1] + " | "
+			System.out.println("      Neg " + matrix[2][0] + " | " + matrix[2][1] + " | "
 					+ matrix[2][2]);
 			score(matrix);
 		}
