@@ -13,6 +13,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import weka.classifiers.functions.LibLINEAR;
+import weka.classifiers.bayes.NaiveBayes;
 import weka.core.Attribute;
 import weka.core.Instances;
 import weka.core.SelectedTag;
@@ -709,19 +710,11 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		train.setClassIndex(train.numAttributes() - 1);
 		reader.close();
 
-		//load and setup classifier
-		// Look at this github to find the params for svm https://github.com/bwaldvogel/liblinear-java
-		LibLINEAR classifier = new LibLINEAR();
-		classifier.setProbabilityEstimates(true);
-		classifier.setSVMType(new SelectedTag(0, LibLINEAR.TAGS_SVMTYPE));
-		// set param C
-		classifier.setCost(0.5);
-		
-		//System.out.println("LibLINEAR svm tages " + LibLINEAR.TAGS_SVMTYPE[0]);
-		
+		// setup NaiveBayes classifier
+		NaiveBayes naiveBayes = new NaiveBayes();
 		
 		//train classifier with instances
-		classifier.buildClassifier(train);
+		naiveBayes.buildClassifier(train);
 
 		//delete train instances, to use same features with test instances
 		train.delete();
@@ -931,8 +924,8 @@ public class SentimentSystemSentinel extends SentimentSystem {
 			train.add(instance);
 
 			//classify Tweet
-			double result = classifier.classifyInstance(train.lastInstance());
-			double[] resultDistribution = classifier.distributionForInstance(train.lastInstance());
+			double result = naiveBayes.classifyInstance(train.lastInstance());
+			double[] resultDistribution = naiveBayes.distributionForInstance(train.lastInstance());
 			resultMap.put(tweet.getTweetID() + " " + tweet.getTargetBegin() + " " + tweet.getTargetEnd(), new ClassificationResult(tweet, resultDistribution, result));
 		}
 
