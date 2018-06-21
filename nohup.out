@@ -1,0 +1,121 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SentinelSystem ---
+[INFO] Deleting /home/ari-user/sentinel/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.237 s
+[INFO] Finished at: 2018-06-21T01:28:12Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/nz/ac/waikato/cms/weka/weka-dev/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/nz/ac/waikato/cms/weka/weka-dev/maven-metadata.xml
+Progress (1): 682 B                   Downloaded from central: https://repo.maven.apache.org/maven2/nz/ac/waikato/cms/weka/weka-dev/maven-metadata.xml (682 B at 1.5 kB/s)
+Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/de/bwaldvogel/liblinear/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/de/bwaldvogel/liblinear/maven-metadata.xml
+Progress (1): 536 B                   Downloaded from central: https://repo.maven.apache.org/maven2/de/bwaldvogel/liblinear/maven-metadata.xml (536 B at 23 kB/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SentinelSystem ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ari-user/sentinel/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ SentinelSystem ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/ari-user/sentinel/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.258 s
+[INFO] Finished at: 2018-06-21T01:28:21Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ SentinelSystem >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ SentinelSystem <<<
+[INFO] 
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ SentinelSystem ---
+[INFO] Attention for the usage of the system
+--If you want to get features of a dataset in order to train a system, please run the system with the following params:
+  train trainDatasetFile saveFeaturesFile(optional)
+--If you want to eval a system(firstly train a system with a featuresFile, then evaluate the system with the testDataset), please run the system with the following params:
+  eval testDatasetFile featuresFile
+
+duplicated Tweets: 2406
+Tweets: 12933
+Starting Train
+Tweets: 12933
+Trained-Features.arff saved
+It took 95 seconds
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:37 min
+[INFO] Finished at: 2018-06-21T01:29:59Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ SentinelSystem >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ SentinelSystem <<<
+[INFO] 
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ SentinelSystem ---
+[INFO] Attention for the usage of the system
+--If you want to get features of a dataset in order to train a system, please run the system with the following params:
+  train trainDatasetFile saveFeaturesFile(optional)
+--If you want to eval a system(firstly train a system with a featuresFile, then evaluate the system with the testDataset), please run the system with the following params:
+  eval testDatasetFile featuresFile
+
+duplicated Tweets: 410
+Tweets: 5692
+Starting Test
+the features file to train system: Trained-Features.arff
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 3697.0 | 151.0 | 1663.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 29.0 | 4.0 | 148.0
+precision: 0.3579798865385871
+recall: NaN
+
+accuracy: 0.6755094869992972
+
+precisionPos: 0.9922168545356951
+recallPos: 0.6708401379060062
+
+precisionNeutral: 0.0
+recallNeutral: NaN
+
+precisionNeg: 0.08172280508006627
+recallNeg: 0.8176795580110497
+
+f1: NaN
+f1 without neutral: 0.4745353613218708
+Error prediction number: 1948
+It took 2301 seconds
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 38:22 min
+[INFO] Finished at: 2018-06-21T02:08:23Z
+[INFO] ------------------------------------------------------------------------
+Execute run.py
