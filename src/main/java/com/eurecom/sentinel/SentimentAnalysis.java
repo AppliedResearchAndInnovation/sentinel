@@ -64,11 +64,11 @@ public class SentimentAnalysis {
 	 *            optional filename of the arff file
 	 */
 	public void testSystem(String trainname) throws Exception {
-		costPrintStream = new PrintStream(new File("output/smote_neighbour9_p100to900.csv"));
+		costPrintStream = new PrintStream(new File("output/smote_neighbour5_p10to90.csv"));
 
-		for(Double i = 100.0; i < 1000.0; i += 100) {
+		for(Double i = 10.0; i < 100.0; i += 10) {
 			SentimentSystemSentinel sentinelSystem = new SentimentSystemSentinel(tweetList);
-			this.evalModel(sentinelSystem.test(trainname, i,9));
+			this.evalModel(sentinelSystem.test(trainname, i,5));
 		}
 
 		costPrintStream.close();
