@@ -13,6 +13,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import weka.classifiers.functions.LibLINEAR;
+import weka.classifiers.meta.Bagging;
 import weka.core.Attribute;
 import weka.core.Instances;
 import weka.core.SelectedTag;
@@ -718,10 +719,17 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		classifier.setCost(0.5);
 		
 		//System.out.println("LibLINEAR svm tages " + LibLINEAR.TAGS_SVMTYPE[0]);
-		
-		
+
+		// setup bagging ensemble learning classifier
+		Bagging bagging = new Bagging();
+		bagging.setClassifier(classifier);
+		bagging.setBagSizePercent(10);
+		System.out.println(bagging.getBagSizePercent());
+		bagging.setNumIterations(2);
+		System.out.println(bagging.getNumIterations());
+
 		//train classifier with instances
-		classifier.buildClassifier(train);
+		bagging.buildClassifier(train);
 
 		//delete train instances, to use same features with test instances
 		train.delete();
@@ -931,8 +939,8 @@ public class SentimentSystemSentinel extends SentimentSystem {
 			train.add(instance);
 
 			//classify Tweet
-			double result = classifier.classifyInstance(train.lastInstance());
-			double[] resultDistribution = classifier.distributionForInstance(train.lastInstance());
+			double result = bagging.classifyInstance(train.lastInstance());
+			double[] resultDistribution = bagging.distributionForInstance(train.lastInstance());
 			resultMap.put(tweet.getTweetID() + " " + tweet.getTargetBegin() + " " + tweet.getTargetEnd(), new ClassificationResult(tweet, resultDistribution, result));
 		}
 
