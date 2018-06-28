@@ -692,7 +692,7 @@ public class SentimentSystemSentinel extends SentimentSystem {
 	 * @return returns all results in a map
 	 * @throws Exception
 	 */
-	public Map<String,ClassificationResult> test(String nameOfTrain) throws Exception{
+	public Map<String,ClassificationResult> test(String nameOfTrain, int bagSizePercent, int numIterations) throws Exception{
 		System.out.println("Starting Test");
 		//System.out.println("Tweets: " +  this.tweetList.size());
 		String trainname = "";
@@ -723,9 +723,9 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		// setup bagging ensemble learning classifier
 		Bagging bagging = new Bagging();
 		bagging.setClassifier(classifier);
-		bagging.setBagSizePercent(10);
+		bagging.setBagSizePercent(bagSizePercent);
 		System.out.println(bagging.getBagSizePercent());
-		bagging.setNumIterations(2);
+		bagging.setNumIterations(numIterations);
 		System.out.println(bagging.getNumIterations());
 
 		//train classifier with instances
