@@ -13,6 +13,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import weka.classifiers.functions.LibLINEAR;
+import weka.classifiers.meta.AdaBoostM1;
 import weka.core.Attribute;
 import weka.core.Instances;
 import weka.core.SelectedTag;
@@ -691,7 +692,7 @@ public class SentimentSystemSentinel extends SentimentSystem {
 	 * @return returns all results in a map
 	 * @throws Exception
 	 */
-	public Map<String,ClassificationResult> test(String nameOfTrain) throws Exception{
+	public Map<String,ClassificationResult> test(String nameOfTrain, int numIterations) throws Exception{
 		System.out.println("Starting Test");
 		//System.out.println("Tweets: " +  this.tweetList.size());
 		String trainname = "";
@@ -718,7 +719,11 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		classifier.setCost(0.5);
 		
 		//System.out.println("LibLINEAR svm tages " + LibLINEAR.TAGS_SVMTYPE[0]);
-		
+
+        // set up adaboost ensemble learning classifier
+        AdaBoostM1 adaboost = new AdaBoostM1();
+		adaboost.setClassifier(classifier);
+        adaboost.setNumIterations(numIterations);
 		
 		//train classifier with instances
 		classifier.buildClassifier(train);
@@ -931,8 +936,8 @@ public class SentimentSystemSentinel extends SentimentSystem {
 			train.add(instance);
 
 			//classify Tweet
-			double result = classifier.classifyInstance(train.lastInstance());
-			double[] resultDistribution = classifier.distributionForInstance(train.lastInstance());
+			double result = adaboost.classifyInstance(train.lastInstance());
+			double[] resultDistribution = adaboost.distributionForInstance(train.lastInstance());
 			resultMap.put(tweet.getTweetID() + " " + tweet.getTargetBegin() + " " + tweet.getTargetEnd(), new ClassificationResult(tweet, resultDistribution, result));
 		}
 
