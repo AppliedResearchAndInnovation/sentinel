@@ -726,7 +726,7 @@ public class SentimentSystemSentinel extends SentimentSystem {
         adaboost.setNumIterations(numIterations);
 		
 		//train classifier with instances
-		classifier.buildClassifier(train);
+		adaboost.buildClassifier(train);
 
 		//delete train instances, to use same features with test instances
 		train.delete();
