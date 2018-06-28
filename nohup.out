@@ -1,0 +1,450 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SentinelSystem ---
+[INFO] Deleting /home/ari-user/sentinel/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.233 s
+[INFO] Finished at: 2018-06-28T18:12:50Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SentinelSystem ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ari-user/sentinel/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ SentinelSystem ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/ari-user/sentinel/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.620 s
+[INFO] Finished at: 2018-06-28T18:12:54Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ SentinelSystem >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ SentinelSystem <<<
+[INFO] 
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ SentinelSystem ---
+[INFO] Attention for the usage of the system
+--If you want to get features of a dataset in order to train a system, please run the system with the following params:
+  train trainDatasetFile saveFeaturesFile(optional)
+--If you want to eval a system(firstly train a system with a featuresFile, then evaluate the system with the testDataset), please run the system with the following params:
+  eval testDatasetFile featuresFile
+
+duplicated Tweets: 2406
+Tweets: 12933
+Starting Train
+Tweets: 12933
+Trained-Features.arff saved
+It took 86 seconds
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:28 min
+[INFO] Finished at: 2018-06-28T18:14:23Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ SentinelSystem >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ SentinelSystem <<<
+[INFO] 
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ SentinelSystem ---
+[INFO] Attention for the usage of the system
+--If you want to get features of a dataset in order to train a system, please run the system with the following params:
+  train trainDatasetFile saveFeaturesFile(optional)
+--If you want to eval a system(firstly train a system with a featuresFile, then evaluate the system with the testDataset), please run the system with the following params:
+  eval testDatasetFile featuresFile
+
+duplicated Tweets: 410
+Tweets: 5692
+Starting Test
+the features file to train system: Trained-Features.arff
+[WARNING] 
+java.lang.reflect.InvocationTargetException
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.mojo.exec.ExecJavaMojo$1.run (ExecJavaMojo.java:297)
+    at java.lang.Thread.run (Thread.java:748)
+Caused by: java.lang.Exception: No model built
+    at weka.classifiers.meta.AdaBoostM1.distributionForInstance (AdaBoostM1.java:667)
+    at weka.classifiers.AbstractClassifier.classifyInstance (AbstractClassifier.java:70)
+    at com.eurecom.sentinel.SentimentSystemSentinel.test (SentimentSystemSentinel.java:939)
+    at com.eurecom.sentinel.SentimentAnalysis.testSystem (SentimentAnalysis.java:71)
+    at com.eurecom.sentinel.Main.main (Main.java:63)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.mojo.exec.ExecJavaMojo$1.run (ExecJavaMojo.java:297)
+    at java.lang.Thread.run (Thread.java:748)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 13.430 s
+[INFO] Finished at: 2018-06-28T18:14:38Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.2.1:java (default-cli) on project SentinelSystem: An exception occured while executing the Java class. null: InvocationTargetException: No model built -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Execute run.py
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SentinelSystem ---
+[INFO] Deleting /home/ari-user/sentinel/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.224 s
+[INFO] Finished at: 2018-06-28T18:17:31Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SentinelSystem ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ari-user/sentinel/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ SentinelSystem ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/ari-user/sentinel/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.614 s
+[INFO] Finished at: 2018-06-28T18:17:35Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ SentinelSystem >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ SentinelSystem <<<
+[INFO] 
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ SentinelSystem ---
+[INFO] Attention for the usage of the system
+--If you want to get features of a dataset in order to train a system, please run the system with the following params:
+  train trainDatasetFile saveFeaturesFile(optional)
+--If you want to eval a system(firstly train a system with a featuresFile, then evaluate the system with the testDataset), please run the system with the following params:
+  eval testDatasetFile featuresFile
+
+duplicated Tweets: 2406
+Tweets: 12933
+Starting Train
+Tweets: 12933
+Trained-Features.arff saved
+It took 90 seconds
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:31 min
+[INFO] Finished at: 2018-06-28T18:19:08Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ SentinelSystem >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ SentinelSystem <<<
+[INFO] 
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ SentinelSystem ---
+[INFO] Attention for the usage of the system
+--If you want to get features of a dataset in order to train a system, please run the system with the following params:
+  train trainDatasetFile saveFeaturesFile(optional)
+--If you want to eval a system(firstly train a system with a featuresFile, then evaluate the system with the testDataset), please run the system with the following params:
+  eval testDatasetFile featuresFile
+
+duplicated Tweets: 410
+Tweets: 5692
+Starting Test
+the features file to train system: Trained-Features.arff
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5383.0 | 0.0 | 128.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 60.0 | 0.0 | 121.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9669711876317639
+
+precisionPos: 0.9889766672790741
+recallPos: 0.9767737252767192
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.4859437751004016
+recallNeg: 0.6685082872928176
+
+f1: NaN
+f1 without neutral: 0.7728140086874923
+Error prediction number: 196
+Starting Test
+the features file to train system: Trained-Features.arff
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5380.0 | 0.0 | 131.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 58.0 | 0.0 | 123.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9667955024595924
+
+precisionPos: 0.9893343140860611
+recallPos: 0.9762293594628924
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.484251968503937
+recallNeg: 0.6795580110497238
+
+f1: NaN
+f1 without neutral: 0.7741276954910069
+Error prediction number: 197
+Starting Test
+the features file to train system: Trained-Features.arff
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5382.0 | 0.0 | 129.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 58.0 | 0.0 | 123.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9671468728039353
+
+precisionPos: 0.9893382352941177
+recallPos: 0.9765922700054437
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.4880952380952381
+recallNeg: 0.6795580110497238
+
+f1: NaN
+f1 without neutral: 0.775526632070679
+Error prediction number: 195
+Starting Test
+the features file to train system: Trained-Features.arff
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5384.0 | 0.0 | 127.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 58.0 | 0.0 | 123.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9674982431482783
+
+precisionPos: 0.9893421536199927
+recallPos: 0.9769551805479949
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.492
+recallNeg: 0.6795580110497238
+
+f1: NaN
+f1 without neutral: 0.7769376557885062
+Error prediction number: 192
+Starting Test
+the features file to train system: Trained-Features.arff
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5385.0 | 0.0 | 126.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 58.0 | 0.0 | 123.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9676739283204497
+
+precisionPos: 0.9893441117031049
+recallPos: 0.9771366358192706
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.4939759036144578
+recallNeg: 0.6795580110497238
+
+f1: NaN
+f1 without neutral: 0.7776477531835031
+Error prediction number: 191
+Starting Test
+the features file to train system: Trained-Features.arff
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5385.0 | 0.0 | 126.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 58.0 | 0.0 | 123.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9676739283204497
+
+precisionPos: 0.9893441117031049
+recallPos: 0.9771366358192706
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.4939759036144578
+recallNeg: 0.6795580110497238
+
+f1: NaN
+f1 without neutral: 0.7776477531835031
+Error prediction number: 192
+Starting Test
+the features file to train system: Trained-Features.arff
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5385.0 | 0.0 | 126.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 58.0 | 0.0 | 123.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9676739283204497
+
+precisionPos: 0.9893441117031049
+recallPos: 0.9771366358192706
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.4939759036144578
+recallNeg: 0.6795580110497238
+
+f1: NaN
+f1 without neutral: 0.7776477531835031
+Error prediction number: 192
+Starting Test
+the features file to train system: Trained-Features.arff
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5385.0 | 0.0 | 126.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 58.0 | 0.0 | 123.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9676739283204497
+
+precisionPos: 0.9893441117031049
+recallPos: 0.9771366358192706
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.4939759036144578
+recallNeg: 0.6795580110497238
+
+f1: NaN
+f1 without neutral: 0.7776477531835031
+Error prediction number: 192
+Starting Test
+the features file to train system: Trained-Features.arff
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5385.0 | 0.0 | 126.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 58.0 | 0.0 | 123.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9676739283204497
+
+precisionPos: 0.9893441117031049
+recallPos: 0.9771366358192706
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.4939759036144578
+recallNeg: 0.6795580110497238
+
+f1: NaN
+f1 without neutral: 0.7776477531835031
+Error prediction number: 192
+Starting Test
+the features file to train system: Trained-Features.arff
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5382.0 | 0.0 | 129.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 57.0 | 0.0 | 124.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9673225579761068
+
+precisionPos: 0.9895201323772752
+recallPos: 0.9765922700054437
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.4901185770750988
+recallNeg: 0.6850828729281768
+
+f1: NaN
+f1 without neutral: 0.7772211350293542
+Error prediction number: 194
+It took 4376 seconds
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:12 h
+[INFO] Finished at: 2018-06-28T19:32:07Z
+[INFO] ------------------------------------------------------------------------
+Execute run.py
