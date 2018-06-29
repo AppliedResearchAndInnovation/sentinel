@@ -724,6 +724,7 @@ public class SentimentSystemSentinel extends SentimentSystem {
         AdaBoostM1 adaboost = new AdaBoostM1();
 		adaboost.setClassifier(classifier);
         adaboost.setNumIterations(numIterations);
+        System.out.println(adaboost.getNumIterations());
 		
 		//train classifier with instances
 		adaboost.buildClassifier(train);
