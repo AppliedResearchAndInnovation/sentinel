@@ -12,7 +12,9 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import weka.classifiers.CostMatrix;
 import weka.classifiers.functions.LibLINEAR;
+import weka.classifiers.meta.CostSensitiveClassifier;
 import weka.core.Attribute;
 import weka.core.Instances;
 import weka.core.SelectedTag;
@@ -20,6 +22,8 @@ import weka.core.SparseInstance;
 import weka.core.converters.ArffSaver;
 import cmu.arktweetnlp.Tagger;
 import cmu.arktweetnlp.Tagger.TaggedToken;
+import weka.filters.Filter;
+import weka.filters.supervised.instance.SMOTE;
 
 /**
  * Trains and tests the NRC system
@@ -691,7 +695,7 @@ public class SentimentSystemSentinel extends SentimentSystem {
 	 * @return returns all results in a map
 	 * @throws Exception
 	 */
-	public Map<String,ClassificationResult> test(String nameOfTrain) throws Exception{
+	public Map<String,ClassificationResult> test(String nameOfTrain, Double FPweight) throws Exception{
 		System.out.println("Starting Test");
 		//System.out.println("Tweets: " +  this.tweetList.size());
 		String trainname = "";
@@ -707,7 +711,16 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		BufferedReader reader = new BufferedReader(new FileReader("resources/arff/" + trainname + ".arff"));
 		Instances train = new Instances(reader);
 		train.setClassIndex(train.numAttributes() - 1);
+		System.out.println("old train data---" + train.numInstances() + "---");
 		reader.close();
+
+		// set up SMOTE filter
+		SMOTE smote = new SMOTE();
+		smote.setPercentage(900.0);
+		smote.setNearestNeighbors(9);
+		smote.setInputFormat(train);
+		Instances newInstances = Filter.useFilter(train, smote);
+		System.out.println("new train data---" + newInstances.numInstances() + "---");
 
 		//load and setup classifier
 		// Look at this github to find the params for svm https://github.com/bwaldvogel/liblinear-java
@@ -718,10 +731,28 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		classifier.setCost(0.5);
 		
 		//System.out.println("LibLINEAR svm tages " + LibLINEAR.TAGS_SVMTYPE[0]);
-		
-		
+
+		CostSensitiveClassifier costSensitiveClassifier = new CostSensitiveClassifier();
+		CostMatrix costMatrix = new CostMatrix(3);
+		costMatrix.setCell(0, 0, 0.0d);// pos = 0
+		costMatrix.setCell(0, 1, 0.0d);
+		costMatrix.setCell(0, 2, 1.0d);//
+		costMatrix.setCell(1, 0, 0.0d);
+		costMatrix.setCell(1, 1, 0.0d);// neu = 0
+		costMatrix.setCell(1, 2, 0.0d);
+		costMatrix.setCell(2, 0, FPweight);// False Positive
+		costMatrix.setCell(2, 1, 0.0d);
+		costMatrix.setCell(2, 2, 0.0d);// neg = 0
+
+		costSensitiveClassifier.setClassifier(classifier);
+		costSensitiveClassifier.setCostMatrix(costMatrix);
+//		costSensitiveClassifier.setMinimizeExpectedCost(true);// true: cost sensitive classification; false: learning
+		System.out.println("---------");
+		System.out.println(costSensitiveClassifier.toString());
+		System.out.print("---------");
+
 		//train classifier with instances
-		classifier.buildClassifier(train);
+		costSensitiveClassifier.buildClassifier(newInstances);
 
 		//delete train instances, to use same features with test instances
 		train.delete();
@@ -931,8 +962,8 @@ public class SentimentSystemSentinel extends SentimentSystem {
 			train.add(instance);
 
 			//classify Tweet
-			double result = classifier.classifyInstance(train.lastInstance());
-			double[] resultDistribution = classifier.distributionForInstance(train.lastInstance());
+			double result = costSensitiveClassifier.classifyInstance(train.lastInstance());
+			double[] resultDistribution = costSensitiveClassifier.distributionForInstance(train.lastInstance());
 			resultMap.put(tweet.getTweetID() + " " + tweet.getTargetBegin() + " " + tweet.getTargetEnd(), new ClassificationResult(tweet, resultDistribution, result));
 		}
 
