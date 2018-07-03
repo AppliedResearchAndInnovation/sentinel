@@ -15,10 +15,7 @@ import java.util.regex.Pattern;
 import weka.classifiers.CostMatrix;
 import weka.classifiers.functions.LibLINEAR;
 import weka.classifiers.meta.CostSensitiveClassifier;
-import weka.core.Attribute;
-import weka.core.Instances;
-import weka.core.SelectedTag;
-import weka.core.SparseInstance;
+import weka.core.*;
 import weka.core.converters.ArffSaver;
 import cmu.arktweetnlp.Tagger;
 import cmu.arktweetnlp.Tagger.TaggedToken;
@@ -499,6 +496,9 @@ public class SentimentSystemSentinel extends SentimentSystem {
 
 		for(Tweet tweet : tweetList){
 			SparseInstance instance = new SparseInstance(0);
+//			DenseInstance instance = new DenseInstance(featurecount);
+//			System.out.println("new: " + instance.toString());
+
 			//n-gram feature
 			Set<String> nGramSet = tweet.getnGramList();
 			for (String nGram : nGramSet){
@@ -507,6 +507,7 @@ public class SentimentSystemSentinel extends SentimentSystem {
 					instance.setValue(index, 1);
 				}
 			}
+//			System.out.println(instance.toString());
 
 			//char-n-gram feature
 			Set<String> CharNGramSet = tweet.getCharNGramList();
@@ -672,6 +673,8 @@ public class SentimentSystemSentinel extends SentimentSystem {
 			//set class attribute
 			instance.setValue(classAttribute, tweet.getSentiment());
 
+//            System.out.println(instance.toString());
+
 			trainingSet.add(instance);
 		}
 
@@ -696,7 +699,7 @@ public class SentimentSystemSentinel extends SentimentSystem {
 	 * @return returns all results in a map
 	 * @throws Exception
 	 */
-	public Map<String,ClassificationResult> test(String nameOfTrain, Double FPweight, Double distribution, Double percentage, int neighbour) throws Exception{
+	public Map<String,ClassificationResult> test(String nameOfTrain) throws Exception{
 		System.out.println("Starting Test");
 		//System.out.println("Tweets: " +  this.tweetList.size());
 		String trainname = "";
@@ -712,25 +715,7 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		BufferedReader reader = new BufferedReader(new FileReader("resources/arff/" + trainname + ".arff"));
 		Instances train = new Instances(reader);
 		train.setClassIndex(train.numAttributes() - 1);
-		System.out.println("old train data---" + train.numInstances() + "---");
 		reader.close();
-
-		// setup undersampling of majority class
-//		SpreadSubsample us = new SpreadSubsample();
-//		us.setDistributionSpread(distribution);
-//		System.out.println(us.getDistributionSpread());
-//		us.setInputFormat(train);
-//		Instances newInstances = Filter.useFilter(train, us);
-//		System.out.println("new train data---" + newInstances.numInstances() + "---");
-
-		// setup SMOTE filter
-		SMOTE smote = new SMOTE();
-		smote.setPercentage(10.0);
-		smote.setNearestNeighbors(5);
-		System.out.println(smote.getPercentage());
-		smote.setInputFormat(train);
-		Instances newInstances = Filter.useFilter(train, smote);
-		System.out.println("new train data---" + newInstances.numInstances() + "---");
 
 		//load and setup classifier
 		// Look at this github to find the params for svm https://github.com/bwaldvogel/liblinear-java
@@ -742,28 +727,8 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		
 		//System.out.println("LibLINEAR svm tages " + LibLINEAR.TAGS_SVMTYPE[0]);
 
-		// setup cost sensitive classifier
-//		CostSensitiveClassifier costSensitiveClassifier = new CostSensitiveClassifier();
-//		CostMatrix costMatrix = new CostMatrix(3);
-//		costMatrix.setCell(0, 0, 0.0d);// pos = 0
-//		costMatrix.setCell(0, 1, 1000.0d);
-//		costMatrix.setCell(0, 2, 1.0d);//
-//		costMatrix.setCell(1, 0, 1000.0d);
-//		costMatrix.setCell(1, 1, 0.0d);// neu = 0
-//		costMatrix.setCell(1, 2, 1000.0d);
-//		costMatrix.setCell(2, 0, FPweight);// False Positive
-//		costMatrix.setCell(2, 1, 1000.0d);
-//		costMatrix.setCell(2, 2, 0.0d);// neg = 0
-//
-//		costSensitiveClassifier.setClassifier(classifier);
-//		costSensitiveClassifier.setCostMatrix(costMatrix);
-//		costSensitiveClassifier.setMinimizeExpectedCost(true);// true: cost sensitive classification; false: learning
-//		System.out.println("---------");
-//		System.out.println(costSensitiveClassifier.toString());
-//		System.out.println("---------");
-
 		//train classifier with instances
-		classifier.buildClassifier(newInstances);
+		classifier.buildClassifier(train);
 
 		//delete train instances, to use same features with test instances
 		train.delete();

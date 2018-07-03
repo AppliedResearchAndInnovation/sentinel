@@ -68,7 +68,7 @@ public class SentimentAnalysis {
 
 //		for(Double i = 1.0; i < 30.0; i += 2) {
 			SentimentSystemSentinel sentinelSystem = new SentimentSystemSentinel(tweetList);
-			this.evalModel(sentinelSystem.test(trainname,1.0, 1.0,100.0, 1));
+			this.evalModel(sentinelSystem.test(trainname));
 //		}
 
 		costPrintStream.close();
