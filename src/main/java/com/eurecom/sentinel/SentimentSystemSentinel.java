@@ -13,10 +13,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import weka.classifiers.functions.LibLINEAR;
-import weka.core.Attribute;
-import weka.core.Instances;
-import weka.core.SelectedTag;
-import weka.core.SparseInstance;
+import weka.core.*;
 import weka.core.converters.ArffSaver;
 import cmu.arktweetnlp.Tagger;
 import cmu.arktweetnlp.Tagger.TaggedToken;
@@ -493,7 +490,8 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		trainingSet.setClassIndex(classAttribute.index());
 
 		for(Tweet tweet : tweetList){
-			SparseInstance instance = new SparseInstance(0);
+//			SparseInstance instance = new SparseInstance(0);
+			DenseInstance instance = new DenseInstance(featurecount);
 			//n-gram feature
 			Set<String> nGramSet = tweet.getnGramList();
 			for (String nGram : nGramSet){
