@@ -958,8 +958,8 @@ public class SentimentSystemSentinel extends SentimentSystem {
 			train.add(instance);
 
 			//classify Tweet
-			double result = classifier.classifyInstance(train.lastInstance());
-			double[] resultDistribution = classifier.distributionForInstance(train.lastInstance());
+			double result = costSensitiveClassifier.classifyInstance(train.lastInstance());
+			double[] resultDistribution = costSensitiveClassifier.distributionForInstance(train.lastInstance());
 			resultMap.put(tweet.getTweetID() + " " + tweet.getTargetBegin() + " " + tweet.getTargetEnd(), new ClassificationResult(tweet, resultDistribution, result));
 		}
 
