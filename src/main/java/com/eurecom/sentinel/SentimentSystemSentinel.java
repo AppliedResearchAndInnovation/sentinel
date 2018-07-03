@@ -694,7 +694,7 @@ public class SentimentSystemSentinel extends SentimentSystem {
 	 * @return returns all results in a map
 	 * @throws Exception
 	 */
-	public Map<String,ClassificationResult> test(String nameOfTrain, int numIterations) throws Exception{
+	public Map<String,ClassificationResult> test(String nameOfTrain, int neighbour) throws Exception{
 		System.out.println("Starting Test");
 		//System.out.println("Tweets: " +  this.tweetList.size());
 		String trainname = "";
@@ -716,7 +716,8 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		// set up SMOTE filter
 		SMOTE smote = new SMOTE();
 		smote.setPercentage(100.0);
-		smote.setNearestNeighbors(9);
+		smote.setNearestNeighbors(neighbour);
+		System.out.println(smote.getNearestNeighbors());
 		smote.setInputFormat(train);
 		Instances newInstances = Filter.useFilter(train, smote);
 		System.out.println("new train data---" + newInstances.numInstances() + "---");
@@ -734,8 +735,7 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		// set up adaboost ensemble learning classifier
 		AdaBoostM1 adaboost = new AdaBoostM1();
 		adaboost.setClassifier(classifier);
-		adaboost.setNumIterations(numIterations);
-		System.out.println(adaboost.getNumIterations());
+		adaboost.setNumIterations(10);
 
 		//train classifier with instances
 		adaboost.buildClassifier(newInstances);
