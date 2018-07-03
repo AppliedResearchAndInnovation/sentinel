@@ -1,0 +1,340 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SentinelSystem ---
+[INFO] Deleting /home/ari-user/sentinel/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.239 s
+[INFO] Finished at: 2018-06-29T14:32:24Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/nz/ac/waikato/cms/weka/weka-dev/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/nz/ac/waikato/cms/weka/weka-dev/maven-metadata.xml
+Progress (1): 682 B                   Downloaded from central: https://repo.maven.apache.org/maven2/nz/ac/waikato/cms/weka/weka-dev/maven-metadata.xml (682 B at 1.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/de/bwaldvogel/liblinear/maven-metadata.xml
+Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/de/bwaldvogel/liblinear/maven-metadata.xml
+Progress (1): 536 B                   Downloaded from central: https://repo.maven.apache.org/maven2/de/bwaldvogel/liblinear/maven-metadata.xml (536 B at 26 kB/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SentinelSystem ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ari-user/sentinel/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ SentinelSystem ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/ari-user/sentinel/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.762 s
+[INFO] Finished at: 2018-06-29T14:32:33Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ SentinelSystem >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ SentinelSystem <<<
+[INFO] 
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ SentinelSystem ---
+[INFO] Attention for the usage of the system
+--If you want to get features of a dataset in order to train a system, please run the system with the following params:
+  train trainDatasetFile saveFeaturesFile(optional)
+--If you want to eval a system(firstly train a system with a featuresFile, then evaluate the system with the testDataset), please run the system with the following params:
+  eval testDatasetFile featuresFile
+
+duplicated Tweets: 2406
+Tweets: 12933
+Starting Train
+Tweets: 12933
+Trained-Features.arff saved
+It took 87 seconds
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:29 min
+[INFO] Finished at: 2018-06-29T14:34:03Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ SentinelSystem >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ SentinelSystem <<<
+[INFO] 
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ SentinelSystem ---
+[INFO] Attention for the usage of the system
+--If you want to get features of a dataset in order to train a system, please run the system with the following params:
+  train trainDatasetFile saveFeaturesFile(optional)
+--If you want to eval a system(firstly train a system with a featuresFile, then evaluate the system with the testDataset), please run the system with the following params:
+  eval testDatasetFile featuresFile
+
+duplicated Tweets: 410
+Tweets: 5692
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+new train data---13372---
+5
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5408.0 | 0.0 | 103.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 65.0 | 0.0 | 116.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9704848910751932
+
+precisionPos: 0.9881235154394299
+recallPos: 0.9813101070586101
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.5296803652968036
+recallNeg: 0.6408839779005525
+
+f1: NaN
+f1 without neutral: 0.7823525127458122
+Error prediction number: 175
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+new train data---13372---
+10
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5401.0 | 0.0 | 110.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 61.0 | 0.0 | 120.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9699578355586789
+
+precisionPos: 0.988831929696082
+recallPos: 0.9800399201596807
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.5217391304347826
+recallNeg: 0.6629834254143646
+
+f1: NaN
+f1 without neutral: 0.7841789501902812
+Error prediction number: 177
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+new train data---13372---
+15
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5398.0 | 0.0 | 113.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 62.0 | 0.0 | 119.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.969255094869993
+
+precisionPos: 0.9886446886446887
+recallPos: 0.9794955543458538
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.5129310344827587
+recallNeg: 0.6574585635359116
+
+f1: NaN
+f1 without neutral: 0.7801600212578925
+Error prediction number: 181
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+new train data---13372---
+20
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5398.0 | 0.0 | 113.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 61.0 | 0.0 | 120.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9694307800421644
+
+precisionPos: 0.9888257922696465
+recallPos: 0.9794955543458538
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.5150214592274678
+recallNeg: 0.6629834254143646
+
+f1: NaN
+f1 without neutral: 0.7819243523179158
+Error prediction number: 180
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+new train data---13372---
+25
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5397.0 | 0.0 | 114.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 61.0 | 0.0 | 120.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.969255094869993
+
+precisionPos: 0.9888237449615244
+recallPos: 0.9793140990745781
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.5128205128205128
+recallNeg: 0.6629834254143646
+
+f1: NaN
+f1 without neutral: 0.7811796003413782
+Error prediction number: 181
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+new train data---13372---
+30
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5397.0 | 0.0 | 114.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 61.0 | 0.0 | 120.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.969255094869993
+
+precisionPos: 0.9888237449615244
+recallPos: 0.9793140990745781
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.5128205128205128
+recallNeg: 0.6629834254143646
+
+f1: NaN
+f1 without neutral: 0.7811796003413782
+Error prediction number: 181
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+new train data---13372---
+35
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5397.0 | 0.0 | 114.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 61.0 | 0.0 | 120.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.969255094869993
+
+precisionPos: 0.9888237449615244
+recallPos: 0.9793140990745781
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.5128205128205128
+recallNeg: 0.6629834254143646
+
+f1: NaN
+f1 without neutral: 0.7811796003413782
+Error prediction number: 181
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+new train data---13372---
+40
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5397.0 | 0.0 | 114.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 61.0 | 0.0 | 120.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.969255094869993
+
+precisionPos: 0.9888237449615244
+recallPos: 0.9793140990745781
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.5128205128205128
+recallNeg: 0.6629834254143646
+
+f1: NaN
+f1 without neutral: 0.7811796003413782
+Error prediction number: 181
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+new train data---13372---
+45
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5397.0 | 0.0 | 114.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 61.0 | 0.0 | 120.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.969255094869993
+
+precisionPos: 0.9888237449615244
+recallPos: 0.9793140990745781
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.5128205128205128
+recallNeg: 0.6629834254143646
+
+f1: NaN
+f1 without neutral: 0.7811796003413782
+Error prediction number: 181
+It took 25802 seconds
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 07:10 h
+[INFO] Finished at: 2018-06-29T21:44:08Z
+[INFO] ------------------------------------------------------------------------
+Execute run.py
