@@ -14,6 +14,7 @@ import java.util.regex.Pattern;
 
 import weka.classifiers.CostMatrix;
 import weka.classifiers.functions.LibLINEAR;
+import weka.classifiers.functions.LibSVM;
 import weka.classifiers.meta.CostSensitiveClassifier;
 import weka.core.Attribute;
 import weka.core.Instances;
@@ -711,15 +712,8 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		train.setClassIndex(train.numAttributes() - 1);
 		reader.close();
 
-		//load and setup classifier
-		// Look at this github to find the params for svm https://github.com/bwaldvogel/liblinear-java
-		LibLINEAR classifier = new LibLINEAR();
-		classifier.setProbabilityEstimates(true);
-		classifier.setSVMType(new SelectedTag(0, LibLINEAR.TAGS_SVMTYPE));
-		// set param C
-		classifier.setCost(0.5);
-		
-		//System.out.println("LibLINEAR svm tages " + LibLINEAR.TAGS_SVMTYPE[0]);
+		// set up weka LibSVM classifier
+		LibSVM svm = new LibSVM();// default kernel type RBF
 
 		// setup cost sensitive classifier
 		CostSensitiveClassifier costSensitiveClassifier = new CostSensitiveClassifier();
@@ -734,7 +728,7 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		costMatrix.setCell(2, 1, 0.0d);
 		costMatrix.setCell(2, 2, 0.0d);// neg = 0
 
-		costSensitiveClassifier.setClassifier(classifier);
+		costSensitiveClassifier.setClassifier(svm);
 		costSensitiveClassifier.setCostMatrix(costMatrix);
 //		costSensitiveClassifier.setMinimizeExpectedCost(true);// true: cost sensitive classification; false: learning
 		System.out.println("---------");
