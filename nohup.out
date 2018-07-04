@@ -1,0 +1,603 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SentinelSystem ---
+[INFO] Deleting /home/ari-user/sentinel/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.234 s
+[INFO] Finished at: 2018-07-03T20:15:52Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SentinelSystem ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ari-user/sentinel/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ SentinelSystem ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/ari-user/sentinel/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.288 s
+[INFO] Finished at: 2018-07-03T20:15:57Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ SentinelSystem >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ SentinelSystem <<<
+[INFO] 
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ SentinelSystem ---
+[INFO] Attention for the usage of the system
+--If you want to get features of a dataset in order to train a system, please run the system with the following params:
+  train trainDatasetFile saveFeaturesFile(optional)
+--If you want to eval a system(firstly train a system with a featuresFile, then evaluate the system with the testDataset), please run the system with the following params:
+  eval testDatasetFile featuresFile
+
+duplicated Tweets: 2406
+Tweets: 12933
+Starting Train
+Tweets: 12933
+Trained-Features.arff saved
+It took 92 seconds
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:33 min
+[INFO] Finished at: 2018-07-03T20:17:32Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ SentinelSystem >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ SentinelSystem <<<
+[INFO] 
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ SentinelSystem ---
+[INFO] Attention for the usage of the system
+--If you want to get features of a dataset in order to train a system, please run the system with the following params:
+  train trainDatasetFile saveFeaturesFile(optional)
+--If you want to eval a system(firstly train a system with a featuresFile, then evaluate the system with the testDataset), please run the system with the following params:
+  eval testDatasetFile featuresFile
+
+duplicated Tweets: 410
+Tweets: 5692
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+new train data---16884---
+---------
+CostSensitiveClassifier using reweighted training instances
+
+weka.classifiers.functions.LibLINEAR -S 0 -C 0.5 -E 0.001 -B 1.0 -P
+
+Classifier Model
+LibLINEAR: No model built yet.
+
+Cost Matrix
+ 0 0 1
+ 0 0 0
+ 1 0 0
+
+---------[WARNING] 
+java.lang.reflect.InvocationTargetException
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.mojo.exec.ExecJavaMojo$1.run (ExecJavaMojo.java:297)
+    at java.lang.Thread.run (Thread.java:748)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+    at weka.classifiers.functions.LibLINEAR.instanceToArray (LibLINEAR.java:701)
+    at weka.classifiers.functions.LibLINEAR.buildClassifier (LibLINEAR.java:840)
+    at weka.classifiers.meta.CostSensitiveClassifier.buildClassifier (CostSensitiveClassifier.java:552)
+    at com.eurecom.sentinel.SentimentSystemSentinel.test (SentimentSystemSentinel.java:755)
+    at com.eurecom.sentinel.SentimentAnalysis.testSystem (SentimentAnalysis.java:71)
+    at com.eurecom.sentinel.Main.main (Main.java:63)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.mojo.exec.ExecJavaMojo$1.run (ExecJavaMojo.java:297)
+    at java.lang.Thread.run (Thread.java:748)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 48:54 min
+[INFO] Finished at: 2018-07-03T21:06:28Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.2.1:java (default-cli) on project SentinelSystem: An exception occured while executing the Java class. null: InvocationTargetException: Java heap space -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Execute run.py
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SentinelSystem ---
+[INFO] Deleting /home/ari-user/sentinel/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.227 s
+[INFO] Finished at: 2018-07-04T00:02:56Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/nz/ac/waikato/cms/weka/weka-dev/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/nz/ac/waikato/cms/weka/weka-dev/maven-metadata.xml
+Progress (1): 682 B                   Downloaded from central: https://repo.maven.apache.org/maven2/nz/ac/waikato/cms/weka/weka-dev/maven-metadata.xml (682 B at 1.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/de/bwaldvogel/liblinear/maven-metadata.xml
+Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/de/bwaldvogel/liblinear/maven-metadata.xml
+Progress (1): 536 B                   Downloaded from central: https://repo.maven.apache.org/maven2/de/bwaldvogel/liblinear/maven-metadata.xml (536 B at 27 kB/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SentinelSystem ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ari-user/sentinel/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ SentinelSystem ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/ari-user/sentinel/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.299 s
+[INFO] Finished at: 2018-07-04T00:03:01Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ SentinelSystem >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ SentinelSystem <<<
+[INFO] 
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ SentinelSystem ---
+[INFO] Attention for the usage of the system
+--If you want to get features of a dataset in order to train a system, please run the system with the following params:
+  train trainDatasetFile saveFeaturesFile(optional)
+--If you want to eval a system(firstly train a system with a featuresFile, then evaluate the system with the testDataset), please run the system with the following params:
+  eval testDatasetFile featuresFile
+
+duplicated Tweets: 2406
+Tweets: 12933
+Starting Train
+Tweets: 12933
+Trained-Features.arff saved
+It took 91 seconds
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:33 min
+[INFO] Finished at: 2018-07-04T00:04:35Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ SentinelSystem >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ SentinelSystem <<<
+[INFO] 
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ SentinelSystem ---
+[INFO] Attention for the usage of the system
+--If you want to get features of a dataset in order to train a system, please run the system with the following params:
+  train trainDatasetFile saveFeaturesFile(optional)
+--If you want to eval a system(firstly train a system with a featuresFile, then evaluate the system with the testDataset), please run the system with the following params:
+  eval testDatasetFile featuresFile
+
+duplicated Tweets: 410
+Tweets: 5692
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+new train data---15128---
+---------
+CostSensitiveClassifier using reweighted training instances
+
+weka.classifiers.functions.LibLINEAR -S 0 -C 0.5 -E 0.001 -B 1.0 -P
+
+Classifier Model
+LibLINEAR: No model built yet.
+
+Cost Matrix
+ 0 0 1
+ 0 0 0
+ 1 0 0
+
+---------          Classifier Result
+          Pos | Neu | Neg
+      Pos 5326.0 | 0.0 | 185.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 57.0 | 0.0 | 124.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9574841883345045
+
+precisionPos: 0.9894111090469998
+recallPos: 0.9664307748140083
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.40129449838187703
+recallNeg: 0.6850828729281768
+
+f1: NaN
+f1 without neutral: 0.7419541930963682
+Error prediction number: 250
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+new train data---15128---
+---------
+CostSensitiveClassifier using reweighted training instances
+
+weka.classifiers.functions.LibLINEAR -S 0 -C 0.5 -E 0.001 -B 1.0 -P
+
+Classifier Model
+LibLINEAR: No model built yet.
+
+Cost Matrix
+  0  0  1
+  0  0  0
+ 21  0  0
+
+---------[WARNING] 
+java.lang.reflect.InvocationTargetException
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.mojo.exec.ExecJavaMojo$1.run (ExecJavaMojo.java:297)
+    at java.lang.Thread.run (Thread.java:748)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+    at weka.filters.unsupervised.attribute.ReplaceMissingValues.convertInstance (ReplaceMissingValues.java:266)
+    at weka.filters.unsupervised.attribute.ReplaceMissingValues.batchFinished (ReplaceMissingValues.java:215)
+    at weka.filters.Filter.useFilter (Filter.java:682)
+    at weka.classifiers.functions.LibLINEAR.buildClassifier (LibLINEAR.java:814)
+    at weka.classifiers.meta.CostSensitiveClassifier.buildClassifier (CostSensitiveClassifier.java:552)
+    at com.eurecom.sentinel.SentimentSystemSentinel.test (SentimentSystemSentinel.java:755)
+    at com.eurecom.sentinel.SentimentAnalysis.testSystem (SentimentAnalysis.java:71)
+    at com.eurecom.sentinel.Main.main (Main.java:63)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.mojo.exec.ExecJavaMojo$1.run (ExecJavaMojo.java:297)
+    at java.lang.Thread.run (Thread.java:748)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:33 h
+[INFO] Finished at: 2018-07-04T01:37:42Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.2.1:java (default-cli) on project SentinelSystem: An exception occured while executing the Java class. null: InvocationTargetException: Java heap space -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Execute run.py
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SentinelSystem ---
+[INFO] Deleting /home/ari-user/sentinel/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.237 s
+[INFO] Finished at: 2018-07-04T14:11:07Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SentinelSystem ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ari-user/sentinel/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ SentinelSystem ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/ari-user/sentinel/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.357 s
+[INFO] Finished at: 2018-07-04T14:11:11Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ SentinelSystem >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ SentinelSystem <<<
+[INFO] 
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ SentinelSystem ---
+[INFO] Attention for the usage of the system
+--If you want to get features of a dataset in order to train a system, please run the system with the following params:
+  train trainDatasetFile saveFeaturesFile(optional)
+--If you want to eval a system(firstly train a system with a featuresFile, then evaluate the system with the testDataset), please run the system with the following params:
+  eval testDatasetFile featuresFile
+
+duplicated Tweets: 2406
+Tweets: 12933
+Starting Train
+Tweets: 12933
+Trained-Features.arff saved
+It took 91 seconds
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:32 min
+[INFO] Finished at: 2018-07-04T14:12:45Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ SentinelSystem >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ SentinelSystem <<<
+[INFO] 
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ SentinelSystem ---
+[INFO] Attention for the usage of the system
+--If you want to get features of a dataset in order to train a system, please run the system with the following params:
+  train trainDatasetFile saveFeaturesFile(optional)
+--If you want to eval a system(firstly train a system with a featuresFile, then evaluate the system with the testDataset), please run the system with the following params:
+  eval testDatasetFile featuresFile
+
+duplicated Tweets: 410
+Tweets: 5692
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+new train data---13372---
+---------
+CostSensitiveClassifier using reweighted training instances
+
+weka.classifiers.functions.LibLINEAR -S 0 -C 0.5 -E 0.001 -B 1.0 -P
+
+Classifier Model
+LibLINEAR: No model built yet.
+
+Cost Matrix
+ 0 0 1
+ 0 0 0
+ 1 0 0
+
+---------          Classifier Result
+          Pos | Neu | Neg
+      Pos 5384.0 | 0.0 | 127.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 69.0 | 0.0 | 112.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9655657062543921
+
+precisionPos: 0.9873464148175316
+recallPos: 0.9769551805479949
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.4686192468619247
+recallNeg: 0.6187845303867403
+
+f1: NaN
+f1 without neutral: 0.7577283229964733
+Error prediction number: 205
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+new train data---13372---
+---------
+CostSensitiveClassifier using reweighted training instances
+
+weka.classifiers.functions.LibLINEAR -S 0 -C 0.5 -E 0.001 -B 1.0 -P
+
+Classifier Model
+LibLINEAR: No model built yet.
+
+Cost Matrix
+  0  0  1
+  0  0  0
+ 21  0  0
+
+---------          Classifier Result
+          Pos | Neu | Neg
+      Pos 5200.0 | 0.0 | 311.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 38.0 | 0.0 | 143.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9386858749121574
+
+precisionPos: 0.9927453226422298
+recallPos: 0.9435674106332789
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.31497797356828194
+recallNeg: 0.7900552486187845
+
+f1: NaN
+f1 without neutral: 0.7089627821082789
+Error prediction number: 365
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+new train data---13372---
+---------
+CostSensitiveClassifier using reweighted training instances
+
+weka.classifiers.functions.LibLINEAR -S 0 -C 0.5 -E 0.001 -B 1.0 -P
+
+Classifier Model
+LibLINEAR: No model built yet.
+
+Cost Matrix
+  0  0  1
+  0  0  0
+ 41  0  0
+
+---------          Classifier Result
+          Pos | Neu | Neg
+      Pos 5035.0 | 0.0 | 476.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 33.0 | 0.0 | 148.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9105762473647224
+
+precisionPos: 0.9934885556432518
+recallPos: 0.9136272908727998
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.23717948717948717
+recallNeg: 0.8176795580110497
+
+f1: NaN
+f1 without neutral: 0.6597938374337063
+Error prediction number: 531
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+new train data---13372---
+---------
+CostSensitiveClassifier using reweighted training instances
+
+weka.classifiers.functions.LibLINEAR -S 0 -C 0.5 -E 0.001 -B 1.0 -P
+
+Classifier Model
+LibLINEAR: No model built yet.
+
+Cost Matrix
+  0  0  1
+  0  0  0
+ 61  0  0
+
+---------          Classifier Result
+          Pos | Neu | Neg
+      Pos 4958.0 | 0.0 | 553.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 31.0 | 0.0 | 150.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.8973998594518623
+
+precisionPos: 0.9937863299258368
+recallPos: 0.8996552349845763
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.21337126600284495
+recallNeg: 0.8287292817679558
+
+f1: NaN
+f1 without neutral: 0.6418737341090283
+Error prediction number: 614
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+new train data---13372---
+---------
+CostSensitiveClassifier using reweighted training instances
+
+weka.classifiers.functions.LibLINEAR -S 0 -C 0.5 -E 0.001 -B 1.0 -P
+
+Classifier Model
+LibLINEAR: No model built yet.
+
+Cost Matrix
+  0  0  1
+  0  0  0
+ 81  0  0
+
+---------          Classifier Result
+          Pos | Neu | Neg
+      Pos 4902.0 | 0.0 | 609.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 28.0 | 0.0 | 153.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.8880885453267744
+
+precisionPos: 0.9943204868154158
+recallPos: 0.889493739793141
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: 0.20078740157480315
+recallNeg: 0.8453038674033149
+
+f1: NaN
+f1 without neutral: 0.6317434032953738
+Error prediction number: 669
+It took 12903 seconds
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 03:35 h
+[INFO] Finished at: 2018-07-04T17:47:51Z
+[INFO] ------------------------------------------------------------------------
+Execute run.py
