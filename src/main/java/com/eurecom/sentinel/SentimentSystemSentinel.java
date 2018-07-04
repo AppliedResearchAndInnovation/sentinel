@@ -716,8 +716,8 @@ public class SentimentSystemSentinel extends SentimentSystem {
 
 		// set up SMOTE filter
 		SMOTE smote = new SMOTE();
-		smote.setPercentage(900.0);
-		smote.setNearestNeighbors(9);
+		smote.setPercentage(500.0);
+		smote.setNearestNeighbors(5);
 		smote.setInputFormat(train);
 		Instances newInstances = Filter.useFilter(train, smote);
 		System.out.println("new train data---" + newInstances.numInstances() + "---");
