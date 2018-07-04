@@ -13,6 +13,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import weka.classifiers.functions.LibLINEAR;
+import weka.classifiers.functions.LibSVM;
 import weka.core.Attribute;
 import weka.core.Instances;
 import weka.core.SelectedTag;
@@ -722,18 +723,11 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		Instances newInstances = Filter.useFilter(train, smote);
 		System.out.println("new train data---" + newInstances.numInstances() + "---");
 
-        //load and setup classifier
-		// Look at this github to find the params for svm https://github.com/bwaldvogel/liblinear-java
-		LibLINEAR classifier = new LibLINEAR();
-		classifier.setProbabilityEstimates(true);
-		classifier.setSVMType(new SelectedTag(0, LibLINEAR.TAGS_SVMTYPE));
-		// set param C
-		classifier.setCost(0.5);
-		
-		//System.out.println("LibLINEAR svm tages " + LibLINEAR.TAGS_SVMTYPE[0]);
+        // set up weka LibSVM classifier
+        LibSVM svm = new LibSVM();// default kernel type RBF
 
 		//train classifier with instances
-		classifier.buildClassifier(newInstances);
+		svm.buildClassifier(newInstances);
 
 		//delete train instances, to use same features with test instances
 		train.delete();
@@ -943,8 +937,8 @@ public class SentimentSystemSentinel extends SentimentSystem {
 			train.add(instance);
 
 			//classify Tweet
-			double result = classifier.classifyInstance(train.lastInstance());
-			double[] resultDistribution = classifier.distributionForInstance(train.lastInstance());
+			double result = svm.classifyInstance(train.lastInstance());
+			double[] resultDistribution = svm.distributionForInstance(train.lastInstance());
 			resultMap.put(tweet.getTweetID() + " " + tweet.getTargetBegin() + " " + tweet.getTargetEnd(), new ClassificationResult(tweet, resultDistribution, result));
 		}
 
