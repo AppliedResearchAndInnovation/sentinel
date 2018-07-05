@@ -59,6 +59,7 @@ public class SentimentSystem {
 		for (TaggedToken token : tweet.getWordList()){
 			tokenString = tokenString + token.token + " ";
 		}
+		System.out.println(tokenString);
 		NGramTokenizer tokenizer = new NGramTokenizer();
 		tokenizer.setNGramMaxSize(to);
 		tokenizer.setNGramMinSize(from);
@@ -76,6 +77,7 @@ public class SentimentSystem {
 		Set<String> nGramListFiltered = filterNGram(tweet, nGramList);
 		tweet.setNGramsTarget(nGramListFiltered);
 
+		System.out.println(nGramListFiltered);
 		return nGramListFiltered;
 	}
 

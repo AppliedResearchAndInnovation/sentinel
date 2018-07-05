@@ -1,0 +1,288 @@
+@relation test
+
+@attribute 'NGRAM_. :)' numeric
+@attribute 'NGRAM_sat . :)' numeric
+@attribute 'NGRAM_on sat . :)' numeric
+@attribute NGRAM_:) numeric
+@attribute 'CHARNGRAM_:) ' numeric
+@attribute POS_E numeric
+@attribute CLUSTER_1111011110100 numeric
+@attribute CLUSTER_11101011001011 numeric
+@attribute CLUSTER_011110001100 numeric
+@attribute CLUSTER_110110 numeric
+@attribute CLUSTER_1000100 numeric
+@attribute CLUSTER_1111110010011 numeric
+@attribute CLUSTER_1010 numeric
+@attribute CLUSTER_1111011011111 numeric
+@attribute CLUSTER_11110101011011 numeric
+@attribute CLUSTER_01010101000 numeric
+@attribute CLUSTER_011110111111011 numeric
+@attribute CLUSTER_011000000 numeric
+@attribute CLUSTER_10111110 numeric
+@attribute CLUSTER_10001111 numeric
+@attribute CLUSTER_101110110 numeric
+@attribute CLUSTER_1111011111110 numeric
+@attribute EMO_:) numeric
+@attribute 'NGRAM_can\'t deal' numeric
+@attribute NGRAM_deal numeric
+@attribute 'NGRAM_dome can\'t deal with' numeric
+@attribute 'NGRAM_deal with their' numeric
+@attribute 'NGRAM_can\'t deal with their' numeric
+@attribute 'NGRAM_deal with their missiles' numeric
+@attribute 'NGRAM_iron dome can\'t deal' numeric
+@attribute 'NGRAM_dome can\'t' numeric
+@attribute 'NGRAM_deal with' numeric
+@attribute 'NGRAM_dome can\'t deal' numeric
+@attribute 'NGRAM_israel\'s iron dome can\'t' numeric
+@attribute 'NGRAM_iron dome can\'t' numeric
+@attribute 'NGRAM_can\'t deal with' numeric
+@attribute 'NGRAM_can\'t' numeric
+@attribute 'CHARNGRAM_ de' numeric
+@attribute CHARNGRAM_dea numeric
+@attribute 'CHARNGRAM_\'t d' numeric
+@attribute CHARNGRAM_deal numeric
+@attribute 'CHARNGRAM_deal ' numeric
+@attribute 'CHARNGRAM_t dea' numeric
+@attribute 'CHARNGRAM_\'t de' numeric
+@attribute 'CHARNGRAM_an\'t ' numeric
+@attribute 'CHARNGRAM_ dea' numeric
+@attribute CHARNGRAM_can numeric
+@attribute CHARNGRAM_eal numeric
+@attribute 'CHARNGRAM_\'t ' numeric
+@attribute 'CHARNGRAM_al ' numeric
+@attribute 'CHARNGRAM_an\'t' numeric
+@attribute 'CHARNGRAM_n\'t ' numeric
+@attribute 'CHARNGRAM_t de' numeric
+@attribute 'CHARNGRAM_can\'' numeric
+@attribute 'CHARNGRAM_t d' numeric
+@attribute 'CHARNGRAM_n\'t' numeric
+@attribute 'CHARNGRAM_an\'' numeric
+@attribute 'CHARNGRAM_can\'t' numeric
+@attribute 'CHARNGRAM_ deal' numeric
+@attribute 'CHARNGRAM_n\'t d' numeric
+@attribute 'CHARNGRAM_eal ' numeric
+@attribute POS_V numeric
+@attribute CLUSTER_0101100010 numeric
+@attribute CLUSTER_011011100 numeric
+@attribute CLUSTER_0011101010 numeric
+@attribute CLUSTER_000100 numeric
+@attribute CLUSTER_011010100 numeric
+@attribute CLUSTER_01001110011 numeric
+@attribute CLUSTER_1111110010110 numeric
+@attribute CLUSTER_011111010 numeric
+@attribute CLUSTER_111010111100 numeric
+@attribute CLUSTER_11110110000 numeric
+@attribute CLUSTER_110111110 numeric
+@attribute CLUSTER_11111100011100 numeric
+@attribute CLUSTER_11111111010 numeric
+@attribute CLUSTER_111101101101 numeric
+@attribute CLUSTER_100110111 numeric
+@attribute CLUSTER_01111100 numeric
+@attribute CLUSTER_01111010100 numeric
+@attribute CLUSTER_00111110 numeric
+@attribute CLUSTER_01101111111010 numeric
+@attribute CLUSTER_111100110100 numeric
+@attribute CLUSTER_1110101111100 numeric
+@attribute CLUSTER_1011101000 numeric
+@attribute CLUSTER_111101111101110 numeric
+@attribute CLUSTER_111111000100 numeric
+@attribute 'NGRAM_team poland . hopefully' numeric
+@attribute 'NGRAM_. hopefully' numeric
+@attribute 'NGRAM_hopefully we an' numeric
+@attribute 'NGRAM_poland . hopefully' numeric
+@attribute 'NGRAM_hopefully we an make' numeric
+@attribute 'NGRAM_poland . hopefully we' numeric
+@attribute 'NGRAM_. hopefully we' numeric
+@attribute 'NGRAM_. hopefully we an' numeric
+@attribute NGRAM_hopefully numeric
+@attribute 'NGRAM_hopefully we' numeric
+@attribute CHARNGRAM_opefu numeric
+@attribute CHARNGRAM_ope numeric
+@attribute CHARNGRAM_hopef numeric
+@attribute CHARNGRAM_hop numeric
+@attribute CHARNGRAM_efull numeric
+@attribute CHARNGRAM_hope numeric
+@attribute CHARNGRAM_pef numeric
+@attribute CHARNGRAM_pefu numeric
+@attribute CHARNGRAM_peful numeric
+@attribute CHARNGRAM_ully numeric
+@attribute 'CHARNGRAM_ly ' numeric
+@attribute CHARNGRAM_ull numeric
+@attribute CHARNGRAM_efu numeric
+@attribute 'CHARNGRAM_lly ' numeric
+@attribute CHARNGRAM_opef numeric
+@attribute CHARNGRAM_eful numeric
+@attribute CHARNGRAM_lly numeric
+@attribute CHARNGRAM_ful numeric
+@attribute CHARNGRAM_fully numeric
+@attribute CHARNGRAM_full numeric
+@attribute 'CHARNGRAM_ully ' numeric
+@attribute POS_R numeric
+@attribute CLUSTER_11111000111110 numeric
+@attribute CLUSTER_1111011110111110 numeric
+@attribute CLUSTER_111110001100 numeric
+@attribute CLUSTER_11100110101 numeric
+@attribute CLUSTER_011001110 numeric
+@attribute CLUSTER_1111110101110 numeric
+@attribute CLUSTER_1110010111111 numeric
+@attribute CLUSTER_1111110100111 numeric
+@attribute CLUSTER_1111010101010 numeric
+@attribute CLUSTER_0111111000 numeric
+@attribute CLUSTER_01110110 numeric
+@attribute CLUSTER_11110011101110 numeric
+@attribute CLUSTER_11001 numeric
+@attribute CLUSTER_10110 numeric
+@attribute CLUSTER_11000 numeric
+@attribute CLUSTER_11110111001100 numeric
+@attribute CLUSTER_0110100011111 numeric
+@attribute CLUSTER_010110111110 numeric
+@attribute 'NGRAM_make it' numeric
+@attribute 'NGRAM_make it a' numeric
+@attribute 'NGRAM_it a successful' numeric
+@attribute 'NGRAM_an make' numeric
+@attribute 'NGRAM_make it a successful' numeric
+@attribute 'NGRAM_we an make it' numeric
+@attribute 'NGRAM_an make it' numeric
+@attribute NGRAM_it numeric
+@attribute 'NGRAM_an make it a' numeric
+@attribute 'NGRAM_it a successful end' numeric
+@attribute 'NGRAM_it a' numeric
+@attribute NGRAM_make numeric
+@attribute 'NGRAM_we an make' numeric
+@attribute 'CHARNGRAM_ke it' numeric
+@attribute 'CHARNGRAM_e it ' numeric
+@attribute 'CHARNGRAM_ it ' numeric
+@attribute 'CHARNGRAM_ke ' numeric
+@attribute 'CHARNGRAM_ake ' numeric
+@attribute 'CHARNGRAM_e it' numeric
+@attribute 'CHARNGRAM_ it' numeric
+@attribute 'CHARNGRAM_ake i' numeric
+@attribute 'CHARNGRAM_e i' numeric
+@attribute 'CHARNGRAM_ke i' numeric
+@attribute 'CHARNGRAM_it ' numeric
+@attribute CHARNGRAM_mak numeric
+@attribute CHARNGRAM_ake numeric
+@attribute CHARNGRAM_make numeric
+@attribute 'CHARNGRAM_make ' numeric
+@attribute POS_O numeric
+@attribute 'NGRAM_successful end to a' numeric
+@attribute 'NGRAM_a successful' numeric
+@attribute 'NGRAM_a successful end to' numeric
+@attribute 'NGRAM_a successful end' numeric
+@attribute 'NGRAM_successful end to' numeric
+@attribute 'NGRAM_successful end' numeric
+@attribute NGRAM_successful numeric
+@attribute CHARNGRAM_suc numeric
+@attribute CHARNGRAM_cces numeric
+@attribute CHARNGRAM_sfu numeric
+@attribute CHARNGRAM_cce numeric
+@attribute CHARNGRAM_ccess numeric
+@attribute CHARNGRAM_ess numeric
+@attribute CHARNGRAM_ucce numeric
+@attribute CHARNGRAM_cessf numeric
+@attribute CHARNGRAM_ssf numeric
+@attribute CHARNGRAM_succe numeric
+@attribute 'CHARNGRAM_ul ' numeric
+@attribute CHARNGRAM_cess numeric
+@attribute CHARNGRAM_essf numeric
+@attribute CHARNGRAM_ces numeric
+@attribute CHARNGRAM_essfu numeric
+@attribute 'CHARNGRAM_sful ' numeric
+@attribute 'CHARNGRAM_ful ' numeric
+@attribute CHARNGRAM_succ numeric
+@attribute CHARNGRAM_ucc numeric
+@attribute CHARNGRAM_ssful numeric
+@attribute CHARNGRAM_ssfu numeric
+@attribute CHARNGRAM_ucces numeric
+@attribute CHARNGRAM_sful numeric
+@attribute POS_A numeric
+@attribute allCaps numeric
+@attribute hashtags numeric
+@attribute punctuationCount numeric
+@attribute punctuationLast numeric
+@attribute emoticonLast numeric
+@attribute elongatedWords numeric
+@attribute negationCount numeric
+@attribute senti140UniTotalCountPos numeric
+@attribute senti140UniTotalScorePos numeric
+@attribute senti140UniMaxScorePos numeric
+@attribute senti140UniLastScorePos numeric
+@attribute senti140UniTotalCountNeg numeric
+@attribute senti140UniTotalScoreNeg numeric
+@attribute senti140UniMaxScoreNeg numeric
+@attribute senti140UniLastScoreNeg numeric
+@attribute hashtagUniTotalCountPos numeric
+@attribute hashtagUniTotalScorePos numeric
+@attribute hashtagUniMaxScorePos numeric
+@attribute hashtagUniLastScorePos numeric
+@attribute hashtagUniTotalCountNeg numeric
+@attribute hashtagUniTotalScoreNeg numeric
+@attribute hashtagUniMaxScoreNeg numeric
+@attribute hashtagUniLastScoreNeg numeric
+@attribute senti140BiTotalCountPos numeric
+@attribute senti140BiTotalScorePos numeric
+@attribute senti140BiMaxScorePos numeric
+@attribute senti140BiLastScorePos numeric
+@attribute senti140BiTotalCountNeg numeric
+@attribute senti140BiTotalScoreNeg numeric
+@attribute senti140BiMaxScoreNeg numeric
+@attribute senti140BiLastScoreNeg numeric
+@attribute hashtagBiTotalCountPos numeric
+@attribute hashtagBiTotalScorePos numeric
+@attribute hashtagBiMaxScorePos numeric
+@attribute hashtagBiLastScorePos numeric
+@attribute hashtagBiTotalCountNeg numeric
+@attribute hashtagBiTotalScoreNeg numeric
+@attribute hashtagBiMaxScoreNeg numeric
+@attribute hashtagBiLastScoreNeg numeric
+@attribute MPQATotalCountPos numeric
+@attribute MPQATotalScorePos numeric
+@attribute MPQAMaxScorePos numeric
+@attribute MPQALastScorePos numeric
+@attribute MPQATotalCountNeg numeric
+@attribute MPQATotalScoreNeg numeric
+@attribute MPQAMaxScoreNeg numeric
+@attribute MPQALastScoreNeg numeric
+@attribute BingLiuTotalCountPos numeric
+@attribute BingLiuTotalScorePos numeric
+@attribute BingLiuMaxScorePos numeric
+@attribute BingLiuLastScorePos numeric
+@attribute BingLiuTotalCountNeg numeric
+@attribute BingLiuTotalScoreNeg numeric
+@attribute BingLiuMaxScoreNeg numeric
+@attribute BingLiuLastScoreNeg numeric
+@attribute NRCTotalCountPos numeric
+@attribute NRCTotalScorePos numeric
+@attribute NRCMaxScorePos numeric
+@attribute NRCLastScorePos numeric
+@attribute NRCTotalCountNeg numeric
+@attribute NRCTotalScoreNeg numeric
+@attribute NRCMaxScoreNeg numeric
+@attribute NRCLastScoreNeg numeric
+@attribute AFFINNETotalCountPos numeric
+@attribute AFFINNETotalScorePos numeric
+@attribute AFFINNEMaxScorePos numeric
+@attribute AFFINNELastScorePos numeric
+@attribute AFFINNETotalCountNeg numeric
+@attribute AFFINNETotalScoreNeg numeric
+@attribute AFFINNEMaxScoreNeg numeric
+@attribute AFFINNELastScoreNeg numeric
+@attribute SentiWordNetTotalCountPos numeric
+@attribute SentiWordNetTotalScorePos numeric
+@attribute SentiWordNetMaxScorePos numeric
+@attribute SentiWordNetLastScorePos numeric
+@attribute SentiWordNetTotalCountNeg numeric
+@attribute SentiWordNetTotalScoreNeg numeric
+@attribute SentiWordNetMaxScoreNeg numeric
+@attribute SentiWordNetLastScoreNeg numeric
+@attribute Word2VecMaxScore numeric
+@attribute Word2VecAVGScore numeric
+@attribute Word2VecMinScore numeric
+@attribute Class {positive,neutral,negative}
+
+@data
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,8 1,9 1,10 1,11 1,12 1,13 1,14 1,15 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,196 2,198 1}
+{23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,40 1,41 1,42 1,43 1,44 1,45 1,46 1,47 1,48 1,49 1,50 1,51 1,52 1,53 1,54 1,55 1,56 1,57 1,58 1,59 1,60 1,61 2,62 1,63 1,64 1,65 1,66 1,67 1,68 1,69 1,70 1,71 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,79 1,80 1,81 1,82 1,83 1,84 1,85 1,202 1,207 1,208 -0.744,209 -0.744,210 -0.744,223 2,224 -3.512,225 -2.754,226 -0.758,231 1,232 -0.67,233 -0.67,234 -0.67,278 negative}
+{10 1,12 1,65 1,71 1,83 1,86 1,87 1,88 1,89 1,90 1,91 1,92 1,93 1,94 1,95 1,96 1,97 1,98 1,99 1,100 1,101 1,102 1,103 1,104 1,105 1,106 1,107 1,108 1,109 1,110 1,111 1,112 1,113 1,114 1,115 1,116 1,117 1,118 1,119 1,120 1,121 1,122 1,123 1,124 1,125 1,126 1,127 1,128 1,129 1,130 1,131 1,132 1,133 1,134 1,135 1,136 1,137 1,138 1,139 1,140 1,141 1,142 1,143 1,144 1,145 1,146 1,147 1,148 1,165 1,166 1,167 1,168 1,169 1,170 1,171 1,203 1,204 0.237,205 0.237,206 0.237,211 1,212 0.218,213 0.218,214 0.218,219 2,220 0.411,221 0.404,222 0.404,227 1,228 0.478,229 0.478,230 0.478,231 1,232 -0.036,233 -0.036,234 -0.036,235 1,236 5,237 5,238 5,259 1,260 2,261 2,262 2,275 0.171234,276 0.005318,277 -0.131039}
+{10 1,12 1,61 1,65 1,71 1,83 1,86 1,87 1,88 1,89 1,90 1,91 1,92 1,93 1,94 1,95 1,118 1,119 1,120 1,121 1,122 1,123 1,124 1,125 1,126 1,127 1,128 1,129 1,130 1,131 1,132 1,133 1,134 1,135 1,136 1,137 1,138 1,139 1,140 1,141 1,142 1,143 1,144 1,145 1,146 1,147 1,148 1,149 1,150 1,151 1,152 1,153 1,154 1,155 1,156 1,157 1,158 1,159 1,160 1,161 1,162 1,163 1,164 1,165 1,166 1,167 1,168 1,169 1,170 1,171 1,203 1,204 0.07,205 0.07,206 0.07,207 1,208 -0.022,209 -0.022,210 -0.022,215 2,216 -0.359,217 -0.237,218 -0.122,219 1,220 0.667,221 0.667,222 0.667,223 1,224 -0.595,225 -0.595,226 -0.595,227 1,228 0.766,229 0.766,230 0.766,231 2,232 -0.195,233 -0.156,234 -0.039,275 0.489039,276 -0.02138,277 -0.419092}
+{10 1,12 1,65 1,71 1,83 1,86 1,87 1,88 1,89 1,90 1,91 1,92 1,93 1,94 1,95 1,113 1,118 1,119 1,120 1,121 1,122 1,123 1,124 1,125 1,126 1,127 1,128 1,129 1,130 1,131 1,132 1,133 1,134 1,135 1,136 1,137 1,138 1,139 1,140 1,141 1,142 1,143 1,144 1,145 1,146 1,147 1,148 1,165 1,166 1,167 1,168 1,169 1,170 1,171 1,172 1,173 1,174 1,175 1,176 1,177 1,178 1,179 1,180 1,181 1,182 1,183 1,184 1,185 1,186 1,187 1,188 1,189 1,190 1,191 1,192 1,193 1,194 1,195 1,203 1,204 1.013,205 1.013,206 1.013,211 1,212 0.925,213 0.925,214 0.925,219 1,220 1.723,221 1.723,222 1.723,227 1,228 0.82,229 0.82,230 0.82,235 1,236 1,237 1,238 1,243 1,244 1,245 1,246 1,251 1,252 1,253 1,254 1,259 1,260 3,261 3,262 3,275 0.108194,276 0.005431,277 -0.091402}
