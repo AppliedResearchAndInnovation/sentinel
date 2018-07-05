@@ -3183,3 +3183,445 @@ It took 23095 seconds
 [INFO] Finished at: 2018-06-26T21:03:24Z
 [INFO] ------------------------------------------------------------------------
 Execute run.py
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SentinelSystem ---
+[INFO] Deleting /home/ari-user/sentinel/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.234 s
+[INFO] Finished at: 2018-07-04T19:54:47Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/nz/ac/waikato/cms/weka/LibSVM/1.0.4/LibSVM-1.0.4.pom
+Progress (1): 2.2/10 kBProgress (1): 5.0/10 kBProgress (1): 7.8/10 kBProgress (1): 10 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/nz/ac/waikato/cms/weka/LibSVM/1.0.4/LibSVM-1.0.4.pom (10 kB at 25 kB/s)
+Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/tw/edu/ntu/csie/libsvm/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/tw/edu/ntu/csie/libsvm/maven-metadata.xml
+Progress (1): 354 B                   Downloaded from central: https://repo.maven.apache.org/maven2/tw/edu/ntu/csie/libsvm/maven-metadata.xml (354 B at 10 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/tw/edu/ntu/csie/libsvm/3.1/libsvm-3.1.pom
+Progress (1): 1.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/tw/edu/ntu/csie/libsvm/3.1/libsvm-3.1.pom (1.4 kB at 38 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/tw/edu/ntu/csie/libsvm/3.17/libsvm-3.17.pom
+Progress (1): 1.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/tw/edu/ntu/csie/libsvm/3.17/libsvm-3.17.pom (1.4 kB at 70 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/nz/ac/waikato/cms/weka/LibSVM/1.0.4/LibSVM-1.0.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/tw/edu/ntu/csie/libsvm/3.17/libsvm-3.17.jar
+Progress (1): 2.2/16 kBProgress (1): 5.0/16 kBProgress (1): 7.7/16 kBProgress (1): 11/16 kB Progress (1): 13/16 kBProgress (1): 16 kB   Progress (2): 16 kB | 2.2/61 kBProgress (2): 16 kB | 5.0/61 kBProgress (2): 16 kB | 7.7/61 kBProgress (2): 16 kB | 10/61 kB Progress (2): 16 kB | 13/61 kBProgress (2): 16 kB | 16/61 kBProgress (2): 16 kB | 19/61 kBProgress (2): 16 kB | 21/61 kBProgress (2): 16 kB | 24/61 kBProgress (2): 16 kB | 27/61 kBProgress (2): 16 kB | 30/61 kBProgress (2): 16 kB | 32/61 kBProgress (2): 16 kB | 36/61 kBProgress (2): 16 kB | 40/61 kBProgress (2): 16 kB | 45/61 kBProgress (2): 16 kB | 49/61 kBProgress (2): 16 kB | 53/61 kBProgress (2): 16 kB | 57/61 kBProgress (2): 16 kB | 61/61 kBProgress (2): 16 kB | 61 kB                              Downloaded from central: https://repo.maven.apache.org/maven2/nz/ac/waikato/cms/weka/LibSVM/1.0.4/LibSVM-1.0.4.jar (16 kB at 262 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/tw/edu/ntu/csie/libsvm/3.17/libsvm-3.17.jar (61 kB at 776 kB/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SentinelSystem ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ari-user/sentinel/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ SentinelSystem ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/ari-user/sentinel/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.371 s
+[INFO] Finished at: 2018-07-04T19:54:52Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ SentinelSystem >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ SentinelSystem <<<
+[INFO] 
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ SentinelSystem ---
+[INFO] Attention for the usage of the system
+--If you want to get features of a dataset in order to train a system, please run the system with the following params:
+  train trainDatasetFile saveFeaturesFile(optional)
+--If you want to eval a system(firstly train a system with a featuresFile, then evaluate the system with the testDataset), please run the system with the following params:
+  eval testDatasetFile featuresFile
+
+duplicated Tweets: 2406
+Tweets: 12933
+Starting Train
+Tweets: 12933
+Trained-Features.arff saved
+It took 91 seconds
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:32 min
+[INFO] Finished at: 2018-07-04T19:56:26Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.eurecom:SentinelSystem >---------------------
+[INFO] Building SentiNEL System 0.4-rc0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ SentinelSystem >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ SentinelSystem <<<
+[INFO] 
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ SentinelSystem ---
+[INFO] Attention for the usage of the system
+--If you want to get features of a dataset in order to train a system, please run the system with the following params:
+  train trainDatasetFile saveFeaturesFile(optional)
+--If you want to eval a system(firstly train a system with a featuresFile, then evaluate the system with the testDataset), please run the system with the following params:
+  eval testDatasetFile featuresFile
+
+duplicated Tweets: 410
+Tweets: 5692
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+100.0
+5
+new train data---13372---
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 1822
+nu = 0.13131917439425667
+obj = -1752.758807258484, rho = -0.6196537836991031
+nSV = 2130, nBSV = 1449
+Total nSV = 2130
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5511.0 | 0.0 | 0.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 181.0 | 0.0 | 0.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9682009838369642
+
+precisionPos: 0.9682009838369642
+recallPos: 1.0
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: NaN
+recallNeg: 0.0
+
+f1: NaN
+f1 without neutral: NaN
+Error prediction number: 192
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+200.0
+5
+new train data---13811---
+.
+WARNING: using -h 0 may be faster
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 2140
+nu = 0.19071754398667723
+obj = -2627.012633141003, rho = -0.5558961653242701
+nSV = 2922, nBSV = 2387
+Total nSV = 2922
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5511.0 | 0.0 | 0.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 181.0 | 0.0 | 0.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9682009838369642
+
+precisionPos: 0.9682009838369642
+recallPos: 1.0
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: NaN
+recallNeg: 0.0
+
+f1: NaN
+f1 without neutral: NaN
+Error prediction number: 192
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+300.0
+5
+new train data---14250---
+..
+WARNING: using -h 0 may be faster
+*.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 2741
+nu = 0.24637127428512948
+obj = -3497.629837657876, rho = -0.3829276891671393
+nSV = 3770, nBSV = 3250
+Total nSV = 3770
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5511.0 | 0.0 | 0.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 181.0 | 0.0 | 0.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9682009838369642
+
+precisionPos: 0.9682009838369642
+recallPos: 1.0
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: NaN
+recallNeg: 0.0
+
+f1: NaN
+f1 without neutral: NaN
+Error prediction number: 192
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+400.0
+5
+new train data---14689---
+..
+WARNING: using -h 0 may be faster
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 3139
+nu = 0.298825188684256
+obj = -4368.522521261845, rho = -0.2439576970350505
+nSV = 4616, nBSV = 4174
+Total nSV = 4616
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5511.0 | 0.0 | 0.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 181.0 | 0.0 | 0.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9682009838369642
+
+precisionPos: 0.9682009838369642
+recallPos: 1.0
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: NaN
+recallNeg: 0.0
+
+f1: NaN
+f1 without neutral: NaN
+Error prediction number: 192
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+500.0
+5
+new train data---15128---
+...
+WARNING: using -h 0 may be faster
+*.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 3702
+nu = 0.3481908090412279
+obj = -5234.717893010839, rho = -0.24442501026074034
+nSV = 5442, nBSV = 5089
+Total nSV = 5442
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5511.0 | 0.0 | 0.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 181.0 | 0.0 | 0.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9682009838369642
+
+precisionPos: 0.9682009838369642
+recallPos: 1.0
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: NaN
+recallNeg: 0.0
+
+f1: NaN
+f1 without neutral: NaN
+Error prediction number: 192
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+600.0
+5
+new train data---15567---
+...
+WARNING: using -h 0 may be faster
+*.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 4211
+nu = 0.39470993989072584
+obj = -6096.298968192153, rho = 0.06728216391514055
+nSV = 6301, nBSV = 5984
+Total nSV = 6301
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5511.0 | 0.0 | 0.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 181.0 | 0.0 | 0.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9682009838369642
+
+precisionPos: 0.9682009838369642
+recallPos: 1.0
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: NaN
+recallNeg: 0.0
+
+f1: NaN
+f1 without neutral: NaN
+Error prediction number: 192
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+700.0
+5
+new train data---16006---
+...
+WARNING: using -h 0 may be faster
+.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 4374
+nu = 0.43852150256209327
+obj = -6951.752342892532, rho = -0.08992581561862034
+nSV = 7164, nBSV = 6884
+Total nSV = 7164
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5511.0 | 0.0 | 0.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 181.0 | 0.0 | 0.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9682009838369642
+
+precisionPos: 0.9682009838369642
+recallPos: 1.0
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: NaN
+recallNeg: 0.0
+
+f1: NaN
+f1 without neutral: NaN
+Error prediction number: 192
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+800.0
+5
+new train data---16445---
+....
+WARNING: using -h 0 may be faster
+*.
+WARNING: using -h 0 may be faster
+*.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 5092
+nu = 0.48019822629278075
+obj = -7805.042242782342, rho = -0.03199535752693563
+nSV = 8015, nBSV = 7776
+Total nSV = 8015
+          Classifier Result
+          Pos | Neu | Neg
+      Pos 5511.0 | 0.0 | 0.0
+Truth Neu 0.0 | 0.0 | 0.0
+      Neg 181.0 | 0.0 | 0.0
+precision: NaN
+recall: NaN
+
+accuracy: 0.9682009838369642
+
+precisionPos: 0.9682009838369642
+recallPos: 1.0
+
+precisionNeutral: NaN
+recallNeutral: NaN
+
+precisionNeg: NaN
+recallNeg: 0.0
+
+f1: NaN
+f1 without neutral: NaN
+Error prediction number: 192
+Starting Test
+the features file to train system: Trained-Features.arff
+old train data---12933---
+900.0
+5
+new train data---16884---
+[WARNING] 
+java.lang.reflect.InvocationTargetException
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.mojo.exec.ExecJavaMojo$1.run (ExecJavaMojo.java:297)
+    at java.lang.Thread.run (Thread.java:748)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+    at weka.filters.unsupervised.attribute.ReplaceMissingValues.convertInstance (ReplaceMissingValues.java:266)
+    at weka.filters.unsupervised.attribute.ReplaceMissingValues.batchFinished (ReplaceMissingValues.java:215)
+    at weka.filters.Filter.useFilter (Filter.java:682)
+    at weka.classifiers.functions.LibSVM.buildClassifier (LibSVM.java:1617)
+    at com.eurecom.sentinel.SentimentSystemSentinel.test (SentimentSystemSentinel.java:730)
+    at com.eurecom.sentinel.SentimentAnalysis.testSystem (SentimentAnalysis.java:71)
+    at com.eurecom.sentinel.Main.main (Main.java:63)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.mojo.exec.ExecJavaMojo$1.run (ExecJavaMojo.java:297)
+    at java.lang.Thread.run (Thread.java:748)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 07:39 h
+[INFO] Finished at: 2018-07-05T03:36:00Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.2.1:java (default-cli) on project SentinelSystem: An exception occured while executing the Java class. null: InvocationTargetException: Java heap space -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Execute run.py
