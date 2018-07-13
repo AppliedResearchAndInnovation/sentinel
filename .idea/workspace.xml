@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57f135be-a4f8-4ba1-8005-8461f649d9af" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/resources/arff/Trained-Features.arff" afterPath="$PROJECT_DIR$/resources/arff/Trained-Features.arff" />
-      <change beforePath="$PROJECT_DIR$/resources/tweets/test-short.txt" afterPath="$PROJECT_DIR$/resources/tweets/test-short.txt" />
-      <change beforePath="$PROJECT_DIR$/resources/tweets/train-short.txt" afterPath="$PROJECT_DIR$/resources/tweets/train-short.txt" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystem.java" afterPath="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystem.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java" afterPath="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java" />
     </list>
@@ -32,19 +30,30 @@
       <file leaf-file-name="SentimentAnalysis.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentAnalysis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="222" column="9" lean-forward="false" selection-start-line="222" selection-start-column="9" selection-end-line="222" selection-end-column="9" />
+            <state relative-caret-position="17">
+              <caret line="215" column="8" lean-forward="false" selection-start-line="215" selection-start-column="8" selection-end-line="215" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SentimentSystemSentinel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SentimentSystemSentinel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="1034" column="64" lean-forward="false" selection-start-line="1034" selection-start-column="64" selection-end-line="1034" selection-end-column="64" />
-              <folding />
+            <state relative-caret-position="-30">
+              <caret line="563" column="57" lean-forward="false" selection-start-line="563" selection-start-column="57" selection-end-line="563" selection-end-column="57" />
+              <folding>
+                <element signature="e#2568#2585#0" expanded="true" />
+                <element signature="e#2638#2655#0" expanded="true" />
+                <element signature="e#2702#2719#0" expanded="true" />
+                <element signature="e#2770#2787#0" expanded="true" />
+                <element signature="e#2839#2856#0" expanded="true" />
+                <element signature="e#2912#2923#0" expanded="true" />
+                <element signature="e#16048#16056#0" expanded="true" />
+                <element signature="e#28402#28419#0" expanded="true" />
+                <element signature="e#28612#28641#0" expanded="true" />
+                <element signature="e#41376#41393#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,22 +61,30 @@
       <file leaf-file-name="SentimentSystem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="953">
-              <caret line="79" column="10" lean-forward="false" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+            <state relative-caret-position="424">
+              <caret line="221" column="6" lean-forward="false" selection-start-line="221" selection-start-column="6" selection-end-line="221" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3480#3481#0" expanded="true" />
-                <element signature="e#3516#3517#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Trained-Features.arff" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/arff/Trained-Features.arff">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/lexi/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="623" column="35" lean-forward="false" selection-start-line="623" selection-start-column="12" selection-end-line="623" selection-end-column="35" />
+            <state relative-caret-position="19">
+              <caret line="22" column="80" lean-forward="false" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unigrams-pmilexicon.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/lexi/hashtag/unigrams-pmilexicon.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,8 +93,8 @@
       <file leaf-file-name="train-short.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/tweets/train-short.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="109" lean-forward="false" selection-start-line="9" selection-start-column="109" selection-end-line="9" selection-end-column="109" />
+            <state relative-caret-position="68">
+              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -95,6 +112,12 @@
       <find>:)</find>
       <find>denseinstance</find>
       <find>pos_p</find>
+      <find>negationCount</find>
+      <find>setNegationCount</find>
+      <find>lastemoticon</find>
+      <find>setLastEmoticon</find>
+      <find>negationcount</find>
+      <find>setnegationcount</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,10 +134,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/Main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentAnalysis.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystem.java" />
         <option value="$PROJECT_DIR$/resources/tweets/test-short.txt" />
         <option value="$PROJECT_DIR$/resources/tweets/train-short.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystem.java" />
       </list>
     </option>
   </component>
@@ -135,9 +158,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="41" />
+    <option name="x" value="2" />
     <option name="y" value="23" />
-    <option name="width" value="1134" />
+    <option name="width" value="1263" />
     <option name="height" value="708" />
   </component>
   <component name="ProjectView">
@@ -155,96 +178,57 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SentinelSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="sentinel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SentinelSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="sentinel" type="462c0819:PsiDirectoryNode" />
               <item name="output" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SentinelSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="sentinel" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SentinelSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="sentinel" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="arff" type="462c0819:PsiDirectoryNode" />
+              <item name="lexi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SentinelSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="sentinel" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="tagger" type="462c0819:PsiDirectoryNode" />
+              <item name="lexi" type="462c0819:PsiDirectoryNode" />
+              <item name="hashtag" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sentinel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SentinelSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="lexi" type="462c0819:PsiDirectoryNode" />
+              <item name="sentiment140" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SentinelSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="sentinel" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="tweets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sentinel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sentinel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sentinel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sentinel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sentinel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sentinel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sentinel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sentinel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sentinel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sentinel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sentinel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sentinel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sentinel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sentinel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sentinel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sentinel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -431,7 +415,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e569bcca-6225-4693-ada5-038c9b232623" name="Default" comment="" />
+      <changelist id="57f135be-a4f8-4ba1-8005-8461f649d9af" name="Default" comment="" />
       <created>1529088346924</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -440,7 +424,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="23" width="1134" height="708" extended-state="0" />
+    <frame x="2" y="23" width="1263" height="708" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -451,12 +435,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12893082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19339623" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19929454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18289787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -464,30 +448,11 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24984765" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -495,38 +460,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java</url>
-          <line>547</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/Tweet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/ClassificationResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -565,7 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="59" column="41" lean-forward="false" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -596,7 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="59" column="41" lean-forward="false" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,7 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="59" column="41" lean-forward="false" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="59" column="41" lean-forward="false" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,23 +637,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/arff/Trained-Features-dense.arff">
-      <provider editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-411682">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/arff/Trained-Features-dense.arff" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3909">
           <caret line="927" column="45" lean-forward="false" selection-start-line="927" selection-start-column="45" selection-end-line="927" selection-end-column="45" />
-          <folding />
+          <folding>
+            <element signature="e#2568#2585#0" expanded="true" />
+            <element signature="e#2638#2655#0" expanded="true" />
+            <element signature="e#2702#2719#0" expanded="true" />
+            <element signature="e#2770#2787#0" expanded="true" />
+            <element signature="e#2839#2856#0" expanded="true" />
+            <element signature="e#2912#2923#0" expanded="true" />
+            <element signature="e#16048#16056#0" expanded="true" />
+            <element signature="e#28402#28419#0" expanded="true" />
+            <element signature="e#28612#28641#0" expanded="true" />
+            <element signature="e#41376#41393#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -724,7 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -735,13 +671,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/cost_sensitive_learning.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/output/cost_sensitive_learning.csv" />
     <entry file="jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-dev/3.7.10/weka-dev-3.7.10-sources.jar!/weka/core/SparseInstance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -749,13 +679,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/arff/Trained-Features-sparse.arff">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="281" column="0" lean-forward="true" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/arff/Trained-Features-sparse.arff" />
     <entry file="file://$PROJECT_DIR$/resources/tweets/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -774,7 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
           <caret line="59" column="40" lean-forward="false" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,28 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="118" column="5" lean-forward="false" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/Tweet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="26" />
-          <folding>
-            <element signature="e#2199#2200#0" expanded="false" />
-            <element signature="e#2227#2228#0" expanded="false" />
-            <element signature="e#2295#2296#0" expanded="false" />
-            <element signature="e#2338#2339#0" expanded="false" />
-            <element signature="e#2515#2516#0" expanded="false" />
-            <element signature="e#2560#2561#0" expanded="false" />
-            <element signature="e#3471#3472#0" expanded="false" />
-            <element signature="e#3501#3502#0" expanded="false" />
-            <element signature="e#3694#3695#0" expanded="false" />
-            <element signature="e#3722#3723#0" expanded="false" />
-            <element signature="e#4730#4731#0" expanded="false" />
-            <element signature="e#4760#4761#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -833,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="6898" column="11" lean-forward="false" selection-start-line="6898" selection-start-column="9" selection-end-line="6898" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -841,15 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentAnalysis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="222" column="9" lean-forward="false" selection-start-line="222" selection-start-column="9" selection-end-line="222" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
           <caret line="100" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,55 +755,90 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1394">
           <caret line="82" column="83" lean-forward="false" selection-start-line="82" selection-start-column="83" selection-end-line="82" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/arff/Trained-Features-dense.arff" />
+    <entry file="file://$PROJECT_DIR$/resources/tweets/train-short.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="215" column="8" lean-forward="false" selection-start-line="215" selection-start-column="8" selection-end-line="215" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/arff/Trained-Features.arff">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="623" column="35" lean-forward="false" selection-start-line="623" selection-start-column="12" selection-end-line="623" selection-end-column="35" />
+        <state relative-caret-position="-9044">
+          <caret line="65" column="31" lean-forward="false" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/arff/Trained-Features-dense.arff">
-      <provider editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-411682">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/Tweet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="189" column="26" lean-forward="false" selection-start-line="189" selection-start-column="13" selection-end-line="189" selection-end-column="26" />
+          <folding>
+            <element signature="e#2199#2200#0" expanded="false" />
+            <element signature="e#2227#2228#0" expanded="false" />
+            <element signature="e#4442#4443#0" expanded="false" />
+            <element signature="e#4473#4474#0" expanded="false" />
+            <element signature="e#4507#4508#0" expanded="false" />
+            <element signature="e#4539#4540#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lexi/hashtag/unigrams-pmilexicon.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/tweets/train-short.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="109" lean-forward="false" selection-start-line="9" selection-start-column="109" selection-end-line="9" selection-end-column="109" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="953">
-          <caret line="79" column="10" lean-forward="false" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+        <state relative-caret-position="424">
+          <caret line="221" column="6" lean-forward="false" selection-start-line="221" selection-start-column="6" selection-end-line="221" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3480#3481#0" expanded="true" />
-            <element signature="e#3516#3517#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eurecom/sentinel/SentimentSystemSentinel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="1034" column="64" lean-forward="false" selection-start-line="1034" selection-start-column="64" selection-end-line="1034" selection-end-column="64" />
+        <state relative-caret-position="-30">
+          <caret line="563" column="57" lean-forward="false" selection-start-line="563" selection-start-column="57" selection-end-line="563" selection-end-column="57" />
+          <folding>
+            <element signature="e#2568#2585#0" expanded="true" />
+            <element signature="e#2638#2655#0" expanded="true" />
+            <element signature="e#2702#2719#0" expanded="true" />
+            <element signature="e#2770#2787#0" expanded="true" />
+            <element signature="e#2839#2856#0" expanded="true" />
+            <element signature="e#2912#2923#0" expanded="true" />
+            <element signature="e#16048#16056#0" expanded="true" />
+            <element signature="e#28402#28419#0" expanded="true" />
+            <element signature="e#28612#28641#0" expanded="true" />
+            <element signature="e#41376#41393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lexi/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="22" column="80" lean-forward="false" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="80" />
           <folding />
         </state>
       </provider>

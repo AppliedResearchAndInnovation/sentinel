@@ -1031,8 +1031,6 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		for (String word: tweetString.split("[\\p{P} \\t\\n\\r]")){
 			if(word == word.toUpperCase() && word.length() > 1) {
 				wordsInCaps++;
-            	System.out.println(tweetString);
-            	System.out.println("capitalized word: " + word);
 			}
 		}
 		return wordsInCaps;

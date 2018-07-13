@@ -181,7 +181,9 @@ public class SentimentSystem {
 		Matcher m = Pattern.compile(emoticon_string).matcher(tweet.getTargetContent());
 		while (m.find()){
 			emoticons.add(tweet.getTargetContent().substring(m.start(), m.end()));
-			if(m.end() == tweet.getTargetContent().length()) tweet.setLastEmoticon(true);
+			if(m.end() == tweet.getTargetContent().length()) {
+				tweet.setLastEmoticon(true);
+			}
 		}
 		tweet.setEmoticons(emoticons);
 		return emoticons;
