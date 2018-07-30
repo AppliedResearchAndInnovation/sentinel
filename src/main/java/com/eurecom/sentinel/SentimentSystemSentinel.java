@@ -725,13 +725,13 @@ public class SentimentSystemSentinel extends SentimentSystem {
 		CostSensitiveClassifier costSensitiveClassifier = new CostSensitiveClassifier();
 		CostMatrix costMatrix = new CostMatrix(3);
 		costMatrix.setCell(0, 0, 0.0d);// pos = 0
-		costMatrix.setCell(0, 1, 0.0d);
+		costMatrix.setCell(0, 1, 1.0d);
 		costMatrix.setCell(0, 2, 1.0d);//
-		costMatrix.setCell(1, 0, 0.0d);
+		costMatrix.setCell(1, 0, 1.0d);
 		costMatrix.setCell(1, 1, 0.0d);// neu = 0
-		costMatrix.setCell(1, 2, 0.0d);
+		costMatrix.setCell(1, 2, 1.0d);
 		costMatrix.setCell(2, 0, FPweight);// False Positive
-		costMatrix.setCell(2, 1, 0.0d);
+		costMatrix.setCell(2, 1, 1.0d);
 		costMatrix.setCell(2, 2, 0.0d);// neg = 0
 
 		costSensitiveClassifier.setClassifier(classifier);
