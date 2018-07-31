@@ -64,7 +64,7 @@ public class SentimentAnalysis {
 	 *            optional filename of the arff file
 	 */
 	public void testSystem(String trainname) throws Exception {
-		costPrintStream = new PrintStream(new File("output/adaboost_numIterations10to100.csv"));
+		costPrintStream = new PrintStream(new File("output/adaboost_AndrewAnnotated_10to100.csv"));
 
 		for(int i = 10; i <= 100; i += 10) {
 			SentimentSystemSentinel sentinelSystem = new SentimentSystemSentinel(tweetList);
