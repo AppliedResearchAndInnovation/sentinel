@@ -90,7 +90,7 @@ public class SentimentAnalysis {
 		int count = 0;
 		while (scanner.hasNextLine()) {
 			String[] line = scanner.nextLine().split("\t");
-			if (line.length == 6 && checkPositionFormat(line[5], line[3])) {
+			if (line.length == 6 && checkPositionFormat(line[5], line[3] ) && checkBeginEndIndex(line[2], line[3])) {
 				if (line[5].equals("Not Available")) {
 					System.out.println("Tweet not available: " + line[0]);
 				}
@@ -125,6 +125,13 @@ public class SentimentAnalysis {
 	private boolean checkPositionFormat(String string, String position) {
 		String[] words = string.split("\\s+");
 		if (Integer.parseInt(position) >= words.length) {
+			return false;
+		}
+		return true;
+	}
+
+	private boolean checkBeginEndIndex(String begin, String end) {
+		if(Integer.parseInt(begin) > Integer.parseInt(end)) {
 			return false;
 		}
 		return true;
