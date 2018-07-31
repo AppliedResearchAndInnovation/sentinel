@@ -64,9 +64,9 @@ public class SentimentAnalysis {
 	 *            optional filename of the arff file
 	 */
 	public void testSystem(String trainname) throws Exception {
-		costPrintStream = new PrintStream(new File("output/bagging_percent100_numIterations10to30.csv"));
+		costPrintStream = new PrintStream(new File("output/bagging_percent100_numIterations10to50_Andrew.csv"));
 
-		for(int i = 10; i <= 30; i += 2) {
+		for(int i = 1; i < 55; i += 5) {
 			SentimentSystemSentinel sentinelSystem = new SentimentSystemSentinel(tweetList);
 			this.evalModel(sentinelSystem.test(trainname, 100, i));
 		}
