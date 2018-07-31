@@ -64,7 +64,7 @@ public class SentimentAnalysis {
 	 *            optional filename of the arff file
 	 */
 	public void testSystem(String trainname) throws Exception {
-		costPrintStream = new PrintStream(new File("output/smote-csl-weight1to80"));
+		costPrintStream = new PrintStream(new File("output/smote-csl-weight1to80-Andrew"));
 
 		for(Double i = 1.0; i < 100.0; i += 20) {
 			SentimentSystemSentinel sentinelSystem = new SentimentSystemSentinel(tweetList);
