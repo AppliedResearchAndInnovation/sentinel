@@ -244,5 +244,6 @@
     <orderEntry type="library" name="Maven: com.googlecode.efficient-java-matrix-library:ejml:0.23" level="project" />
     <orderEntry type="library" name="Maven: nz.ac.waikato.cms.weka:LibLINEAR:1.9.7" level="project" />
     <orderEntry type="library" name="Maven: de.bwaldvogel:liblinear:2.20" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" level="project" />
   </component>
 </module>

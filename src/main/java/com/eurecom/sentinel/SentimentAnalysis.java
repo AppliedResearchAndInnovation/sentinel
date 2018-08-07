@@ -1,17 +1,10 @@
 package com.eurecom.sentinel;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.PrintStream;
-import java.io.UnsupportedEncodingException;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Set;
+import java.io.*;
+import java.util.*;
 
 import org.apache.commons.lang.StringUtils;
+import org.json.simple.JSONObject;
 
 /**
  * Handels traning, testing and evaluation of the SentiNEL system.
@@ -106,8 +99,7 @@ public class SentimentAnalysis {
 				}
 			} else {
 				// not formal tweet including : target term out of posiont, less than 6 field
-				System.out.println("Wrong format: " + line[0] + " length: "
-						+ line.length);
+				//System.out.println("Wrong format: " + line[0] + " length: " + line.length);
 			}
 		}
 		System.out.println("duplicated Tweets: " + multiple);
@@ -206,10 +198,27 @@ public class SentimentAnalysis {
 				useSenti = 2;
 			}
 			resultMapToPrint.put(tweetIDWithTargetPosition, useSenti);
+
 			if (!tweet.getValue().getTweet().getSentiment().equals("unknwn")) {
 				Integer actualSenti = classValue.get(tweet.getValue()
 						.getTweet().getSentiment());
 				matrix[actualSenti][useSenti]++;
+			}else {
+				// sentiment is unknwn
+				JSONObject obj = new JSONObject();
+				obj.put("tweetIDWithTargetPosition", tweetIDWithTargetPosition);
+				obj.put("pos", useSentiArray[0]);
+				obj.put("neu", useSentiArray[1]);
+				obj.put("neg", useSentiArray[2]);
+				obj.put("sentiment", senti.getResultAsString());
+				try (FileWriter file = new FileWriter("output/result.json")) {
+
+					file.write(obj.toJSONString());
+					file.flush();
+
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
 			}
 		}
 		if (matrix.length != 0) {
@@ -274,11 +283,6 @@ public class SentimentAnalysis {
 		System.out.println("recallNeg: " + recallC + "\n");
 		System.out.println("f1: " + f1);
 		System.out.println("f1 without neutral: " + (f1A + f1C) / 2);
-		System.out.println(precision + "\n" + recall + "\n" + accuracy + "\n" +
-							precisionA + "\n" + recallA + "\n" + precisionB + "\n" +
-							recallB + "\n" + precisionC + "\n" + recallC + "\n" +
-							f1 + "\n" + (f1A + f1C) / 2);
-		
 	}
 
 	/**
