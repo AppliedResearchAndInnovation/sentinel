@@ -4,6 +4,7 @@ import java.io.*;
 import java.util.*;
 
 import org.apache.commons.lang.StringUtils;
+import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
 /**
@@ -174,9 +175,11 @@ public class SentimentAnalysis {
 		classValue.put("positive", 0);
 		classValue.put("neutral", 1);
 		classValue.put("negative", 2);
+		boolean sentimentIsUnknwn = true;
 
 		// resultMapToPrint store <tweetIDWithPosition, result sentiment>
 		Map<String, Integer> resultMapToPrint = new HashMap<String, Integer>();
+		JSONArray jsonArray = new JSONArray();
 		for (Map.Entry<String, ClassificationResult> tweet : resultMap
 				.entrySet()) {
 			String tweetIDWithTargetPosition = tweet.getKey();
@@ -206,33 +209,43 @@ public class SentimentAnalysis {
 			}else {
 				// sentiment is unknwn
 				JSONObject obj = new JSONObject();
-				obj.put("tweetIDWithTargetPosition", tweetIDWithTargetPosition);
+
+				obj.put("tweet", String.join(" ", Arrays.copyOfRange(tweetIDWithTargetPosition.split("\\s"), 3, tweetIDWithTargetPosition.split("\\s").length)));
+//				String joined2 = String.join(",", array);
+//				Arrays.toString(array)
 				obj.put("pos", useSentiArray[0]);
 				obj.put("neu", useSentiArray[1]);
 				obj.put("neg", useSentiArray[2]);
 				obj.put("sentiment", senti.getResultAsString());
-				try (FileWriter file = new FileWriter("output/result.json")) {
-
-					file.write(obj.toJSONString());
-					file.flush();
-
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
+				jsonArray.add(obj);
 			}
 		}
-		if (matrix.length != 0) {
-			System.out.println("          Classifier Result");
-			System.out.println("          Pos | Neu | Neg");
-			System.out.println("      Pos " + matrix[0][0] + " | " + matrix[0][1] + " | "
-					+ matrix[0][2]);
-			System.out.println("Truth Neu " + matrix[1][0] + " | " + matrix[1][1] + " | "
-					+ matrix[1][2]);
-			System.out.println("      Neg " + matrix[2][0] + " | " + matrix[2][1] + " | "
-					+ matrix[2][2]);
-			score(matrix);
+		if(!sentimentIsUnknwn){
+			if (matrix.length != 0) {
+				System.out.println("          Classifier Result");
+				System.out.println("          Pos | Neu | Neg");
+				System.out.println("      Pos " + matrix[0][0] + " | " + matrix[0][1] + " | "
+						+ matrix[0][2]);
+				System.out.println("Truth Neu " + matrix[1][0] + " | " + matrix[1][1] + " | "
+						+ matrix[1][2]);
+				System.out.println("      Neg " + matrix[2][0] + " | " + matrix[2][1] + " | "
+						+ matrix[2][2]);
+				score(matrix);
+			}
+			printResultToFile(resultMapToPrint);
 		}
-		printResultToFile(resultMapToPrint);
+
+		printToJSON(jsonArray);
+	}
+	private void printToJSON(JSONArray obj){
+		try (FileWriter file = new FileWriter("output/result.json")) {
+
+			file.write(obj.toJSONString());
+			file.flush();
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 	/**

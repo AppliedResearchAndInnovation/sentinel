@@ -1,1 +1,3 @@
-794	816	5	5	target: 40 	[Error] Initial: unknwn	Result: positive			Canadian Open Finau 40 Dirt 40 Knost 55 Kirk 50 (cc: @HitTheHighDraw) Harman 80 (cc: @BenColeyGolf Si Woo 100 (cc: myself) HV3 100 Fitz 100
+794	816	5	5	target: 40 	[Error] Initial: unknwn	Result: null			Canadian Open Finau 40 Dirt 40 Knost 55 Kirk 50 (cc: @HitTheHighDraw) Harman 80 (cc: @BenColeyGolf Si Woo 100 (cc: myself) HV3 100 Fitz 100
+657	679	9	9	target: els. 	[Error] Initial: unknwn	Result: null			Open portfolio- in order: Westwood Scott fowler grillo Dufner els. All traded win only and green at no risk #OpenChampionship
+1236	1258	8	8	target: this 	[Error] Initial: unknwn	Result: null			Brooks Koepka at 8700 probably the highest owned this week
