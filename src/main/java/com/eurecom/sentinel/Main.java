@@ -31,20 +31,14 @@ public class Main {
 		String saveFeatures = "";
 		String useFeatures = "";
 
-		/*
-		 * replace:
-		 * args[0]: args[0].split("\\s")[0]
-		 * args[1]: args[0].split("\\s")[1]
-		 * args[2]: args[0].split("\\s")[2]
-		 * */
-		switch(args[0].split("\\s").length) {
+		switch(args.length) {
 			case 2 :
 				break;
 			case 3 :
-				if (args[0].split("\\s")[0].equals("train")) {
-					saveFeatures = args[0].split("\\s")[2];
-				} else if (args[0].split("\\s")[0].equals("eval")) {
-					useFeatures = args[0].split("\\s")[2];
+				if (args[0].equals("train")) {
+					saveFeatures = args[2];
+				} else if (args[0].equals("eval")) {
+					useFeatures = args[2];
 				}
 				break;
 			default :
@@ -52,10 +46,10 @@ public class Main {
 				System.exit(0);
 		}
 
-		PATH = args[0].split("\\s")[1];
+		PATH = args[1];
 
 		SentimentAnalysis sentimentAnalysis = new SentimentAnalysis(PATH);
-		switch(args[0].split("\\s")[0]) {
+		switch(args[0]) {
 			case "train":
 				sentimentAnalysis.trainSystem(saveFeatures);
 				break;
@@ -63,11 +57,11 @@ public class Main {
 				sentimentAnalysis.testSystem(useFeatures);
 				break;
 			default:
-				throw new IllegalArgumentException("Invalid mode: " + args[0].split("\\s")[0]);
+				throw new IllegalArgumentException("Invalid mode: " + args[0]);
 		}
 
 		long endTime = System.currentTimeMillis();
 		System.out.println("It took " + ((endTime - startTime) / 1000) + " seconds");
 
 	}
-}	
+}
