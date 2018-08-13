@@ -274,11 +274,6 @@ public class SentimentAnalysis {
 		System.out.println("recallNeg: " + recallC + "\n");
 		System.out.println("f1: " + f1);
 		System.out.println("f1 without neutral: " + (f1A + f1C) / 2);
-		System.out.println(precision + "\n" + recall + "\n" + accuracy + "\n" +
-							precisionA + "\n" + recallA + "\n" + precisionB + "\n" +
-							recallB + "\n" + precisionC + "\n" + recallC + "\n" +
-							f1 + "\n" + (f1A + f1C) / 2);
-		
 	}
 
 	/**
