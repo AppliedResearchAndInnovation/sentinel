@@ -165,7 +165,7 @@ public class SentimentAnalysis {
 	 *            a map with all classified Tweets
 	 * @throws Exception
 	 */
-	private void evalModel(Map<String, ClassificationResult> resultMap)
+	private void evalModel(Map<Tweet, ClassificationResult> resultMap)
 			throws Exception {
 		// System.out.println("Starting eval Model");
 		// System.out.println("Tweets: " + tweetList.size());
@@ -177,12 +177,12 @@ public class SentimentAnalysis {
 		classValue.put("negative", 2);
 		boolean sentimentIsUnknwn = true;
 
-		// resultMapToPrint store <tweetIDWithPosition, result sentiment>
-		Map<String, Integer> resultMapToPrint = new HashMap<String, Integer>();
+		// resultMapToPrint store <tweet, result sentiment>
+		Map<Tweet, Integer> resultMapToPrint = new HashMap<Tweet, Integer>();
 		JSONArray jsonArray = new JSONArray();
-		for (Map.Entry<String, ClassificationResult> tweet : resultMap
+		for (Map.Entry<Tweet, ClassificationResult> tweet : resultMap
 				.entrySet()) {
-			String tweetIDWithTargetPosition = tweet.getKey();
+			Tweet each_tweet = tweet.getKey();
 			ClassificationResult senti = tweet.getValue();
 			double[] useSentiArray = { 0, 0, 0 };
 			for (int i = 0; i < 3; i++) {
@@ -200,7 +200,7 @@ public class SentimentAnalysis {
 					&& useSentiArray[2] > useSentiArray[1]) {
 				useSenti = 2;
 			}
-			resultMapToPrint.put(tweetIDWithTargetPosition, useSenti);
+			resultMapToPrint.put(each_tweet, useSenti);
 
 			if (!tweet.getValue().getTweet().getSentiment().equals("unknwn")) {
 				Integer actualSenti = classValue.get(tweet.getValue()
@@ -210,13 +210,12 @@ public class SentimentAnalysis {
 				// sentiment is unknwn
 				JSONObject obj = new JSONObject();
 
-				obj.put("tweet", String.join(" ", Arrays.copyOfRange(tweetIDWithTargetPosition.split("\\s"), 3, tweetIDWithTargetPosition.split("\\s").length)));
-//				String joined2 = String.join(",", array);
-//				Arrays.toString(array)
+				obj.put("tweet", each_tweet.getRawTweetString());
 				obj.put("pos", useSentiArray[0]);
 				obj.put("neu", useSentiArray[1]);
 				obj.put("neg", useSentiArray[2]);
 				obj.put("sentiment", senti.getResultAsString());
+				obj.put("entity", each_tweet.getTargetContent());
 				jsonArray.add(obj);
 			}
 		}
@@ -306,7 +305,7 @@ public class SentimentAnalysis {
 	 *            a map with the results for all Tweets
 	 * @throws FileNotFoundException
 	 */
-	protected void printResultToFile(Map<String, Integer> resultMapToPrint)
+	protected void printResultToFile(Map<Tweet, Integer> resultMapToPrint)
 			throws FileNotFoundException {
 		int errorcount = 0;
 		Map<Integer, String> classValue = new HashMap<Integer, String>();
@@ -371,24 +370,26 @@ public class SentimentAnalysis {
 		while (scanner.hasNextLine()) {
 			String[] line = scanner.nextLine().split("\t");
 			if (line.length == 6) {
-				String id = line[0] + " " + line[2] + " " + line[3];
+//				String id = line[0] + " " + line[2] + " " + line[3];
 				// put target term in the output
-				String[] words = line[5].split("\\s+");
-				String target = "";
-				for (int i = Integer.parseInt(line[2]); i <= Integer
-						.parseInt(line[3]) && i < words.length; i++) {
-					target = target + words[i] + " ";
-				}
+//				String[] words = line[5].split("\\s+");
+//				String target = "";
+//				for (int i = Integer.parseInt(line[2]); i <= Integer
+//						.parseInt(line[3]) && i < words.length; i++) {
+//					target = target + words[i] + " ";
+//				}
 
 				
 				if (!line[5].equals("Not Available")) {
-					String resultSenti = classValue.get(resultMapToPrint
-							.get(id)); // result sentiment
+					//tweetString, senti, tweetID, targetBegin, targetEnd
+					Tweet tweet = new Tweet(line[5], line[4], line[1], line[2], line[3]);
+					int result = resultMapToPrint.get(tweet);
+					String resultSenti = classValue.get(result); // result sentiment
 					String initialSenti = line[4]; // initial sentiment
 					// error
 					if (!initialSenti.equals(resultSenti)) {
 						errorcount++;
-						line[3] = line[3] + "\ttarget: " + target;
+						line[3] = line[3] + "\ttarget: " + tweet.getTargetContent();
 						line[4] = "[Error] Initial: " + initialSenti
 								+ "\tResult: " + resultSenti + "\t\t";
 						if (debug) {
@@ -401,7 +402,7 @@ public class SentimentAnalysis {
 					} else {
 					// correct
 						tweetPrintStream.println(line[5]);
-						tweetPrintStream.println(target +  " ->  " + resultSenti + "\n");
+						tweetPrintStream.println(tweet.getTargetContent() +  " ->  " + resultSenti + "\n");
 					}
 				} else if (line[5].equals("Not Available")) {
 					errorcount++;

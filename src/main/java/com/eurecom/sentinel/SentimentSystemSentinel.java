@@ -691,7 +691,7 @@ public class SentimentSystemSentinel extends SentimentSystem {
 	 * @return returns all results in a map
 	 * @throws Exception
 	 */
-	public Map<String,ClassificationResult> test(String nameOfTrain) throws Exception{
+	public Map<Tweet,ClassificationResult> test(String nameOfTrain) throws Exception{
 		System.out.println("Starting Test");
 		//System.out.println("Tweets: " +  this.tweetList.size());
 		String trainname = "";
@@ -748,7 +748,7 @@ public class SentimentSystemSentinel extends SentimentSystem {
 			featureMap.put(train.attribute(i).name(), train.attribute(i).index());
 		}
 
-		Map<String,ClassificationResult> resultMap = new HashMap<String,ClassificationResult>();
+		Map<Tweet,ClassificationResult> resultMap = new HashMap<Tweet,ClassificationResult>();
 		for(Tweet tweet : this.tweetList){
 
 			//preprocess and tag
@@ -933,7 +933,7 @@ public class SentimentSystemSentinel extends SentimentSystem {
 			//classify Tweet
 			double result = classifier.classifyInstance(train.lastInstance());
 			double[] resultDistribution = classifier.distributionForInstance(train.lastInstance());
-			resultMap.put(tweet.getTweetID() + " " + tweet.getTargetBegin() + " " + tweet.getTargetEnd() + " " + tweet.getRawTweetString(), new ClassificationResult(tweet, resultDistribution, result));
+			resultMap.put(tweet, new ClassificationResult(tweet, resultDistribution, result));
 		}
 
 		return resultMap;
